@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PROD_LAS_Readonly" uuid="59944c17-92f2-4b1f-861f-5f7e17272a7e">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <introspection-schemas>*:ADMIN_READONLY</introspection-schemas>
+    </data-source>
+  </component>
+</project>
