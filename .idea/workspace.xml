@@ -35,7 +35,7 @@
       <file leaf-file-name="CustTreeset.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CustTreeset.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="357">
               <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
             </state>
           </provider>
@@ -50,17 +50,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-              <folding>
-                <element signature="e#4251#4257#0" expanded="true" />
-                <element signature="e#4258#4264#0" expanded="true" />
-                <element signature="e#5240#5246#0" expanded="true" />
-                <element signature="e#5247#5253#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -202,6 +205,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -212,13 +216,18 @@
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="mylernings" type="cbb8eebc:String" user="mylernings" />
+              <item name=".idea" type="cbb8eebc:String" user=".idea" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="mylernings" type="cbb8eebc:String" user="mylernings" />
               <item name="src" type="cbb8eebc:String" user="src" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -235,7 +244,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,7 +286,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RollString">
+  <component name="RunManager" selected="Application.ClimbingTheLeaderboard">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -401,7 +409,7 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.RollString" />
+      <item itemvalue="Application.ClimbingTheLeaderboard" />
       <item itemvalue="Application.waiter" />
       <item itemvalue="Application.TheHurdleRace" />
       <item itemvalue="Application.StringTOCharList" />
@@ -525,20 +533,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.5141243" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067115" side_tool="true" visible="true" weight="0.32768363" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.3375839" side_tool="true" visible="true" weight="0.5141243" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49798658" weight="0.5141243" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.6624161" visible="true" weight="0.5141243" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49750534" weight="0.3220339" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49932885" visible="true" weight="0.32768363" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.6852349" weight="0.5282486" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2147651" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21744967" />
       <window_info anchor="bottom" id="Problems" order="11" weight="0.32768363" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -546,32 +556,51 @@
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42577675" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="5" weight="0.5342742" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="10" visible="true" weight="0.55184746" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.5141243" />
-    </layout>
-    <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Designer" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Problems" order="11" weight="0.32768363" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2147651" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49798658" weight="0.5141243" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49750534" weight="0.3220339" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42577675" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Database" order="5" weight="0.5342742" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067115" side_tool="true" visible="true" weight="0.32768363" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="10" visible="true" weight="0.55184746" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49932885" visible="true" weight="0.32768363" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="5" weight="0.5342742" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49750534" visible="true" weight="0.51668584" />
       <window_info anchor="bottom" id="Problems" order="11" weight="0.32796317" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32796317" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.31688803" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49750534" visible="true" weight="0.51668584" />
       <window_info id="Image Layers" order="6" />
-      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -580,10 +609,10 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32796317" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50249463" side_tool="true" weight="0.3647199" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="Database Console" order="10" visible="true" weight="0.55184746" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Database" order="5" weight="0.5342742" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32796317" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
     </layout-to-restore>
@@ -1146,7 +1175,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CustTreeset.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="357">
           <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
         </state>
       </provider>
@@ -1167,14 +1196,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-          <folding>
-            <element signature="e#4251#4257#0" expanded="true" />
-            <element signature="e#4258#4264#0" expanded="true" />
-            <element signature="e#5240#5246#0" expanded="true" />
-            <element signature="e#5247#5253#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
         </state>
       </provider>
     </entry>
