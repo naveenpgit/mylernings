@@ -4,7 +4,7 @@ package practice;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class BonAppétit {
+public class BonAppetite {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
