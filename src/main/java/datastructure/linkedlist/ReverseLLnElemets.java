@@ -1,11 +1,12 @@
-package practice;
+package datastructure.linkedlist;
 
 import practice.LinkedListUtil.SingleLLNode;
 
-public class ReverseLL {
+public class ReverseLLnElemets {
     public static void main(String[] args) {
 
-        SingleLLNode revreseHead = reverse(prepareAndReturnHead());
+        SingleLLNode head = prepareAndReturnHead();
+        SingleLLNode revreseHead = reversenIterms(head, head.next.next);
 
         while (revreseHead != null) {
             System.out.println(revreseHead.data + " => ");
@@ -13,16 +14,16 @@ public class ReverseLL {
         }
     }
 
-    private static SingleLLNode reverse(SingleLLNode head) {
+    private static SingleLLNode reversenIterms(SingleLLNode head, SingleLLNode end) {
 
         if (head == null)
             return head;
 
-        SingleLLNode p = null;
+        SingleLLNode p = end;
         SingleLLNode q = head;
         SingleLLNode r = q.next;
 
-        while (q != null) {
+        while (q != end) {
             q.next = p;
             p = q;
             q = r;
