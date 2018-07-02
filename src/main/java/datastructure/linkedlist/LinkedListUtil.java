@@ -62,6 +62,11 @@ public class LinkedListUtil {
             this.next = null;
             this.prev = null;
         }
+
+//        @Override
+//        public String toString() {
+//            return data + "->" + next;
+//        }
     }
 
     static class DoublyLinkedList {
