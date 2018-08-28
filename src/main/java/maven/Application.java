@@ -2,13 +2,19 @@ package maven;
 
 import maven.model.ChangeLog;
 import org.apache.commons.collections.CollectionUtils;
+import org.apache.commons.lang.StringUtils;
 import org.apache.maven.model.Dependency;
 import org.apache.maven.model.Model;
+import org.apache.maven.model.io.xpp3.MavenXpp3Reader;
+import org.apache.maven.model.io.xpp3.MavenXpp3Writer;
 
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Optional;
+import java.util.Scanner;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -40,6 +46,25 @@ public class Application {
 			System.out.print("\t|\n\t\033[1m used_by - - : \033[0m");
 			System.out.println(x.getUsedBy().stream().collect(Collectors.joining(", ")));
 		});
+
+		System.out.println("Do you wish to update? type Y/N?");
+		Scanner scanner = new Scanner(System.in);
+		boolean update = StringUtils.startsWithIgnoreCase(scanner.nextLine() , "Y" );
+		if(update) {
+			System.out.println("*** updating the pom files *****");
+			changeLogs.forEach(x -> {
+				Model model = getResult().stream().filter(y -> y.getArtifactId()
+						.equalsIgnoreCase(x.getArtifactId())).findFirst().get();
+				model.setVersion(x.getNewVersion());
+				MavenXpp3Writer writer = new MavenXpp3Writer();
+				try {
+					writer.write(new FileWriter("pom.xml"), model);
+				}
+				catch (IOException e) {
+					e.printStackTrace();
+				}
+			});
+		}
 	}
 
 	static void prepareChangeLog(String artifactId) {
