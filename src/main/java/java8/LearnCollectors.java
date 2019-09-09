@@ -13,19 +13,19 @@ public class LearnCollectors {
         list.add(new Hosting(4, "aws.amazon.com", 200));
         list.add(new Hosting(5, "mkyong.com", 1));
 
-        // key = id, value - websites
+        // data = id, value - websites
         System.out.println(list.stream().collect(Collectors.toMap(Hosting::getId, Hosting::getWebsites)));
 
-        // key = name, value - websites
+        // data = name, value - websites
         System.out.println(list.stream().collect(Collectors.toMap(Hosting::getName, Hosting::getWebsites)));
 
         // Same with result1, just different syntax
-        // key = id, value = name
+        // data = id, value = name
         System.out.println(list.stream().collect(Collectors.toMap(x -> x.getId(), x -> x.getName())));
 
         list.add(new Hosting(6, "linode.com", 100)); // new line
 
-        // key = name, value - websites , but the key 'linode' is duplicated!?
+        // data = name, value - websites , but the data 'linode' is duplicated!?
         System.out.println(list.stream().collect(Collectors.toMap(Hosting::getName, Hosting::getWebsites, (oldv, newv) -> oldv)));
 
         //Map to new value incase of duplication

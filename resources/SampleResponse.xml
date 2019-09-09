@@ -1,0 +1,781 @@
+<?xml version="1.0" ?>
+<!DOCTYPE SERVICE_ORDER_RESPONSE SYSTEM "LOANPROSPECTOR_RESPONSE_4.3.DTD">
+<SERVICE_ORDER_RESPONSE _Date="01-02-2019">
+    <KEY _Name="LOANPROSPECTOR_REQUEST" _Value="4.3"/>
+    <KEY _Name="LOANPROSPECTOR_RESPONSE" _Value="4.3"/>
+    <STATUS _Processing="Completed"/>
+    <LOAN_FEEDBACK
+            AssetRepresentationAndWarrantyReliefEligibilityType="NotEligible"
+            CollateralRepresentationAndWarrantyReliefEligibilityType="NotEligible"
+            CreditScoreDataRepositorySourceType="TransUnion"
+            DebtRatioPercent="30" FRECashOutIndicator="Y"
+            FRECreditExpirationDate="05/02/2019"
+            FREDocumentationLevelDescription="Streamlined Accept"
+            FREHigherTotalLTV="76.38"
+            FRELoanProspectorTransactionIdentifier="T716668"
+            FRELoanPurposeDescription="RegularRefinance"
+            FREOccupantDebtRatio="30.00" FREOccupantHousingRatio="26.00"
+            FREProductEvaluationDescription="F30"
+            FREPropertyCategoryDescription="SingleFamilyDetached"
+            FREPurchaseEligibilityDescription="000FreddieMacEligible"
+            FRESelectedCreditScoreValue="739" FRE_HUDScoredIndicator="N"
+            HousingRatioPercent="26" LenderCaseIdentifier="680-0097492"
+            LoanProspectorAcceptPlusEligibleIndicator="N"
+            LoanProspectorCreditRiskClassificationDescription="Accept"
+            LoanProspectorDocumentationClassificationDescription="Accept"
+            LoanProspectorEvaluationDate="01/02/2019 05:55:51"
+            LoanProspectorEvaluationStatusDescription="Complete"
+            LoanProspectorInitialLTVRatio="76.38"
+            LoanProspectorInitialTotalLTVRatio="76.38"
+            LoanProspectorKeyIdentifier="A0279182"
+            LoanProspectorLoanIdentifier="L485753"
+            LoanProspectorServiceEvaluationDescription="Credit"
+            LoanProspectorSubmissionDate="01/02/2019 05:55:49"
+            LoanProspectorSubmissionNumber="1"
+            LoanProspectorTransactionIdentifier="1407379"
+            OriginatingCompanyName="Cybertek Test2"
+            ScoredBorrowerName="AMY AMERICA"
+            SubmittingCompanyName="Cybertek Test2">
+        <LOAN_PROCESSING_MESSAGE _Type="LoanProcessingMessages">
+            <FEEDBACK_MESSAGE MessageCode="15"
+                              MessageSection="EmploymentAndIncome"
+                              MessageTag="LoanProcessingInformation"
+                              MessageText="Unable to retrieve an income report for ANDY CONV FIXED REFI AMERICA with Equifax. (Internal error code: 602)"/>
+            <FEEDBACK_MESSAGE MessageCode="15"
+                              MessageSection="EmploymentAndIncome"
+                              MessageTag="LoanProcessingInformation"
+                              MessageText="Unable to retrieve an income report for AMY AMERICA with Equifax. (Internal error code: 602)"/>
+            <FEEDBACK_MESSAGE MessageCode="23"
+                              MessageSection="EmploymentAndIncome"
+                              MessageTag="LoanProcessingInformation"
+                              MessageText="Based on Loan Product Advisor&apos;s overall assessment, the loan is not eligible for income representation and warranty relief; however, it may be eligible for relief offered through Freddie Mac&apos;s selling representation and warranty framework."/>
+            <FEEDBACK_MESSAGE MessageCode="1K"
+                              MessageSection="EmploymentAndIncome"
+                              MessageTag="DocumentationGuidelineMessages"
+                              MessageText="Signed IRS Form 4506-T: Any borrower, whose income is used to qualify, must sign IRS Form 4506-T at both application and on the Note Date. If the signed IRS Form 4506-T from application is submitted to the IRS, and transcripts are received back from the IRS, the IRS Form 4506-T signed by the Borrower on the Note Date is not required."/>
+            <FEEDBACK_MESSAGE MessageCode="CZ"
+                              MessageSection="EmploymentAndIncome"
+                              MessageTag="DocumentationGuidelineMessages"
+                              MessageText="A 10-day pre-closing verification (10-day PCV) for ANDY C AMERICA is required from each employer for which income is used to qualify. The 10-day PCV must be dated no more than 10 Business Days prior to the Note Date or after the Note Date but prior to the Delivery Date."/>
+            <FEEDBACK_MESSAGE MessageCode="CZ"
+                              MessageSection="EmploymentAndIncome"
+                              MessageTag="DocumentationGuidelineMessages"
+                              MessageText="A 10-day pre-closing verification (10-day PCV) for AMY AMERICA is required from each employer for which income is used to qualify. The 10-day PCV must be dated no more than 10 Business Days prior to the Note Date or after the Note Date but prior to the Delivery Date."/>
+            <FEEDBACK_MESSAGE MessageCode="CV"
+                              MessageSection="EmploymentAndIncome"
+                              MessageTag="DocumentationGuidelineMessages"
+                              MessageText="Employment/base income for ANDY C AMERICA for base non-fluctuating earnings or fluctuating hourly earnings must be supported by a YTD paystub documenting all YTD earnings and W-2(s) for the most recent calendar year, OR a written VOE documenting all YTD earnings and earnings for the most recent calendar year."/>
+            <FEEDBACK_MESSAGE MessageCode="CV"
+                              MessageSection="EmploymentAndIncome"
+                              MessageTag="DocumentationGuidelineMessages"
+                              MessageText="Employment/base income for AMY AMERICA for base non-fluctuating earnings or fluctuating hourly earnings must be supported by a YTD paystub documenting all YTD earnings and W-2(s) for the most recent calendar year, OR a written VOE documenting all YTD earnings and earnings for the most recent calendar year."/>
+            <FEEDBACK_MESSAGE MessageCode="2V"
+                              MessageSection="EmploymentAndIncome"
+                              MessageTag="DocumentationGuidelineMessages"
+                              MessageText="If rental income is being used to qualify, document the loan file in accordance with Chapter 5306 of the Freddie Mac Single-Family Seller/Servicer Guide."/>
+            <FEEDBACK_MESSAGE MessageCode="98"
+                              MessageSection="AssetsAndReserves"
+                              MessageTag="LoanProcessingInformation"
+                              MessageText="Based on Freddie Mac&apos;s overall assessment, the loan is not eligible for asset representation and warranty relief; however, it may be eligible for relief offered through Freddie Mac&apos;s selling representation and warranty framework."/>
+            <FEEDBACK_MESSAGE MessageCode="GT"
+                              MessageSection="AssetsAndReserves"
+                              MessageTag="DocumentationGuidelineMessages"
+                              MessageText="The total funds to be verified are no less than $0.00. This amount includes required Borrower Funds ($0.00) and required reserves ($0.00)."/>
+            <FEEDBACK_MESSAGE MessageCode="IT"
+                              MessageSection="AssetsAndReserves"
+                              MessageTag="DocumentationGuidelineMessages"
+                              MessageText="The following asset(s) total $65,000.00 and are eligible sources of funds: Savings: $65,000."/>
+            <FEEDBACK_MESSAGE MessageCode="K1"
+                              MessageSection="AssetsAndReserves"
+                              MessageTag="DocumentationGuidelineMessages"
+                              MessageText="The following asset(s) total $0.00 and are ineligible sources of funds."/>
+            <FEEDBACK_MESSAGE MessageCode="GR"
+                              MessageSection="AssetsAndReserves"
+                              MessageTag="DocumentationGuidelineMessages"
+                              MessageText="Required Borrower Funds are calculated as $0.00 based on information submitted: alterations, improvements and repairs ($0.00) + refinance amount ($0.00) - loan amount ($275,000.00) + transaction costs ($0.00) - proceeds from subordinate financing ($)."/>
+            <FEEDBACK_MESSAGE MessageCode="HO"
+                              MessageSection="AssetsAndReserves"
+                              MessageTag="DocumentationGuidelineMessages"
+                              MessageText="The Seller must verify sufficient assets from eligible sources of funds required to close the Mortgage transaction."/>
+            <FEEDBACK_MESSAGE MessageCode="QE"
+                              MessageSection="AssetsAndReserves"
+                              MessageTag="DocumentationGuidelineMessages"
+                              MessageText="No reserves are required."/>
+            <FEEDBACK_MESSAGE MessageCode="G0"
+                              MessageSection="AssetsAndReserves"
+                              MessageTag="LoanProcessingInformation"
+                              MessageText="This loan was submitted with $65,000.00 in depository accounts (checking, savings and/or money market)."/>
+            <FEEDBACK_MESSAGE MessageCode="CN"
+                              MessageSection="AssetsAndReserves"
+                              MessageTag="DocumentationGuidelineMessages"
+                              MessageText="Depository accounts: For each account (checking, savings, money market, CDs, and other depository accounts) used to qualify the borrower, obtain an account statement covering a 1-month period or a direct verification."/>
+            <FEEDBACK_MESSAGE MessageCode="5M"
+                              MessageSection="CreditAndLiabilities"
+                              MessageTag="LoanProcessingRemark"
+                              MessageText="The credit report for ANDY C AMERICA indicates that at least 1 creditor has made an inquiry within the previous 120 days. Determine whether additional credit was granted. A letter from the creditor or a signed statement from the Borrower may be used to determine whether additional credit was obtained. If additional credit was granted, obtain verification of the debt and consider the debt when calculating the monthly debt ratio."/>
+            <FEEDBACK_MESSAGE MessageCode="NA"
+                              MessageSection="CreditAndLiabilities"
+                              MessageTag="LoanProcessingRemark"
+                              MessageText="The following debt(s) was submitted as paid off and/or excluded and is therefore omitted from the debt-to-income (DTI) ratio; include evidence to support omission in the mortgage file: Creditor: BEST EVER MORTGAGE, Acct: ***2088, Bal: $210,279."/>
+            <FEEDBACK_MESSAGE MessageCode="4B"
+                              MessageSection="CreditAndLiabilities"
+                              MessageTag="LoanProcessingInformation"
+                              MessageText="739 is the Loan Product Advisor Indicator Score from Trans Union for AMY AMERICA."/>
+            <FEEDBACK_MESSAGE MessageCode="D2"
+                              MessageSection="CreditAndLiabilities"
+                              MessageTag="CreditWarrantiesAndWaivers"
+                              MessageText="Credit Warranty: Not required to determine the borrower&apos;s willingness to repay or an acceptable credit reputation is evidenced."/>
+            <FEEDBACK_MESSAGE MessageCode="A5"
+                              MessageSection="CreditAndLiabilities"
+                              MessageTag="CreditWarrantiesAndWaivers"
+                              MessageText="Ratio Warranty: Not required to determine if the borrower&apos;s primary housing expense-to-income and total obligation-to-income ratios meet Freddie Mac requirements."/>
+            <FEEDBACK_MESSAGE MessageCode="D3"
+                              MessageSection="PropertyAndAppraisal"
+                              MessageTag="CollateralWarrantiesAndWaivers"
+                              MessageText="Based on Freddie Mac&apos;s overall assessment of loan and collateral risk, including appraisal quality, collateral quality and loan characteristics, this loan is not eligible for collateral representation and warranty relief."/>
+            <FEEDBACK_MESSAGE MessageCode="E2"
+                              MessageSection="PropertyAndAppraisal"
+                              MessageTag="CollateralWarrantiesAndWaivers"
+                              MessageText="The Appraisal Identifier must be provided in order to be eligible for collateral representation and warranty relief."/>
+            <FEEDBACK_MESSAGE MessageCode="VM"
+                              MessageSection="PropertyAndAppraisal"
+                              MessageTag="LoanProcessingInformation"
+                              MessageText="484350.00 is the maximum loan limit allowed for a 1-unit property located in BRISTOL County, MA"/>
+            <FEEDBACK_MESSAGE MessageCode="5Y"
+                              MessageSection="PropertyAndAppraisal"
+                              MessageTag="LoanProcessingInformation"
+                              MessageText="Unable to match address entered.  Please confirm accuracy and resubmit if necessary."/>
+            <FEEDBACK_MESSAGE MessageCode="L5"
+                              MessageSection="PropertyAndAppraisal"
+                              MessageTag="CollateralWarrantiesAndWaivers"
+                              MessageText="Form 70 is minimum assessment required for sale to Freddie Mac."/>
+            <FEEDBACK_MESSAGE MessageCode="TV" MessageSection="GeneralMessages"
+                              MessageTag="LoanProcessingInformation"
+                              MessageText="Loan Product Advisor Assessment Expiration Date for ANDY C AMERICA is 05/02/2019."/>
+            <FEEDBACK_MESSAGE MessageCode="TW" MessageSection="GeneralMessages"
+                              MessageTag="LoanProcessingInformation"
+                              MessageText="Loan Product Advisor Assessment Expiration Date for AMY AMERICA is 05/02/2019."/>
+            <FEEDBACK_MESSAGE MessageCode="EW" MessageSection="GeneralMessages"
+                              MessageTag="DocumentationGuidelineMessages"
+                              MessageText="Seller is responsible for documenting and underwriting all Mortgages in accordance with the requirements of the Single-Family Seller/Servicer Guide and/or Master Agreement."/>
+            <FEEDBACK_MESSAGE MessageCode="JT" MessageSection="GeneralMessages"
+                              MessageTag="LoanProcessingRemark"
+                              MessageText="This loan meets Home Possible income limits based on property location for address entered. If you choose to deliver this loan as a Home Possible loan, it must meet all requirements of the Home Possible product selected."/>
+        </LOAN_PROCESSING_MESSAGE>
+        <LOAN_PROCESSING_MESSAGE _Type="DocumentationMessages">
+            <FEEDBACK_MESSAGE MessageCode="QF"
+                              MessageSection="DocumentationChecklistMessages"
+                              MessageTag="DocumentationChecklistMessages"
+                              MessageText="No reserves are required."/>
+            <FEEDBACK_MESSAGE MessageCode="WP"
+                              MessageSection="DocumentationChecklistMessages"
+                              MessageTag="DocumentationChecklistMessages"
+                              MessageText="Depository accounts: For each account (checking, savings, money market, CDs, and other depository accounts) used to qualify the borrower, obtain an account statement covering a 1-month period or a direct verification."/>
+            <FEEDBACK_MESSAGE MessageCode="NB"
+                              MessageSection="DocumentationChecklistMessages"
+                              MessageTag="DocumentationChecklistMessages"
+                              MessageText="The following debt(s) was submitted as paid off and/or excluded and is therefore omitted from the debt-to-income (DTI) ratio; include evidence to support omission in the mortgage file: Creditor: BEST EVER MORTGAGE, Acct: ***2088, Bal: $210,279."/>
+            <FEEDBACK_MESSAGE MessageCode="RX"
+                              MessageSection="DocumentationChecklistMessages"
+                              MessageTag="DocumentationChecklistMessages"
+                              MessageText="Signed IRS Form 4506-T: Any borrower, whose income is used to qualify, must sign IRS Form 4506-T at both application and on the Note Date. If the signed IRS Form 4506-T from application is submitted to the IRS, and transcripts are received back from the IRS, the IRS Form 4506-T signed by the Borrower on the Note Date is not required."/>
+            <FEEDBACK_MESSAGE MessageCode="WM"
+                              MessageSection="DocumentationChecklistMessages"
+                              MessageTag="DocumentationChecklistMessages"
+                              MessageText="A 10-day pre-closing verification (10-day PCV) for ANDY C AMERICA is required from each employer for which income is used to qualify. The 10-day PCV must be dated no more than 10 Business Days prior to the Note Date or after the Note Date but prior to the Delivery Date."/>
+            <FEEDBACK_MESSAGE MessageCode="WM"
+                              MessageSection="DocumentationChecklistMessages"
+                              MessageTag="DocumentationChecklistMessages"
+                              MessageText="A 10-day pre-closing verification (10-day PCV) for AMY AMERICA is required from each employer for which income is used to qualify. The 10-day PCV must be dated no more than 10 Business Days prior to the Note Date or after the Note Date but prior to the Delivery Date."/>
+            <FEEDBACK_MESSAGE MessageCode="WZ"
+                              MessageSection="DocumentationChecklistMessages"
+                              MessageTag="DocumentationChecklistMessages"
+                              MessageText="Employment/base income for ANDY C AMERICA for base non-fluctuating earnings or fluctuating hourly earnings must be supported by a YTD paystub documenting all YTD earnings and W-2(s) for the most recent calendar year, OR a written VOE documenting all YTD earnings and earnings for the most recent calendar year."/>
+            <FEEDBACK_MESSAGE MessageCode="WZ"
+                              MessageSection="DocumentationChecklistMessages"
+                              MessageTag="DocumentationChecklistMessages"
+                              MessageText="Employment/base income for AMY AMERICA for base non-fluctuating earnings or fluctuating hourly earnings must be supported by a YTD paystub documenting all YTD earnings and W-2(s) for the most recent calendar year, OR a written VOE documenting all YTD earnings and earnings for the most recent calendar year."/>
+            <FEEDBACK_MESSAGE MessageCode="2W"
+                              MessageSection="DocumentationChecklistMessages"
+                              MessageTag="DocumentationChecklistMessages"
+                              MessageText="If rental income is being used to qualify, document the loan file in accordance with Chapter 5306 of the Freddie Mac Single-Family Seller/Servicer Guide."/>
+            <FEEDBACK_MESSAGE MessageCode="KT"
+                              MessageSection="DocumentationChecklistMessages"
+                              MessageTag="DocumentationChecklistMessages"
+                              MessageText="MAF: Form 70"/>
+        </LOAN_PROCESSING_MESSAGE>
+        <MERGED_CREDIT_REPORT>
+            <![CDATA[MERGED CREDIT**
+
+------------------------------------------------------------------------------
+REF:3-00331-15579-0000 01/02/2019        TID:3-00331-15579 01/02/2019 02:55:49
+Credco Instant Merge Credit Report
+Prepared for: FREDDIE MAC INTERNAL TEST ACCOUNT    Notes: 680-0097492
+Requested: EFX, XPN, TUC - J                   Delivered: EFX, XPN, TUC
+------------------------------------------------------------------------------
+Agency Case Id: 201407379 A0279182                 xAcct: 0006019999
+------------------------------------------------------------------------------
+App: AMERICA, ANDY CONV FIXED REFI                            Ssn: 999-60-3333
+Cap: AMERICA, AMY                                             Ssn: 500-60-2222
+Curr Addr: 4321 CUL DE SAC ST, SOMEPLACE, MA 02723 US
+------------------------------------------------------------------------------
+
+                            INSTANT MERGE SUMMARY
+                            ---------------------
+ACCOUNT DISTRIBUTION                               CURRENT STATUS(tradelines)
+Account Type      Count       Balance      Payments Curr Clsd Unrt 30  60  90+
+  Real Estate        2       $420,306        $3,362  2    -     -   -   -   -
+  Installment        3         $1,554           $46  1    2     -   -   -   -
+  Revolving          7         $6,501          $210  4    3     -   -   -   -
+  Other              0             $0            $0  -    -     -   -   -   -
+  Total             12       $428,361        $3,618  7    5     -   -   -   -
+
+INQUIRIES                  PUBLIC RECORDS   HISTORICAL DELINQUENCIES(count)
+  3 Month Total      0        EFX     N/A   Account Type  LastDlq  30  60  90+
+  Elim. same day  -  0        XPN     N/A     Real Estate           -   -   -
+  Adjusted Total     0        TUC     N/A     Installment           -   -   -
+  New Trades(6 mon)  1        Last 2yrs N     Revolving    11/15    1   -   -
+                                              Other                 -   -   -
+  Oldest Trd: 08/08        On File: 05/13     Total                 1   -   -
+------------------------------------------------------------------------------
+Only Applicant/Co-applicant information included in the Summary.
+
+                          BUREAU SCORE INFORMATION:
+                          -------------------------
+EFX BEACON 5.0                 (APP)=   724 Factor:
+
+EFX BEACON 5.0                 (CAP)=   750 Factor:
+
+XPN FICO-II                    (APP)=   742 Factor:
+
+XPN FICO-II                    (CAP)=   728 Factor:
+
+TUC FICO Classic 98            (APP)= Not Provided By The Repository
+
+TUC FICO Classic 98            (CAP)= Not Provided By The Repository
+
+TUC FICO Classic 04            (APP)=   740 Factor:
+
+TUC FICO Classic 04            (CAP)=   739 Factor:
+
+
+
+
+
+
+
+
+                         End of Decision Maker Report
+------------------------------------------------------------------------------
+REF:3-00331-15579-0000 01/02/2019        TID:3-00331-15579 01/02/2019 02:55:49
+Credco Instant Merge Credit Report
+Prepared for: FREDDIE MAC INTERNAL TEST ACCOUNT    Notes: 680-0097492
+Requested: EFX, XPN, TUC - J                   Delivered: EFX, XPN, TUC
+------------------------------------------------------------------------------
+Agency Case Id: 201407379 A0279182                 xAcct: 0006019999
+------------------------------------------------------------------------------
+App: AMERICA, ANDY CONV FIXED REFI                            Ssn: 999-60-3333
+Cap: AMERICA, AMY                                             Ssn: 500-60-2222
+Curr Addr: 4321 CUL DE SAC ST, SOMEPLACE, MA 02723 US
+------------------------------------------------------------------------------
+
+                         ******DEROGATORY ITEMS******
+
+Account Name/Number (Sources)                              Past due      Last
+     Open       High   Payment   Balance MOP  Status  Rptd  30 60 90+ MR Dlq
+------------------------------------------------------------------------------
+Tradeline Information:
+----------------------
+  1. NATIONAL CITY CARD/8951 (EFX-123BB99919*,XPN,TUC*)
+   J 12-14      6000         0    CLOSED R-1 CURRENT  11-18 01 00 00  37 11-15
+     Hist:  11-18 111111111111111111111111      CLSD  11-18 JNT
+     Ctgy:  CREDIT CARD                           Term: REV     Lmt: 6000
+     Lates: ADDT`L LATES PRIOR TO 11-16
+     PAID
+
+Public Records:
+---------------
+No Public Records found
+
+                     ******END OF DEROGATORY ITEMS******
+
+Account Name/Number (Sources)                              Past due      Last
+     Open       High   Payment   Balance MOP  Status  Rptd  30 60 90+ MR Dlq
+------------------------------------------------------------------------------
+Tradeline Information:
+----------------------
+  2. BEST EVER MORTGAGE/502088 (EFX-123BB99990,XPN,TUC)
+   I 09-13    220000      1691    210279 M-1 CURRENT  11-18 00 00 00  37
+     Hist:  11-18 111111111111111111111111      PYMT  11-18 APP
+     Ctgy:  REAL ESTATE MORTGAGE                  Term: 360 MON Lmt: 220000
+     PAYMENTS BEING MADE
+
+  3. CALLABLE MORTGAGE/757570 (EFX-123BB99909,XPN,TUC)
+   J 01-12    245000      1671    210027 M-1 CURRENT  11-18 00 00 00  37
+     Hist:  11-18 111111111111111111111111      PYMT  11-18 JNT
+     Ctgy:  REAL ESTATE MORTGAGE                  Term: 360 MON Lmt: 245000
+     PAYMENTS BEING MADE
+
+  4. ALLEN BANK CARD/5617 (EFX-123BB99996,XPN,TUC)
+   J 01-11     10200       133      4665 R-1 CURRENT  11-18 00 00 00  37
+     Hist:  11-18 111111111111111111111111      PYMT  11-18 JNT
+     Ctgy:  CREDIT CARD                           Term: REV     Lmt: 10200
+     CREDIT CARD
+
+
+
+                                 Page 1 of 4
+------------------------------------------------------------------------------
+REF:3-00331-15579-0000 01/02/2019        TID:3-00331-15579 01/02/2019 02:55:49
+------------------------------------------------------------------------------
+Account Name/Number (Sources)                              Past due      Last
+     Open       High   Payment   Balance MOP  Status  Rptd  30 60 90+ MR Dlq
+------------------------------------------------------------------------------
+
+Tradeline Information (continued):
+----------------------------------
+  5. RELENTLESS BANK/200021 (EFX-123BB99998,XPN,TUC)
+   I 12-16      2086        46      1554 I-1 CURRENT  11-18 00 00 00  19
+     Hist:  11-18 1111111111111111111           PYMT  01-19 APP
+     Ctgy:  INSTALLMENT                           Term: 60 MON  Lmt: 2086
+     PAYMENTS BEING MADE
+
+  6. BURSTING CREDIT/1442 (EFX-123BB99995,XPN,TUC)
+   J 09-11     14400        27      1357 R-1 CURRENT  11-18 00 00 00  37
+     Hist:  11-18 111111111111111111111111      PYMT  11-18 JNT
+     Ctgy:  CREDIT CARD                           Term: REV     Lmt: 14400
+     CREDIT CARD
+
+  7. PRIME VISA/1911 (EFX-123BB99991,XPN,TUC)
+   I 07-18      2000        40       450 R-1 CURRENT  11-18 00 00 00   4
+     Hist:  11-18 1111                          PYMT  11-18 APP
+     Ctgy:  CREDIT CARD                           Term: REV     Lmt: 2000
+     CREDIT CARD
+
+  8. CAPITAL BANK/9115 (EFX-123BB99994,XPN,TUC)
+   J 08-11      6500        10        29 R-1 CURRENT  11-18 00 00 00  37
+     Hist:  11-18 111111111111111111111111      PYMT  11-18 JNT
+     Ctgy:  CREDIT CARD                           Term: REV     Lmt: 6500
+     CREDIT CARD
+
+  9. DURABLE BANK/1177 (EFX,XPN-BC0099993,TUC)
+   J 03-11      2700         0    CLOSED R-1 CURRENT  11-18 00 00 00  64
+     Hist:  11-18 111111111111111111111111      CLSD  08-15 JNT
+     Ctgy:  CREDIT CARD                           Term: REV     Lmt: 2700
+     PAID
+
+ 10. GOOD LUCK BANK/2350 (EFX-123BB99992,XPN,TUC)
+   I 12-14      1000         0    CLOSED R-1 CURRENT  11-18 00 00 00  37
+     Hist:  11-18 111111111111111111111111      CLSD  11-18 APP
+     Ctgy:  CREDIT CARD                           Term: REV     Lmt: 1000
+     PAID
+
+ 11. NATIONAL BANK/696088 (EFX-123BB99999,XPN,TUC)
+   I 08-08     19600         0    CLOSED I-1 CURRENT  08-18 00 00 00  37
+     Hist:  08-18 111111111111111111111111      CLSD  03-17 APP
+     Ctgy:  INSTALLMENT                                         Lmt: 19600
+     CLOSED
+     CLOSED BY CONSUMER
+
+
+
+
+
+
+
+                                 Page 2 of 4
+------------------------------------------------------------------------------
+REF:3-00331-15579-0000 01/02/2019        TID:3-00331-15579 01/02/2019 02:55:49
+------------------------------------------------------------------------------
+Account Name/Number (Sources)                              Past due      Last
+     Open       High   Payment   Balance MOP  Status  Rptd  30 60 90+ MR Dlq
+------------------------------------------------------------------------------
+
+Tradeline Information (continued):
+----------------------------------
+ 12. TRI COUNTY EMERGENCY/640365 (EFX-123BB99997,XPN,TUC)
+   I 10-13        74         0    CLOSED I-1 CURRENT  10-15 00 00 00  25
+     Hist:  10-15 111111111111111111111111      CLSD  05-14 APP
+     Ctgy:  INSTALLMENT                                         Lmt: 74
+     CLOSED
+     CLOSED BY CONSUMER
+
+Identification Information:
+---------------------------
+  1. AMERICA, ANDY  Ssn: 999-60-3333 Dob: 06-15-71 (EFX)
+     SSN MATCHES.
+  2. AMERICA, AMY  Ssn: 500-60-2222 Dob: 06-15-73 (EFX)
+     SSN MATCHES.
+  3. AMERICA, ANDY  Ssn: 999-60-3333 Dob: 06-15-71 (XPN)
+     SSN MATCHES.
+  4. AMERICA, AMY  Ssn: 500-60-2222 Dob: 06-15-73 (XPN)
+     SSN MATCHES.
+  5. AMERICA, ANDY  Ssn: 999-60-3333 Dob: 06-15-71 (TUC)
+     SSN MATCHES.
+  6. AMERICA, AMY  Ssn: 500-60-2222 Dob: 06-15-73 (TUC)
+     SSN MATCHES.
+
+Inquiries made in the last 90 days:
+-----------------------------------
+No Inquiries made in the last 90 days found
+
+Address Information:
+--------------------
+  1. 4321 CUL DE SAC ST
+     SOMEPLACE, MA 02723 Since 12-12 Rptd 11-18  (EFX,XPN,TUC) (APP)
+  2. 4321 CUL DE SAC ST
+     SOMEPLACE, MA 02723 Since 12-12 Rptd 11-18  (EFX,XPN,TUC) (CAP)
+
+Employment Information:
+-----------------------
+  1. EMPLOYER X
+     OCCUPATION UNKNOWN Rptd 03-07  (XPN) (APP)
+  2. EMPLOYER X
+     OCCUPATION UNKNOWN Rptd 03-13  (XPN) (CAP)
+  3. EMPLOYER X
+     PROFESSIONAL  (EFX) (APP)
+  4. EMPLOYER X
+     PROFESSIONAL Rptd 06-15  (TUC) (APP)
+  5. EMPLOYER Y
+     PROFESSIONAL  (EFX) (CAP)
+  6. EMPLOYER Y
+     PROFESSIONAL Rptd 05-13  (TUC) (CAP)
+
+
+                                 Page 3 of 4
+------------------------------------------------------------------------------
+REF:3-00331-15579-0000 01/02/2019        TID:3-00331-15579 01/02/2019 02:55:49
+------------------------------------------------------------------------------
+
+Fraud Verification Information:
+-------------------------------
+EFX IDENTITY SCAN (APP)
+   SSN ISSUED 2011 IN GA.
+EFX IDENTITY SCAN (CAP)
+   SSN ISSUED 2011 IN GA.
+
+Consumer Referral Information:
+------------------------------
+EFX - EQUIFAX INFORMATION SVCS, PHONE: (800) 685-1111
+      P.O. BOX 740241, ATLANTA, GA 30374
+XPN - EXPERIAN, PHONE: (888) 397-3742
+      P.O. BOX 2002, ALLEN, TX 75013
+TUC - TRANS UNION, PHONE: (800) 888-4213
+      P.O. BOX 1000, CHESTER, PA 19022
+
+Prepared By: CoreLogic Credco
+             P.O. BOX 509124
+             SAN DIEGO, CA 92150
+             Contact: (800)986-4343  Fax: 800 237 6526
+
+This report contains information supplied by the repositories named above. Its
+contents have not been verified by CoreLogic Credco and may contain duplicate
+information. While this report is being used for some real estate lending
+purposes, it is not a Residential Mortgage Credit Report as defined by FNMA,
+FHLMC, and FHA/VA guidelines.
+
+                   ******END OF INSTANT MERGE REPORT******
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             End of Credit Report
+
+**MERGED CREDIT]]>
+        </MERGED_CREDIT_REPORT>
+        <FRE_BORROWER_RESPONSE BorrowerSSN="999-60-3333"
+                               BorrowerUnparsedName="ANDY C AMERICA"
+                               CreditReaccessIndicator="N"
+                               CreditReportIdentifier="300331155790000"
+                               _CreditRepulledIndicator="N"
+                               _SelectedRepositorySourceType="CCC">
+            <FRE_CREDIT_SCORE _RepositoryScoreValue="742"
+                              _RepositorySourceType="TRW"/>
+            <FRE_CREDIT_SCORE _RepositoryScoreValue="740"
+                              _RepositorySourceType="CCC"/>
+            <FRE_CREDIT_SCORE _RepositoryScoreValue="724"
+                              _RepositorySourceType="CBI"/>
+        </FRE_BORROWER_RESPONSE>
+        <FRE_BORROWER_RESPONSE BorrowerSSN="500-60-2222"
+                               BorrowerUnparsedName="AMY AMERICA"
+                               CreditReaccessIndicator="N"
+                               CreditReportIdentifier="300331155790000"
+                               _CreditRepulledIndicator="N"
+                               _SelectedRepositorySourceType="CCC">
+            <FRE_CREDIT_SCORE _RepositoryScoreValue="728"
+                              _RepositorySourceType="TRW"/>
+            <FRE_CREDIT_SCORE _RepositoryScoreValue="739"
+                              _RepositorySourceType="CCC"/>
+            <FRE_CREDIT_SCORE _RepositoryScoreValue="750"
+                              _RepositorySourceType="CBI"/>
+        </FRE_BORROWER_RESPONSE>
+    </LOAN_FEEDBACK>
+    <CALCULATIONS _Name="TotalFundsToBeVerified" _Value="0.00"/>
+    <CALCULATIONS _Name="RequiredBorrowerFunds" _Value="0.00"/>
+    <CALCULATIONS _Name="RequiredReserves" _Value="0.00"/>
+    <CALCULATIONS _Name="TotalEligibleAssets" _Value="65000.00"/>
+    <CALCULATIONS _Name="TotalIncome" _Value="6000.00"/>
+    <CALCULATIONS _Name="ProposedHousingExpense" _Value="1573.57"/>
+    <CALCULATIONS _Name="TotalMonthlyDebt" _Value="1829.57"/>
+    <CALCULATIONS BorrowerID="B999603333" _Name="BorrowerTotalMonthlyIncome"
+                  _Value="3500.00"/>
+    <CALCULATIONS BorrowerID="B500602222" _Name="BorrowerTotalMonthlyIncome"
+                  _Value="2500.00"/>
+    <CALCULATIONS _Name="BorrowerRequestedLoanAmount" _Value="275000.00"/>
+    <CALCULATIONS _Name="TotalPresentHousingExpense" _Value="1800.00"/>
+    <LOAN_APPLICATION MISMOVersionID="2.4">
+        <_DATA_INFORMATION>
+            <DATA_VERSION _Name="000165" _Number="S4.8.00"/>
+        </_DATA_INFORMATION>
+        <ADDITIONAL_CASE_DATA>
+            <TRANSMITTAL_DATA CaseStateType="Application"
+                              PropertyAppraisedValueAmount="360000.00"
+                              PropertyEstimatedValueAmount="380000.00"/>
+        </ADDITIONAL_CASE_DATA>
+        <ASSET BorrowerID="B999603333" _CashOrMarketValueAmount="65000.00"
+               _HolderName="Suntrust" _Type="SavingsAccount"/>
+        <INTERVIEWER_INFORMATION InterviewerApplicationSignedDate="20180925"
+                                 InterviewersEmployerCity="Pleasanton"
+                                 InterviewersEmployerName="FirstBank"
+                                 InterviewersEmployerPostalCode="94588"
+                                 InterviewersEmployerState="CA"
+                                 InterviewersEmployerStreetAddress="123 Main St."/>
+        <LIABILITY BorrowerID="B999603333" REO_ID="R1"
+                   SubjectLoanResubordinationIndicator="N"
+                   _AccountIdentifier="502088" _ExclusionIndicator="N"
+                   _HolderName="BEST EVER MORTGAGE" _ID="L11"
+                   _MonthlyPaymentAmount="1691.00" _PayoffStatusIndicator="Y"
+                   _RemainingTermMonths="124" _Type="MortgageLoan"
+                   _UnpaidBalanceAmount="210279.00"/>
+        <LIABILITY BorrowerID="B999603333"
+                   SubjectLoanResubordinationIndicator="N"
+                   _AccountIdentifier="435617" _ExclusionIndicator="N"
+                   _HolderName="ALLEN BANK CARD" _MonthlyPaymentAmount="133.00"
+                   _PayoffStatusIndicator="N" _RemainingTermMonths="35"
+                   _Type="Revolving" _UnpaidBalanceAmount="4665.00"/>
+        <LIABILITY BorrowerID="B999603333"
+                   SubjectLoanResubordinationIndicator="N"
+                   _AccountIdentifier="200021" _ExclusionIndicator="N"
+                   _HolderName="RELENTLESS BANK" _MonthlyPaymentAmount="46.00"
+                   _PayoffStatusIndicator="N" _RemainingTermMonths="33"
+                   _Type="Installment" _UnpaidBalanceAmount="1554.00"/>
+        <LIABILITY BorrowerID="B999603333"
+                   SubjectLoanResubordinationIndicator="N"
+                   _AccountIdentifier="171442" _ExclusionIndicator="N"
+                   _HolderName="BURSTING CREDIT" _MonthlyPaymentAmount="27.00"
+                   _PayoffStatusIndicator="N" _RemainingTermMonths="50"
+                   _Type="Revolving" _UnpaidBalanceAmount="1357.00"/>
+        <LIABILITY BorrowerID="B999603333"
+                   SubjectLoanResubordinationIndicator="N"
+                   _AccountIdentifier="411711911" _ExclusionIndicator="N"
+                   _HolderName="PRIME VISA" _MonthlyPaymentAmount="40.00"
+                   _PayoffStatusIndicator="N" _RemainingTermMonths="11"
+                   _Type="Revolving" _UnpaidBalanceAmount="450.00"/>
+        <LIABILITY BorrowerID="B999603333"
+                   SubjectLoanResubordinationIndicator="N"
+                   _AccountIdentifier="529115" _ExclusionIndicator="N"
+                   _HolderName="CAPITAL BANK" _MonthlyPaymentAmount="10.00"
+                   _PayoffStatusIndicator="N" _RemainingTermMonths="2"
+                   _Type="Revolving" _UnpaidBalanceAmount="29.00"/>
+        <LOAN_PRODUCT_DATA>
+            <LOAN_FEATURES BalloonLoanMaturityTermMonths="360"
+                           BuydownTemporarySubsidyIndicator="N"
+                           LienPriorityType="FirstLien"
+                           ScheduledFirstPaymentDate="20180925"/>
+        </LOAN_PRODUCT_DATA>
+        <LOAN_PURPOSE GSETitleMannerHeldDescription="Tenants in common"
+                      PropertyRightsType="FeeSimple"
+                      PropertyUsageType="PrimaryResidence" _Type="Refinance">
+            <CONSTRUCTION_REFINANCE_DATA FRECashOutAmount="63601.00"
+                                         GSERefinancePurposeType="CashOutOther"
+                                         PropertyAcquiredYear="1995"
+                                         PropertyExistingLienAmount="210000.00"
+                                         PropertyOriginalCostAmount="30000.00"
+                                         SecondaryFinancingRefinanceIndicator="N"/>
+        </LOAN_PURPOSE>
+        <MORTGAGE_TERMS BaseLoanAmount="275000.00"
+                        BorrowerRequestedLoanAmount="275000.00"
+                        LenderCaseIdentifier="680-0097492"
+                        LoanAmortizationTermMonths="360"
+                        LoanAmortizationType="Fixed" MortgageType="Conventional"
+                        RequestedInterestRatePercent="3.7500"/>
+        <PROPERTY BuildingStatusType="Existing"
+                  PlannedUnitDevelopmentIndicator="N"
+                  _AcquiredDate="1995-01-01 00:00:00.0" _City="Someplace"
+                  _County="Bristol" _FinancedNumberOfUnits="1"
+                  _PostalCode="02723" _State="MA"
+                  _StreetAddress="4321 Cul de Sac St"
+                  _StructureBuiltYear="1995">
+            <_VALUATION AppraisalFormType="FNM1004FRE70">
+                <EXTENSION_VALUATION AppraisalIdentifier=" "/>
+            </_VALUATION>
+            <_CATEGORY _Type="Detached"/>
+            <PROJECT LivingUnitCount="1"/>
+        </PROPERTY>
+        <PROPOSED_HOUSING_EXPENSE HousingExpenseType="HazardInsurance"
+                                  _PaymentAmount="150.00"/>
+        <PROPOSED_HOUSING_EXPENSE HousingExpenseType="RealEstateTax"
+                                  _PaymentAmount="150.00"/>
+        <PROPOSED_HOUSING_EXPENSE
+                HousingExpenseType="FirstMortgagePrincipalAndInterest"
+                _PaymentAmount="1273.57"/>
+        <REO_PROPERTY BorrowerID="B999603333" LiabilityID="L11" REO_ID="R1"
+                      _City="Someplace" _CurrentResidenceIndicator="Y"
+                      _DispositionStatusType="RetainForPrimaryOrSecondaryResidence"
+                      _GSEPropertyType="SingleFamily"
+                      _LienInstallmentAmount="1691.00"
+                      _LienUPBAmount="210279.00"
+                      _MaintenanceExpenseAmount="0.00" _PostalCode="02723"
+                      _RentalIncomeGrossAmount="0.00" _State="MA"
+                      _StreetAddress="4321 Cul de Sac St"
+                      _SubjectIndicator="Y"/>
+        <TITLE_HOLDER _Name="Andy Conv Fixed Refi America"/>
+        <TITLE_HOLDER _Name="Amy America"/>
+        <TRANSACTION_DETAIL BorrowerPaidDiscountPointsTotalAmount="1399.00"
+                            FREReservesAmount="65000.00"
+                            MIAndFundingFeeFinancedAmount="0.00">
+            <EXTENSION_TRANSACTION_DETAIL TotalDiscountPointsAmount="0.00"/>
+        </TRANSACTION_DETAIL>
+        <BORROWER BorrowerID="B999603333" DependentCount="0"
+                  JointAssetBorrowerID="B500602222"
+                  JointAssetLiabilityReportingType="Jointly"
+                  MaritalStatusType="Married" _AgeAtApplicationYears="33"
+                  _BirthDate="19850505" _FirstName="ANDY"
+                  _HomeTelephoneNumber="5088888888" _LastName="AMERICA"
+                  _MiddleName="CONV FIXED REFI" _PrintPositionType="Borrower"
+                  _SSN="999603333">
+            <_MAIL_TO _City="Someplace" _Country="US" _PostalCode="02723"
+                      _State="MA" _StreetAddress="4321 Cul de Sac St"/>
+            <_RESIDENCE BorrowerResidencyBasisType="Own"
+                        BorrowerResidencyDurationYears="5"
+                        BorrowerResidencyType="Current" _City="Someplace"
+                        _Country="US" _PostalCode="02723" _State="MA"
+                        _StreetAddress="4321 Cul de Sac St"/>
+            <CURRENT_INCOME IncomeType="Base" _MonthlyTotalAmount="3500.00"/>
+            <DECLARATION AlimonyChildSupportObligationIndicator="N"
+                         BankruptcyIndicator="N"
+                         BorrowedDownPaymentIndicator="N"
+                         CitizenshipResidencyType="USCitizen"
+                         CoMakerEndorserOfNoteIndicator="N"
+                         HomeownerPastThreeYearsType="Yes"
+                         IntentToOccupyType="Yes"
+                         LoanForeclosureOrJudgementIndicator="N"
+                         OutstandingJudgementsIndicator="N"
+                         PartyToLawsuitIndicator="N"
+                         PresentlyDelinquentIndicator="N"
+                         PriorPropertyTitleType="Sole"
+                         PriorPropertyUsageType="PrimaryResidence"
+                         PropertyForeclosedPastSevenYearsIndicator="N"/>
+            <EMPLOYER EmploymentBorrowerSelfEmployedIndicator="N"
+                      EmploymentCurrentIndicator="Y"
+                      EmploymentPrimaryIndicator="Y" _Name="Abacus"/>
+            <GOVERNMENT_MONITORING RaceNationalOriginRefusalIndicator="Y">
+                <GOVERNMENT_MONITORING_EXTENSION>
+                    <GOVERNMENT_MONITORING_DETAIL
+                            ApplicationTakenMethodType="Internet"
+                            HMDAEthnicityRefusalIndicator="Y"
+                            HMDAGenderRefusalIndicator="Y"
+                            HMDARaceRefusalIndicator="Y"/>
+                </GOVERNMENT_MONITORING_EXTENSION>
+            </GOVERNMENT_MONITORING>
+            <PRESENT_HOUSING_EXPENSE HousingExpenseType="HazardInsurance"
+                                     _PaymentAmount="150.00"/>
+            <PRESENT_HOUSING_EXPENSE HousingExpenseType="RealEstateTax"
+                                     _PaymentAmount="150.00"/>
+            <PRESENT_HOUSING_EXPENSE
+                    HousingExpenseType="FirstMortgagePrincipalAndInterest"
+                    _PaymentAmount="1500.00"/>
+        </BORROWER>
+        <BORROWER BorrowerID="B500602222" DependentCount="0"
+                  JointAssetBorrowerID="B999603333"
+                  JointAssetLiabilityReportingType="Jointly"
+                  MaritalStatusType="Married" _AgeAtApplicationYears="33"
+                  _BirthDate="19850505" _FirstName="AMY"
+                  _HomeTelephoneNumber="5088888888" _LastName="AMERICA"
+                  _PrintPositionType="CoBorrower" _SSN="500602222">
+            <_MAIL_TO _City="Someplace" _Country="US" _PostalCode="02723"
+                      _State="MA" _StreetAddress="4321 Cul de Sac St"/>
+            <_RESIDENCE BorrowerResidencyBasisType="Own"
+                        BorrowerResidencyDurationYears="5"
+                        BorrowerResidencyType="Current" _City="Someplace"
+                        _Country="US" _PostalCode="02723" _State="MA"
+                        _StreetAddress="4321 Cul de Sac St"/>
+            <CURRENT_INCOME IncomeType="Base" _MonthlyTotalAmount="2500.00"/>
+            <DECLARATION AlimonyChildSupportObligationIndicator="N"
+                         BankruptcyIndicator="N"
+                         BorrowedDownPaymentIndicator="N"
+                         CitizenshipResidencyType="USCitizen"
+                         CoMakerEndorserOfNoteIndicator="N"
+                         HomeownerPastThreeYearsType="Yes"
+                         IntentToOccupyType="Yes"
+                         LoanForeclosureOrJudgementIndicator="N"
+                         OutstandingJudgementsIndicator="N"
+                         PartyToLawsuitIndicator="N"
+                         PresentlyDelinquentIndicator="N"
+                         PriorPropertyTitleType="Sole"
+                         PriorPropertyUsageType="PrimaryResidence"
+                         PropertyForeclosedPastSevenYearsIndicator="N"/>
+            <EMPLOYER EmploymentBorrowerSelfEmployedIndicator="N"
+                      EmploymentCurrentIndicator="Y"
+                      EmploymentPrimaryIndicator="Y" _Name="Aardvark"/>
+            <GOVERNMENT_MONITORING RaceNationalOriginRefusalIndicator="Y">
+                <GOVERNMENT_MONITORING_EXTENSION>
+                    <GOVERNMENT_MONITORING_DETAIL
+                            ApplicationTakenMethodType="Internet"
+                            HMDAEthnicityRefusalIndicator="Y"
+                            HMDAGenderRefusalIndicator="Y"
+                            HMDARaceRefusalIndicator="Y"/>
+                </GOVERNMENT_MONITORING_EXTENSION>
+            </GOVERNMENT_MONITORING>
+        </BORROWER>
+        <LOAN_ORIGINATION_SYSTEM _VendorIdentifier="000165"
+                                 _VersionIdentifier="3.5 or greater                "/>
+        <EXTENSION_LOAN_APPLICATION FRELoanProspectorVersionIdentifier="4.3">
+            <FUNCTION_REQUEST _Type="PollingRequest"/>
+            <SERVICE_REQUEST _Description="OrderAUS"/>
+            <SERVICE_REQUEST _Description="OrderMergedCredit"/>
+            <FRE_REQUESTING_PARTY Password="TESTCASE"
+                                  SellerServicerNumber="000601"/>
+            <MERGED_CREDIT_REQUEST>
+                <CREDIT_BUREAU _Name="8"/>
+                <FRE_MERGED_CREDIT_SPECIFICATIONS
+                        _Description="B999603333,B500602222"/>
+            </MERGED_CREDIT_REQUEST>
+            <VERIFICATION_REPORT_REQUEST CompanyCode="EFX" VerificationType="2">
+                <REPORT_IDENTIFICATION ReportNumber="999603333"/>
+                <PARTY_IDENTIFICATION SocialSecurityNumber="999603333"/>
+            </VERIFICATION_REPORT_REQUEST>
+            <VERIFICATION_REPORT_REQUEST CompanyCode="EFX" VerificationType="2">
+                <REPORT_IDENTIFICATION ReportNumber="500602222"/>
+                <PARTY_IDENTIFICATION SocialSecurityNumber="500602222"/>
+            </VERIFICATION_REPORT_REQUEST>
+            <LOAN_IDENTIFIER_DATA
+                    FRELoanProspectorTransactionIdentifier="T716668"
+                    GloballyUniqueIdentifier="{5fe5fe12-f71b-4851-9a30-571223b0c362}"
+                    LoanProspectorLoanIdentifier="L485753"/>
+            <POLLING_STATUS LoanProspectorAsynchronousIdentifier="A716668"/>
+        </EXTENSION_LOAN_APPLICATION>
+    </LOAN_APPLICATION>
+</SERVICE_ORDER_RESPONSE>

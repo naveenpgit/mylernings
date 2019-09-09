@@ -1,0 +1,101 @@
+{
+  "transactionDetailExtn": {
+    "correlationId": "50b8fd65-1ef0-4d64-8f23-d62f68eff758",
+    "productCode": "ENC_LOS_SER"
+  },
+  "dealsets": {
+    "dealset": [
+      {
+        "deals": {
+          "deal": [
+            {
+              "loans": {
+                "loan": [
+                  {
+                    "loandetail": {
+                      "extension": {
+                        "other": {
+                          "encompassEntityType": "urn:elli:encompass:loan"
+                        }
+                      }
+                    },
+                    "loanidentifiers": {
+                      "loanidentifier": [
+                        {
+                          "loanIdentifier": "{5fe5fe12-f71b-4851-9a30-571223b0c362}",
+                          "loanIdentifierType": "Other",
+                          "loanIdentifierTypeOtherDescription": "encompassGUID"
+                        }
+                      ]
+                    },
+                    "underwriting": {
+                      "automatedunderwritings": {
+                        "automatedunderwriting": [
+                          {
+                            "automatedUnderwritingSystemType": "Other",
+                            "automatedUnderwritingSystemTypeOtherDescription": "AUS-LPA",
+                            "extension": {
+                              "other": {
+                                "displayName": "Freddie Mac's Loan Product Advisor System to System",
+                                "category": "AUS"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "extension": {
+                      "other": {
+                        "documents": {
+                          "document": [
+                            {
+                              "extension": {
+                                "other": {
+                                  "documentStatus": "Pending",
+                                  "dateCreated": "2018-12-18T21:00:07Z",
+                                  "lastUpdatedDate": "2018-12-18T21:00:11Z",
+                                  "orderedBy": "urn:elli:encompass:TEBE11169373:user:mgurusiddappa"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              "parties": {
+                "party": [
+                  {
+                    "roles": {
+                      "role": [
+                        {
+                          "requestingparty": {
+                            "extension": {
+                              "mismo": {
+                                "requestingPartyExtensionDetails": {
+                                  "partnerId": "10000035"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "extension": {
+    "other": {
+      "productCode": "ENC_LOS_SER",
+      "correlationId": "50b8fd65-1ef0-4d64-8f23-d62f68eff758"
+    }
+  }
+}

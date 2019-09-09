@@ -1,0 +1,5292 @@
+[
+  {
+    "value": {
+      "length": "7",
+      "position": "146",
+      "dataConfig": {
+        "type": "double"
+      },
+      "destinationKey": "01A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/intrestRate"
+  },
+  {
+    "value": {
+      "length": "3",
+      "position": "153",
+      "dataConfig": {
+        "type": "number"
+      },
+      "label": "term",
+      "destinationKey": "01A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/loanTerm"
+  },
+  {
+    "value": {
+      "length": "30",
+      "position": "86",
+      "dataConfig": {
+        "type": "string"
+      },
+      "destinationKey": "01A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/agencyCaseNumber"
+  },
+  {
+    "value": {
+      "length": "2",
+      "dataConfig": {
+        "enumMappings": [
+          {
+            "destinationValue": "01",
+            "value": "ARM"
+          },
+          {
+            "destinationValue": "05",
+            "value": "FIXED"
+          }
+        ],
+        "type": "enum",
+        "parseHardStopInd": false
+      },
+      "position": "156",
+      "label": "amortization ",
+      "destinationKey": "01A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/amortizationType"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "131",
+      "dataConfig": {
+        "type": "double"
+      },
+      "destinationKey": "01A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/loanAmount"
+  },
+  {
+    "value": {
+      "length": "2",
+      "dataConfig": {
+        "enumMappings": [
+          {
+            "destinationValue": "01",
+            "value": "CONVENTIONAL"
+          },
+          {
+            "destinationValue": "02",
+            "value": "VA"
+          },
+          {
+            "destinationValue": "03",
+            "value": "FHA"
+          }
+        ],
+        "type": "enum",
+        "parseHardStopInd": false
+      },
+      "position": "4",
+      "label": "program",
+      "destinationKey": "01A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/mortgageAppliedFor"
+  },
+  {
+    "value": {
+      "length": "80",
+      "position": "238",
+      "dataConfig": {
+        "type": "string"
+      },
+      "destinationKey": "01A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/armType"
+  },
+  {
+    "value": {
+      "length": "50",
+      "position": "4",
+      "dataConfig": {
+        "type": "string"
+      },
+      "destinationKey": "02A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/subjectProperty/address"
+  },
+  {
+    "value": {
+      "length": "5",
+      "position": "91",
+      "dataConfig": {
+        "type": "string"
+      },
+      "destinationKey": "02A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/subjectProperty/zip"
+  },
+  {
+    "value": {
+      "length": "4",
+      "position": "96",
+      "dataConfig": {
+        "type": "string"
+      },
+      "destinationKey": "02A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/subjectProperty/zipCodePlusFour"
+  },
+  {
+    "value": {
+      "length": "35",
+      "position": "54",
+      "dataConfig": {
+        "type": "string"
+      },
+      "destinationKey": "02A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/subjectProperty/city"
+  },
+  {
+    "value": {
+      "length": "2",
+      "position": "89",
+      "dataConfig": {
+        "type": "string"
+      },
+      "destinationKey": "02A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/subjectProperty/state"
+  },
+  {
+    "value": {
+      "length": "3",
+      "position": "100",
+      "dataConfig": {
+        "type": "number"
+      },
+      "label": "number of units",
+      "destinationKey": "02A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/subjectProperty/noOfUnits"
+  },
+  {
+    "value": {
+      "length": "80",
+      "position": "105",
+      "dataConfig": {
+        "type": "string"
+      },
+      "destinationKey": "02A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/subjectProperty/legalDescription"
+  },
+  {
+    "value": {
+      "length": "4",
+      "position": "185",
+      "dataConfig": {
+        "type": "string"
+      },
+      "destinationKey": "02A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/subjectProperty/yearBuilt"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "enumMappings": [
+          {
+            "destinationValue": "1",
+            "value": "PRIMARY_RESIDENCE"
+          },
+          {
+            "destinationValue": "2",
+            "value": "SECONDARY_RESIDENCE"
+          },
+          {
+            "destinationValue": "D",
+            "value": "INVESTMENT"
+          }
+        ],
+        "type": "enum"
+      },
+      "position": "88",
+      "destinationKey": "02B"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/subjectProperty/occupancyType"
+  },
+  {
+    "value": {
+      "length": "2",
+      "dataConfig": {
+        "enumMappings": [
+          {
+            "destinationValue": "05",
+            "value": "REFINANCE"
+          },
+          {
+            "destinationValue": "16",
+            "value": "PURCHASE"
+          }
+        ],
+        "type": "enum"
+      },
+      "position": "6",
+      "destinationKey": "02B"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/loanPurpose"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "enumMappings": [
+          {
+            "destinationValue": "1",
+            "value": "FEE_SIMPLE"
+          },
+          {
+            "destinationValue": "2",
+            "value": "LEASEHOLD"
+          }
+        ],
+        "type": "enum"
+      },
+      "position": "149",
+      "destinationKey": "02B"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/subjectProperty/estateWillBeHeld"
+  },
+  {
+    "value": {
+      "length": "60",
+      "position": "89",
+      "dataConfig": {
+        "enumMappings": [
+          {
+            "value": "JOINT_TENANCY",
+            "destinationValue": "Joint Tenancy"
+          },
+          {
+            "value": "TENANCY_IN_COMMON",
+            "destinationValue": "Tenancy in Common"
+          },
+          {
+            "value": "TENANTS_BY_ENTIRETY",
+            "destinationValue": "Tenants by Entirety"
+          },
+          {
+            "value": "SINGLE_MAN",
+            "destinationValue": "Single man"
+          },
+          {
+            "value": "SINGLE_WOMAN",
+            "destinationValue": "Single woman"
+          },
+          {
+            "value": "MARRIED_MAN",
+            "destinationValue": "Married man"
+          },
+          {
+            "value": "MARRIED_WOMAN",
+            "destinationValue": "Married woman"
+          },
+          {
+            "value": "UNMARRIED_MAN",
+            "destinationValue": "Unmarried man"
+          },
+          {
+            "value": "UNMARRIED_WOMAN",
+            "destinationValue": "Unmarried woman"
+          },
+          {
+            "value": "COMMUNITY_PRO",
+            "destinationValue": "Community Pro"
+          },
+          {
+            "value": "OTHER",
+            "destinationValue": "Other"
+          }
+        ],
+        "type": "enum",
+        "defaultNoMatchValue": {
+          "value": "OTHER",
+          "destinationValue": null
+        }
+      },
+      "destinationKey": "02B"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/subjectProperty/mannerInWhichTitleWillBeHeld"
+  },
+  {
+    "value": {
+      "length": "8",
+      "position": "150",
+      "dataConfig": {
+        "type": "date"
+      },
+      "destinationKey": "02B"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/subjectProperty/expirationdate"
+  },
+  {
+    "value": {
+      "length": "60",
+      "position": "4",
+      "dataConfig": {
+        "type": "string"
+      },
+      "destinationKey": "02C"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/titleholderName"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "enumMappings": [
+          {
+            "destinationValue": "Y",
+            "value": "MADE"
+          },
+          {
+            "destinationValue": "N",
+            "value": "TO_BE_MADE"
+          },
+          {
+            "destinationValue": "U",
+            "value": "UNKNOWN"
+          }
+        ],
+        "type": "enum"
+      },
+      "position": "150",
+      "destinationKey": "02D"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/subjectProperty/improvementType"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "23",
+      "dataConfig": {
+        "type": "double"
+      },
+      "destinationKey": "02D"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/subjectProperty/amountExistingLiens"
+  },
+  {
+    "value": {
+      "length": "4",
+      "position": "4",
+      "dataConfig": {
+        "type": "string"
+      },
+      "destinationKey": "02D"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/subjectProperty/yearAcquired"
+  },
+  {
+    "value": {
+      "length": "80",
+      "position": "70",
+      "dataConfig": {
+        "type": "string"
+      },
+      "destinationKey": "02D"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/subjectProperty/describeImprovements"
+  },
+  {
+    "value": {
+      "length": "2",
+      "dataConfig": {
+        "enumMappings": [
+          {
+            "destinationValue": "F1",
+            "value": "NOCASH_OUT_REFI"
+          },
+          {
+            "destinationValue": "01",
+            "value": "CASHOUT_REFI"
+          },
+          {
+            "destinationValue": "04",
+            "value": "CASHOUT_REFI"
+          },
+          {
+            "destinationValue": "11",
+            "value": "CASHOUT_REFI"
+          },
+          {
+            "destinationValue": "13",
+            "value": "NOCASH_OUT_REFI"
+          }
+        ],
+        "type": "enum"
+      },
+      "position": "68",
+      "destinationKey": "02D"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/loanPurpose1"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "151",
+      "dataConfig": {
+        "type": "double"
+      },
+      "destinationKey": "02D"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/subjectProperty/costOfImprovements"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "8",
+      "dataConfig": {
+        "type": "double"
+      },
+      "destinationKey": "02D"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/subjectProperty/originalCost"
+  },
+  {
+    "value": {
+      "length": "80",
+      "position": "21",
+      "dataConfig": {
+        "type": "string"
+      },
+      "destinationKey": "02E"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/subjectProperty/explanationOfDownpayment"
+  },
+  {
+    "value": {
+      "length": "2",
+      "dataConfig": {
+        "enumMappings": [
+          {
+            "destinationValue": "F1",
+            "value": "CHECKINGSAVING"
+          },
+          {
+            "destinationValue": "F2",
+            "value": "DEPOSIT_ON_SALES_CONTRACT"
+          },
+          {
+            "destinationValue": "F3",
+            "value": "EQUITY_SOLD_ON_PROPERTY"
+          },
+          {
+            "destinationValue": "F4",
+            "value": "EQUITY_PENDING_FROM_SUBJECT_PROPERTY"
+          },
+          {
+            "destinationValue": "03",
+            "value": "EQUITY_PENDING_FROM_SALE"
+          },
+          {
+            "destinationValue": "04",
+            "value": "GIFT_FUNDS"
+          },
+          {
+            "destinationValue": "F5",
+            "value": "STOCKS_AND_BONDS"
+          },
+          {
+            "destinationValue": "F7",
+            "value": "RETIREMENT_FUNDS"
+          },
+          {
+            "destinationValue": "H5",
+            "value": "RELIGIOUSCOMMUNITY__NONSELLER"
+          }
+        ],
+        "type": "enum",
+        "defaultNoMatchValue": {
+          "value": "OTHER",
+          "destinationValue": null
+        }
+      },
+      "position": "4",
+      "destinationKey": "02E"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/subjectProperty/sourceOfDownPayment"
+  },
+  {
+    "value": {
+      "length": "35",
+      "position": "15",
+      "destinationDataConfig": {
+        "type": "string"
+      },
+      "dataConfig": {
+        "type": "encryptionString"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "destinationKey": "03A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/firstName"
+  },
+  {
+    "value": {
+      "length": "9",
+      "position": "6",
+      "destinationDataConfig": {
+        "type": "string"
+      },
+      "dataConfig": {
+        "type": "encryptionString"
+      },
+      "stateConfigs": [
+        {
+          "type": "borrowerIndex",
+          "stateMapIdentifierKey": "borrowerIndex",
+          "urlaStateMapIdentifierKey": "urlaIndex",
+          "urlaMapping": {
+            "value": {
+              "length": "2",
+              "dataConfig": {
+                "enumMappings": [
+                  {
+                    "destinationValue": "BW",
+                    "value": "APPLICANT"
+                  },
+                  {
+                    "destinationValue": "QZ",
+                    "value": "COAPPLICANT"
+                  }
+                ],
+                "type": "enum"
+              },
+              "position": "4",
+              "destinationKey": "03A"
+            },
+            "type": "linePositionMapping",
+            "key": "loan/urlas/{}/borrowers/{}/applicantIndicator"
+          }
+        },
+        {
+          "type": "value",
+          "stateMapIdentifierKey": "lineUniqueValueKey"
+        }
+      ],
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "destinationKey": "03A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/ssn"
+  },
+  {
+    "value": {
+      "length": "9",
+      "position": "4",
+      "dataConfig": {
+        "type": "string"
+      },
+      "stateConfigs": [
+        {
+          "type": "valueCount",
+          "stateMapIdentifierKey": "ageIndex",
+          "urlaStateMapIdentifierKey": "urlaIndex"
+        },
+        {
+          "type": "value",
+          "stateMapIdentifierKey": "lineUniqueValueKey"
+        }
+      ],
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "ageIndex"
+        ]
+      },
+      "destinationKey": "03B"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/agesOwner/{}"
+  },
+  {
+    "value": {
+      "length": "3",
+      "position": "13",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "ageIndex"
+        ]
+      },
+      "destinationKey": "03B"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/dependentsAges/{}"
+  },
+  {
+    "value": {
+      "length": "10",
+      "position": "124",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "destinationKey": "03A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/phoneNumber"
+  },
+  {
+    "value": {
+      "length": "2",
+      "position": "140",
+      "dataConfig": {
+        "type": "number"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "destinationKey": "03A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/noOfDependents"
+  },
+  {
+    "value": {
+      "length": "4",
+      "position": "120",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "destinationKey": "03A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/suffix"
+  },
+  {
+    "value": {
+      "length": "35",
+      "position": "85",
+      "destinationDataConfig": {
+        "type": "string"
+      },
+      "dataConfig": {
+        "type": "encryptionString"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "destinationKey": "03A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/lastName"
+  },
+  {
+    "value": {
+      "length": "35",
+      "position": "50",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "destinationKey": "03A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/middleName"
+  },
+  {
+    "value": {
+      "length": "8",
+      "position": "152",
+      "dataConfig": {
+        "type": "date"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "destinationKey": "03A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/dob"
+  },
+  {
+    "value": {
+      "length": "1",
+      "position": "139",
+      "dataConfig": {
+        "enumMappings": [
+          {
+            "destinationValue": "S",
+            "value": "Separated"
+          },
+          {
+            "destinationValue": "M",
+            "value": "Married"
+          },
+          {
+            "destinationValue": "U",
+            "value": "Unmarried"
+          }
+        ],
+        "type": "enum",
+        "parseHardStopInd": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "destinationKey": "03A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/maritalStatus"
+  },
+  {
+    "value": {
+      "length": "2",
+      "position": "137",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "destinationKey": "03A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/yearsInSchool"
+  },
+  {
+    "value": {
+      "length": "80",
+      "position": "160",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "destinationKey": "03A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/email"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "type": "enum",
+        "enumMappings": [
+          {
+            "value": "Jointly",
+            "destinationValue": "Y"
+          },
+          {
+            "value": "NotJointly",
+            "destinationValue": "N"
+          }
+        ]
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex"
+        ]
+      },
+      "position": "142",
+      "destinationKey": "03A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/assetsCompletedType"
+  },
+  {
+    "value": {
+      "length": "50",
+      "position": "15",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "previousAddressIndex"
+        ]
+      },
+      "aliasKeys": [
+        "loan/urlas/{}/borrowers/{}/mailingAddress/addressLine",
+        "loan/urlas/{}/borrowers/{}/presentAddress/addressLine",
+        "loan/urlas/{}/borrowers/{}/previousAddresses/{}/addressLine"
+      ],
+      "destinationKey": "03C"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/$[addressType]/addressLine"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "65",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "previousAddressIndex"
+        ]
+      },
+      "aliasKeys": [
+        "loan/urlas/{}/borrowers/{}/mailingAddress/city",
+        "loan/urlas/{}/borrowers/{}/presentAddress/city",
+        "loan/urlas/{}/borrowers/{}/previousAddresses/{}/city"
+      ],
+      "destinationKey": "03C"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/$[addressType]/city"
+  },
+  {
+    "value": {
+      "length": "2",
+      "position": "100",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "previousAddressIndex"
+        ]
+      },
+      "aliasKeys": [
+        "loan/urlas/{}/borrowers/{}/mailingAddress/state",
+        "loan/urlas/{}/borrowers/{}/presentAddress/state",
+        "loan/urlas/{}/borrowers/{}/previousAddresses/{}/state"
+      ],
+      "destinationKey": "03C"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/$[addressType]/state"
+  },
+  {
+    "value": {
+      "length": "5",
+      "position": "102",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "previousAddressIndex"
+        ]
+      },
+      "aliasKeys": [
+        "loan/urlas/{}/borrowers/{}/mailingAddress/zip",
+        "loan/urlas/{}/borrowers/{}/presentAddress/zip",
+        "loan/urlas/{}/borrowers/{}/previousAddresses/{}/zip"
+      ],
+      "destinationKey": "03C"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/$[addressType]/zip"
+  },
+  {
+    "value": {
+      "length": "4",
+      "position": "107",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "previousAddressIndex"
+        ]
+      },
+      "aliasKeys": [
+        "loan/urlas/{}/borrowers/{}/mailingAddress/zipCodePlusFour",
+        "loan/urlas/{}/borrowers/{}/presentAddress/zipCodePlusFour",
+        "loan/urlas/{}/borrowers/{}/previousAddresses/{}/zipCodePlusFour"
+      ],
+      "destinationKey": "03C"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/$[addressType]/zipCodePlusFour"
+  },
+  {
+    "value": {
+      "length": "9",
+      "position": "4",
+      "dataConfig": {
+        "type": "string"
+      },
+      "stateConfigs": [
+        {
+          "type": "fieldTypeAndCount",
+          "stateMapIdentifierKey": "previousAddressIndex",
+          "fieldTypeMapping": {
+            "value": {
+              "length": "2",
+              "position": "13",
+              "dataConfig": {
+                "type": "enum",
+                "enumMappings": [
+                  {
+                    "value": "ZG",
+                    "destinationValue": "presentAddress"
+                  },
+                  {
+                    "value": "BH",
+                    "destinationValue": "mailingAddress"
+                  },
+                  {
+                    "value": "F4",
+                    "destinationValue": "previousAddresses/{}"
+                  }
+                ]
+              },
+              "destinationKey": "03C"
+            },
+            "type": "linePositionMapping",
+            "key": "addressType"
+          }
+        },
+        {
+          "type": "value",
+          "stateMapIdentifierKey": "lineUniqueValueKey"
+        }
+      ],
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "previousAddressIndex"
+        ]
+      },
+      "destinationKey": "03C"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/$[addressType]/owner"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "enumMappings": [
+          {
+            "destinationValue": "O",
+            "value": "OWN"
+          },
+          {
+            "destinationValue": "R",
+            "value": "RENT"
+          }
+        ],
+        "type": "enum",
+        "parseHardStopInd": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "previousAddressIndex"
+        ]
+      },
+      "aliasKeys": [
+        "loan/urlas/{}/borrowers/{}/mailingAddress/ownership",
+        "loan/urlas/{}/borrowers/{}/presentAddress/ownership",
+        "loan/urlas/{}/borrowers/{}/previousAddresses/{}/ownership"
+      ],
+      "position": "111",
+      "destinationKey": "03C"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/$[addressType]/ownership"
+  },
+  {
+    "value": {
+      "length": "2",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "previousAddressIndex"
+        ]
+      },
+      "aliasKeys": [
+        "loan/urlas/{}/borrowers/{}/presentAddress/noOfYears",
+        "loan/urlas/{}/borrowers/{}/previousAddresses/{}/noOfYears"
+      ],
+      "position": "112",
+      "destinationKey": "03C"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/$[addressType]/noOfYears"
+  },
+  {
+    "value": {
+      "length": "2",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "previousAddressIndex"
+        ]
+      },
+      "aliasKeys": [
+        "loan/urlas/{}/borrowers/{}/presentAddress/noOfMonths",
+        "loan/urlas/{}/borrowers/{}/previousAddresses/{}/noOfMonths"
+      ],
+      "position": "114",
+      "destinationKey": "03C"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/$[addressType]/noOfMonths"
+  },
+  {
+    "value": {
+      "length": "9",
+      "position": "4",
+      "dataConfig": {
+        "type": "string"
+      },
+      "stateConfigs": [
+        {
+          "type": "valueCount",
+          "stateMapIdentifierKey": "employerIndex",
+          "urlaStateMapIdentifierKey": "urlaIndex"
+        },
+        {
+          "type": "value",
+          "stateMapIdentifierKey": "lineUniqueValueKey"
+        }
+      ],
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "employerIndex"
+        ]
+      },
+      "destinationKey": "04A",
+      "additionalDestinationKeys": [
+        "04B"
+      ]
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/employer/{}/owner"
+  },
+  {
+    "value": {
+      "length": "3",
+      "position": "1",
+      "dataConfig": {
+        "type": "enum",
+        "enumMappings": [
+          {
+            "destinationValue": "04A",
+            "value": "yes"
+          }
+        ]
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "employerIndex"
+        ]
+      },
+      "destinationKey": "04A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/employer/{}/currentEmployer"
+  },
+  {
+    "value": {
+      "length": "35",
+      "position": "13",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "employerIndex"
+        ]
+      },
+      "destinationKey": "04A",
+      "additionalDestinationKeys": [
+        "04B"
+      ]
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/employer/{}/employerName"
+  },
+  {
+    "value": {
+      "length": "35",
+      "position": "48",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "employerIndex"
+        ]
+      },
+      "destinationKey": "04A",
+      "additionalDestinationKeys": [
+        "04B"
+      ]
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/employer/{}/streetAddress"
+  },
+  {
+    "value": {
+      "length": "35",
+      "position": "83",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "employerIndex"
+        ]
+      },
+      "destinationKey": "04A",
+      "additionalDestinationKeys": [
+        "04B"
+      ]
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/employer/{}/city"
+  },
+  {
+    "value": {
+      "length": "2",
+      "position": "118",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "employerIndex"
+        ]
+      },
+      "destinationKey": "04A",
+      "additionalDestinationKeys": [
+        "04B"
+      ]
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/employer/{}/state"
+  },
+  {
+    "value": {
+      "length": "5",
+      "position": "120",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "employerIndex"
+        ]
+      },
+      "destinationKey": "04A",
+      "additionalDestinationKeys": [
+        "04B"
+      ]
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/employer/{}/zip"
+  },
+  {
+    "value": {
+      "length": "4",
+      "position": "125",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "employerIndex"
+        ]
+      },
+      "destinationKey": "04A",
+      "additionalDestinationKeys": [
+        "04B"
+      ]
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/employer/{}/zipCodePlusFour"
+  },
+  {
+    "value": {
+      "length": "2",
+      "position": "130",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "employerIndex"
+        ]
+      },
+      "destinationKey": "04A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/employer/{}/years"
+  },
+  {
+    "value": {
+      "length": "2",
+      "position": "132",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "employerIndex"
+        ]
+      },
+      "destinationKey": "04A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/employer/{}/months"
+  },
+  {
+    "value": {
+      "length": "2",
+      "position": "134",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "employerIndex"
+        ]
+      },
+      "destinationKey": "04A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/employer/{}/yrsInThisLineOfWork"
+  },
+  {
+    "value": {
+      "length": "10",
+      "position": "161",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "employerIndex"
+        ]
+      },
+      "destinationKey": "04A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/employer/{}/businessPhone"
+  },
+  {
+    "value": {
+      "length": "25",
+      "position": "136",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "employerIndex"
+        ]
+      },
+      "destinationKey": "04A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/employer/{}/position"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "type": "boolean",
+        "trueValue": true,
+        "falseValue": false
+      },
+      "destinationDataConfig": {
+        "type": "boolean",
+        "trueValue": "Y",
+        "falseValue": "N"
+      },
+      "defaultValueConfig": {
+        "sourceValue": null,
+        "destinationValue": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "employerIndex"
+        ]
+      },
+      "position": "129",
+      "destinationKey": "04A",
+      "additionalDestinationKeys": [
+        "04B"
+      ]
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/employer/{}/isSelfEmployment"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "type": "boolean",
+        "trueValue": true,
+        "falseValue": false
+      },
+      "destinationDataConfig": {
+        "type": "boolean",
+        "trueValue": "Y",
+        "falseValue": "N"
+      },
+      "defaultValueConfig": {
+        "sourceValue": null,
+        "destinationValue": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "employerIndex"
+        ]
+      },
+      "position": "130",
+      "destinationKey": "04B"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/employer/{}/isCurrent"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "147",
+      "dataConfig": {
+        "type": "double"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "employerIndex"
+        ]
+      },
+      "destinationKey": "04B"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/employer/{}/monthlyIncome"
+  },
+  {
+    "value": {
+      "length": "8",
+      "position": "131",
+      "dataConfig": {
+        "type": "date"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "employerIndex"
+        ]
+      },
+      "destinationKey": "04B"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/employer/{}/fromDate"
+  },
+  {
+    "value": {
+      "length": "8",
+      "position": "139",
+      "dataConfig": {
+        "type": "date"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "employerIndex"
+        ]
+      },
+      "destinationKey": "04B"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/employer/{}/toDate"
+  },
+  {
+    "value": {
+      "length": "25",
+      "position": "162",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "employerIndex"
+        ]
+      },
+      "destinationKey": "04B"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/employer/{}/previousPosition"
+  },
+  {
+    "value": {
+      "length": "10",
+      "position": "187",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "employerIndex"
+        ]
+      },
+      "destinationKey": "04B"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/employer/{}/previousBusinessPhone"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "16",
+      "dataConfig": {
+        "type": "double"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex"
+        ]
+      },
+      "aliasKeys": [
+        "loan/urlas/{}/expense/presentRent",
+        "loan/urlas/{}/expense/presentFirstMortgage",
+        "loan/urlas/{}/expense/proposedFirstMortgage",
+        "loan/urlas/{}/expense/presentOtherMortgage",
+        "loan/urlas/{}/expense/proposedOtherMortgage",
+        "loan/urlas/{}/expense/presentHazardInsurance",
+        "loan/urlas/{}/expense/proposedHazardInsurance",
+        "loan/urlas/{}/expense/presentRealEstateTaxes",
+        "loan/urlas/{}/expense/proposedRealEstateTaxes",
+        "loan/urlas/{}/expense/presentMortgageInsurance",
+        "loan/urlas/{}/expense/proposedMortgageInsurance",
+        "loan/urlas/{}/expense/presentHomeOwnerAssnDues",
+        "loan/urlas/{}/expense/proposedHomeOwnerAssnDues",
+        "loan/urlas/{}/expense/presentOther",
+        "loan/urlas/{}/expense/presentTotalExpense",
+        "loan/urlas/{}/expense/proposedTotalExpense"
+      ],
+      "destinationKey": "05H"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/expense/$[presentProposedType]$[expenseType]"
+  },
+  {
+    "value": {
+      "length": "9",
+      "position": "4",
+      "dataConfig": {
+        "type": "string"
+      },
+      "stateConfigs": [
+        {
+          "type": "fieldTypeAndCount",
+          "stateMapIdentifierKey": "presentProposedIndex",
+          "fieldTypeMapping": {
+            "value": {
+              "length": "1",
+              "position": "13",
+              "dataConfig": {
+                "type": "enum",
+                "enumMappings": [
+                  {
+                    "value": "1",
+                    "destinationValue": "present"
+                  },
+                  {
+                    "value": "2",
+                    "destinationValue": "proposed"
+                  }
+                ]
+              },
+              "destinationKey": "05H"
+            },
+            "type": "linePositionMapping",
+            "key": "presentProposedType"
+          }
+        },
+        {
+          "type": "value",
+          "stateMapIdentifierKey": "lineUniqueValueKey"
+        }
+      ],
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "presentProposedIndex"
+        ]
+      },
+      "destinationKey": "05H"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/expense/$[presentProposedType]$[expenseType]/owner"
+  },
+  {
+    "value": {
+      "length": "2",
+      "position": "14",
+      "dataConfig": {
+        "type": "enum",
+        "enumMappings": [
+          {
+            "value": "Rent",
+            "destinationValue": "25"
+          },
+          {
+            "value": "FirstMortgage",
+            "destinationValue": "26"
+          },
+          {
+            "value": "HazardInsurance",
+            "destinationValue": "01"
+          },
+          {
+            "value": "RealEstateTaxes",
+            "destinationValue": "14"
+          },
+          {
+            "value": "MortgageInsurance",
+            "destinationValue": "02"
+          },
+          {
+            "value": "HomeOwnerAssnDues",
+            "destinationValue": "06"
+          },
+          {
+            "value": "Other",
+            "destinationValue": "23"
+          },
+          {
+            "value": "OtherMortgage",
+            "destinationValue": "22"
+          }
+        ]
+      },
+      "stateConfigs": [
+        {
+          "type": "parsedValue",
+          "stateMapIdentifierKey": "expenseType"
+        }
+      ],
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex"
+        ]
+      },
+      "destinationKey": "05H"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/expense/expenseType"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "15",
+      "dataConfig": {
+        "type": "double"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "aliasKeys": [
+        "loan/urlas/{}/income/borrowerBase",
+        "loan/urlas/{}/income/coBorrowerBase",
+        "loan/urlas/{}/income/borrowerOvertime",
+        "loan/urlas/{}/income/coBorrowerOvertime",
+        "loan/urlas/{}/income/borrowerBonuses",
+        "loan/urlas/{}/income/coBorrowerBonuses",
+        "loan/urlas/{}/income/coBorrowerDividentsAndInterest",
+        "loan/urlas/{}/income/borrowerDividentsAndInterest",
+        "loan/urlas/{}/income/borrowerNetRentalIncome",
+        "loan/urlas/{}/income/coBorrowerNetRentalIncome",
+        "loan/urlas/{}/income/coBorrowerCommisions",
+        "loan/urlas/{}/income/borrowerCommisions",
+        "loan/urlas/{}/income/coBorrowerOtherPensionRetirmentIncome",
+        "loan/urlas/{}/income/borrowerOtherPensionRetirmentIncome",
+        "loan/urlas/{}/income/coBorrowerOtherSocialSecurityAndDisabilityIncome",
+        "loan/urlas/{}/income/borrowerOtherSocialSecurityAndDisabilityIncome",
+        "loan/urlas/{}/income/coBorrowerOtherSocialSecurityAndDisabilityIncome",
+        "loan/urlas/{}/income/borrowerOtherMilitaryBasePay",
+        "loan/urlas/{}/income/coBorrowerOtherMilitaryBasePay",
+        "loan/urlas/{}/income/borrowerOtherMilitaryRationsAllowance",
+        "loan/urlas/{}/income/coBorrowerOtherMilitaryRationsAllowance",
+        "loan/urlas/{}/income/borrowerOtherMilitaryFlightPay",
+        "loan/urlas/{}/income/coBorrowerOtherMilitaryFlightPay",
+        "loan/urlas/{}/income/borrowerOtherMilitaryHazardPay",
+        "loan/urlas/{}/income/coBorrowerOtherMilitaryHazardPay",
+        "loan/urlas/{}/income/borrowerOtherMilitaryClothesAllowance",
+        "loan/urlas/{}/income/coBorrowerOtherMilitaryClothesAllowance",
+        "loan/urlas/{}/income/borrowerOtherMilitaryQuartersAllowance",
+        "loan/urlas/{}/income/coBorrowerOtherMilitaryQuartersAllowance",
+        "loan/urlas/{}/income/borrowerOtherMilitaryPropPay",
+        "loan/urlas/{}/income/coBorrowerOtherMilitaryPropPay",
+        "loan/urlas/{}/income/borrowerOtherMilitaryOverseasPay",
+        "loan/urlas/{}/income/coBorrowerOtherMilitaryOverseasPay",
+        "loan/urlas/{}/income/borrowerOtherMilitaryVariableHousingAllowance",
+        "loan/urlas/{}/income/coBorrowerOtherMilitaryVariableHousingAllowance",
+        "loan/urlas/{}/income/borrowerOtherAlimonyOrChildSupportIncome",
+        "loan/urlas/{}/income/coBorrowerOtherAlimonyOrChildSupportIncome",
+        "loan/urlas/{}/income/borrowerOtherNotesReceivableOrInstallment",
+        "loan/urlas/{}/income/coBorrowerOtherNotesReceivableOrInstallment",
+        "loan/urlas/{}/income/borrowerOtherRealEstateOrMortgageDifferential",
+        "loan/urlas/{}/income/coBorrowerOtherRealEstateOrMortgageDifferential",
+        "loan/urlas/{}/income/borrowerOtherTrustIncome",
+        "loan/urlas/{}/income/coBorrowerOtherTrustIncome",
+        "loan/urlas/{}/income/borrowerOtherAccessoryUnitIncome",
+        "loan/urlas/{}/income/coBorrowerOtherAccessoryUnitIncome",
+        "loan/urlas/{}/income/borrowerOtherUnemploymentOrPublicAssistance",
+        "loan/urlas/{}/income/coBorrowerOtherUnemploymentOrPublicAssistance",
+        "loan/urlas/{}/income/borrowerOtherAutomobileOrExpenseAccountIncome",
+        "loan/urlas/{}/income/coBorrowerOtherAutomobileOrExpenseAccountIncome",
+        "loan/urlas/{}/income/borrowerOtherFosterCare",
+        "loan/urlas/{}/income/coBorrowerOtherFosterCare",
+        "loan/urlas/{}/income/borrowerOtherVABenefits",
+        "loan/urlas/{}/income/coBorrowerOtherVABenefits",
+        "loan/urlas/{}/income/borrowerOtherNonBorrowerHouseholdIncome",
+        "loan/urlas/{}/income/coBorrowerOtherNonBorrowerHouseholdIncome",
+        "loan/urlas/{}/income/borrowerOtherIncome",
+        "loan/urlas/{}/income/coBorrowerOtherIncome",
+        "loan/urlas/{}/income/borrowerOtherSubjectPropertyNetCashFlow",
+        "loan/urlas/{}/income/coBorrowerOtherSubjectPropertyNetCashFlow",
+        "loan/urlas/{}/income/borrowerOtherHousingChoiceVoucher",
+        "loan/urlas/{}/income/coBorrowerOtherHousingChoiceVoucher",
+        "loan/urlas/{}/income/borrowerOtherBoarderIncome",
+        "loan/urlas/{}/income/coBorrowerOtherBoarderIncome",
+        "loan/urlas/{}/income/borrowerOtherMortgageCreditCertificate",
+        "loan/urlas/{}/income/coBorrowerOtherMortgageCreditCertificate",
+        "loan/urlas/{}/income/borrowerOtherCapitalGains",
+        "loan/urlas/{}/income/coBorrowerOtherCapitalGains",
+        "loan/urlas/{}/income/borrowerOtherEmploymentRelatedAssets",
+        "loan/urlas/{}/income/coBorrowerOtherEmploymentRelatedAssets",
+        "loan/urlas/{}/income/borrowerOtherForeignIncomee",
+        "loan/urlas/{}/income/coBorrowerOtherForeignIncomee",
+        "loan/urlas/{}/income/borrowerOtherRoyaltyPayment",
+        "loan/urlas/{}/income/coBorrowerOtherRoyaltyPayment",
+        "loan/urlas/{}/income/borrowerOtherSeasonalIncome",
+        "loan/urlas/{}/income/coBorrowerOtherSeasonalIncome",
+        "loan/urlas/{}/income/borrowerOtherTemporaryLeave",
+        "loan/urlas/{}/income/coBorrowerOtherTemporaryLeave",
+        "loan/urlas/{}/income/borrowerOtherTipIncome",
+        "loan/urlas/{}/income/coBorrowerOtherTipIncome"
+      ],
+      "destinationKey": "05I"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/income/$[borrowerType]$[incomeType]"
+  },
+  {
+    "value": {
+      "length": "9",
+      "position": "4",
+      "dataConfig": {
+        "type": "string"
+      },
+      "stateConfigs": [
+        {
+          "type": "applicantType",
+          "stateMapIdentifierKey": "borrowerType",
+          "borrowerIndexStateMapIdentifierKey": "borrowerIndex",
+          "applicantTypes": [
+            "borrower",
+            "coBorrower"
+          ]
+        },
+        {
+          "type": "value",
+          "stateMapIdentifierKey": "lineUniqueValueKey"
+        }
+      ],
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex"
+        ]
+      },
+      "destinationKey": "05I"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/income/$[borrowerType]$[incomeType]/owner"
+  },
+  {
+    "value": {
+      "length": "2",
+      "position": "13",
+      "dataConfig": {
+        "type": "enum",
+        "enumMappings": [
+          {
+            "value": "Base",
+            "destinationValue": "20"
+          },
+          {
+            "value": "Overtime",
+            "destinationValue": "09"
+          },
+          {
+            "value": "Bonuses",
+            "destinationValue": "08"
+          },
+          {
+            "value": "Commisions",
+            "destinationValue": "10"
+          },
+          {
+            "value": "DividentsAndInterest",
+            "destinationValue": "17"
+          },
+          {
+            "value": "NetRentalIncome",
+            "destinationValue": "33"
+          },
+          {
+            "destinationValue": "41",
+            "value": "OtherPensionRetirmentIncome"
+          },
+          {
+            "destinationValue": "42",
+            "value": "OtherSocialSecurityAndDisabilityIncome"
+          },
+          {
+            "destinationValue": "F1",
+            "value": "OtherMilitaryBasePay"
+          },
+          {
+            "destinationValue": "07",
+            "value": "OtherMilitaryRationsAllowance"
+          },
+          {
+            "destinationValue": "F2",
+            "value": "OtherMilitaryFlightPay"
+          },
+          {
+            "destinationValue": "F3",
+            "value": "OtherMilitaryHazardPay"
+          },
+          {
+            "destinationValue": "02",
+            "value": "OtherMilitaryClothesAllowance"
+          },
+          {
+            "destinationValue": "04",
+            "value": "OtherMilitaryQuartersAllowance"
+          },
+          {
+            "destinationValue": "03",
+            "value": "OtherMilitaryPropPay"
+          },
+          {
+            "destinationValue": "F4",
+            "value": "OtherMilitaryOverseasPay"
+          },
+          {
+            "destinationValue": "F5",
+            "value": "OtherMilitaryCombatPay"
+          },
+          {
+            "destinationValue": "F6",
+            "value": "OtherMilitaryVariableHousingAllowance"
+          },
+          {
+            "destinationValue": "F7",
+            "value": "OtherAlimonyOrChildSupportIncome"
+          },
+          {
+            "destinationValue": "F8",
+            "value": "OtherNotesReceivableOrInstallment"
+          },
+          {
+            "destinationValue": "30",
+            "value": "OtherRealEstateOrMortgageDifferential"
+          },
+          {
+            "destinationValue": "F9",
+            "value": "OtherTrustIncome"
+          },
+          {
+            "destinationValue": "AU",
+            "value": "OtherAccessoryUnitIncome"
+          },
+          {
+            "destinationValue": "M1",
+            "value": "OtherUnemploymentOrPublicAssistance"
+          },
+          {
+            "destinationValue": "M2",
+            "value": "OtherAutomobileOrExpenseAccountIncome"
+          },
+          {
+            "destinationValue": "M3",
+            "value": "OtherFosterCare"
+          },
+          {
+            "destinationValue": "M4",
+            "value": "OtherVABenefits "
+          },
+          {
+            "destinationValue": "NB",
+            "value": "OtherNonBorrowerHouseholdIncome"
+          },
+          {
+            "destinationValue": "45",
+            "value": "OtherIncome"
+          },
+          {
+            "destinationValue": "SI",
+            "value": "OtherSubjectPropertyNetCashFlow"
+          },
+          {
+            "destinationValue": "S8",
+            "value": "OtherHousingChoiceVoucher"
+          },
+          {
+            "destinationValue": "BI",
+            "value": "OtherBoarderIncome"
+          },
+          {
+            "destinationValue": "MC",
+            "value": "OtherMortgageCreditCertificate"
+          },
+          {
+            "destinationValue": "CG",
+            "value": "OtherCapitalGains"
+          },
+          {
+            "destinationValue": "EA",
+            "value": "OtherEmploymentRelatedAssets"
+          },
+          {
+            "destinationValue": "FI",
+            "value": "OtherForeignIncomee"
+          },
+          {
+            "destinationValue": "RP",
+            "value": "OtherRoyaltyPayment"
+          },
+          {
+            "destinationValue": "SE",
+            "value": "OtherSeasonalIncome"
+          },
+          {
+            "destinationValue": "TL",
+            "value": "OtherTemporaryLeave"
+          },
+          {
+            "destinationValue": "TI",
+            "value": "OtherTipIncome"
+          }
+        ]
+      },
+      "stateConfigs": [
+        {
+          "type": "parsedValue",
+          "stateMapIdentifierKey": "incomeType"
+        }
+      ],
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex"
+        ]
+      },
+      "destinationKey": "05I"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/income/incomeType"
+  },
+  {
+    "value": {
+      "length": "35",
+      "position": "13",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex"
+        ]
+      },
+      "destinationKey": "06A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/assetsEarnestHeldBy"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "48",
+      "dataConfig": {
+        "type": "double"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex"
+        ]
+      },
+      "destinationKey": "06A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/assetsEarnestMoneyDeposit"
+  },
+  {
+    "value": {
+      "length": "9",
+      "position": "4",
+      "dataConfig": {
+        "type": "string"
+      },
+      "stateConfigs": [
+        {
+          "type": "urlaValueCount",
+          "stateMapIdentifierKey": "assetIndex",
+          "urlaStateMapIdentifierKey": "urlaIndex"
+        },
+        {
+          "type": "value",
+          "stateMapIdentifierKey": "lineUniqueValueKey"
+        }
+      ],
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "assetIndex"
+        ]
+      },
+      "destinationKey": "06C",
+      "additionalDestinationKeys": [
+        "06B",
+        "06D"
+      ]
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/assets/{}/owner"
+  },
+  {
+    "value": {
+      "length": "9",
+      "position": "4",
+      "dataConfig": {
+        "type": "string"
+      },
+      "stateConfigs": [
+        {
+          "type": "applicantType",
+          "stateMapIdentifierKey": "borrowerType",
+          "borrowerIndexStateMapIdentifierKey": "borrowerIndex",
+          "applicantTypes": [
+            "Borrower",
+            "CoBorrower"
+          ]
+        },
+        {
+          "type": "value",
+          "stateMapIdentifierKey": "lineUniqueValueKey"
+        }
+      ],
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "assetIndex"
+        ]
+      },
+      "aliasKeys": [
+        "loan/urlas/{}/assets/{}/Borrower/assetsOwner",
+        "loan/urlas/{}/assets/{}/CoBorrower/assetsOwner"
+      ],
+      "destinationKey": "06C"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/assets/{}/$[borrowerType]/assetsOwner"
+  },
+  {
+    "value": {
+      "length": "3",
+      "position": "13",
+      "dataConfig": {
+        "type": "enum",
+        "enumMappings": [
+          {
+            "destinationValue": "05",
+            "value": "STOCKS_AND_BONDS"
+          },
+          {
+            "destinationValue": "06",
+            "value": "STOCKS_AND_BONDS"
+          },
+          {
+            "destinationValue": "03",
+            "value": "CHECKING_AND_SAVINGS_ACCOUNTS"
+          },
+          {
+            "destinationValue": "SG",
+            "value": "CHECKING_AND_SAVINGS_ACCOUNTS"
+          },
+          {
+            "destinationValue": "08",
+            "value": "RETIREMENT_FUNDS"
+          },
+          {
+            "destinationValue": "F8",
+            "value": "NET_WORTH_BUSINESS"
+          },
+          {
+            "destinationValue": "M1",
+            "value": "OTHER_ASSETS"
+          },
+          {
+            "destinationValue": "F4",
+            "value": "CHECKING_AND_SAVINGS_ACCOUNTS"
+          },
+          {
+            "destinationValue": "OL",
+            "value": "CHECKING_AND_SAVINGS_ACCOUNTS"
+          },
+          {
+            "destinationValue": "NE",
+            "value": "CHECKING_AND_SAVINGS_ACCOUNTS"
+          },
+          {
+            "destinationValue": "01",
+            "value": "CHECKING_AND_SAVINGS_ACCOUNTS"
+          },
+          {
+            "destinationValue": "F3",
+            "value": "CHECKING_AND_SAVINGS_ACCOUNTS"
+          },
+          {
+            "destinationValue": "11",
+            "value": "CHECKING_AND_SAVINGS_ACCOUNTS"
+          },
+          {
+            "destinationValue": "F2",
+            "value": "CHECKING_AND_SAVINGS_ACCOUNTS"
+          },
+          {
+            "destinationValue": "GE",
+            "value": "CHECKING_AND_SAVINGS_ACCOUNTS"
+          },
+          {
+            "destinationValue": "F7",
+            "value": "CHECKING_AND_SAVINGS_ACCOUNTS"
+          },
+          {
+            "destinationValue": "F5",
+            "value": "CHECKING_AND_SAVINGS_ACCOUNTS"
+          },
+          {
+            "destinationValue": "COH",
+            "value": "CHECKING_AND_SAVINGS_ACCOUNTS"
+          },
+          {
+            "destinationValue": "NE",
+            "value": "CHECKING_AND_SAVINGS_ACCOUNTS"
+          },
+          {
+            "destinationValue": "F1",
+            "value": "CHECKING_AND_SAVINGS_ACCOUNTS"
+          }
+        ]
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "assetIndex"
+        ]
+      },
+      "destinationKey": "06C"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/assets/{}/assetType"
+  },
+  {
+    "value": {
+      "length": "3",
+      "position": "13",
+      "dataConfig": {
+        "type": "enum",
+        "enumMappings": [
+          {
+            "destinationValue": "03",
+            "value": "CHECKING_ACCOUNTS"
+          },
+          {
+            "destinationValue": "SG",
+            "value": "SAVINGS_ACCOUNTS"
+          },
+          {
+            "destinationValue": "F4",
+            "value": "MUTUAL_FUNDS"
+          },
+          {
+            "destinationValue": "OL",
+            "value": "OTHER_LIQUID_ASSETS"
+          },
+          {
+            "destinationValue": "NE",
+            "value": "NET_EQUITY"
+          },
+          {
+            "destinationValue": "01",
+            "value": "CERTIFICATE_OF_DEPOSIT"
+          },
+          {
+            "destinationValue": "F3",
+            "value": "MONEY_MARKET_FUND"
+          },
+          {
+            "destinationValue": "11",
+            "value": "TRUST_FUND"
+          },
+          {
+            "destinationValue": "F2",
+            "value": "GIFT"
+          },
+          {
+            "destinationValue": "GE",
+            "value": "GIFT_OF_EQUITY"
+          },
+          {
+            "destinationValue": "F7",
+            "value": "BRIDGE_LOAN"
+          },
+          {
+            "destinationValue": "F5",
+            "value": "SECURED_BORROWER_FUNDS"
+          },
+          {
+            "destinationValue": "COH",
+            "value": "CASH_ON_HAND"
+          },
+          {
+            "destinationValue": "F1",
+            "value": "CASHDEPOSIT_ON_SALES_CONTRACT"
+          }
+        ]
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "assetIndex"
+        ]
+      },
+      "destinationKey": "06C"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/assets/{}/accountType"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "58",
+      "dataConfig": {
+        "type": "double"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "assetIndex"
+        ]
+      },
+      "destinationKey": "06B"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/assets/{}/faceAmount"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "43",
+      "dataConfig": {
+        "type": "double"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "assetIndex"
+        ]
+      },
+      "destinationKey": "06B"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/assets/{}/lifeInsuranceAmount"
+  },
+  {
+    "value": {
+      "length": "3",
+      "position": "1",
+      "dataConfig": {
+        "type": "enum",
+        "enumMappings": [
+          {
+            "destinationValue": "06B",
+            "value": "LIFE_INSURANCE"
+          }
+        ]
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "assetIndex"
+        ]
+      },
+      "destinationKey": "06B"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/assets/{}/lifeInsuranceAssetType"
+  },
+  {
+    "value": {
+      "length": "35",
+      "position": "16",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "assetIndex"
+        ]
+      },
+      "destinationKey": "06C"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/assets/{}/companyName"
+  },
+  {
+    "value": {
+      "length": "80",
+      "position": "184",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "assetIndex"
+        ]
+      },
+      "destinationKey": "06C"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/assets/{}/assetName"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "51",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "assetIndex"
+        ]
+      },
+      "destinationKey": "06C"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/assets/{}/streetAddress"
+  },
+  {
+    "value": {
+      "length": "35",
+      "position": "86",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "assetIndex"
+        ]
+      },
+      "destinationKey": "06C"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/assets/{}/city"
+  },
+  {
+    "value": {
+      "length": "2",
+      "position": "121",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "assetIndex"
+        ]
+      },
+      "destinationKey": "06C"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/assets/{}/state"
+  },
+  {
+    "value": {
+      "length": "5",
+      "position": "123",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "assetIndex"
+        ]
+      },
+      "destinationKey": "06C"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/assets/{}/zip"
+  },
+  {
+    "value": {
+      "length": "4",
+      "position": "128",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "assetIndex"
+        ]
+      },
+      "destinationKey": "06C"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/assets/{}/ZipCodePlusFour"
+  },
+  {
+    "value": {
+      "length": "30",
+      "position": "132",
+      "destinationDataConfig": {
+        "type": "string"
+      },
+      "dataConfig": {
+        "type": "encryptionString"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "assetIndex"
+        ]
+      },
+      "destinationKey": "06C"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/assets/{}/accountNumber"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "162",
+      "dataConfig": {
+        "type": "double"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "assetIndex"
+        ]
+      },
+      "destinationKey": "06C"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/assets/{}/balance"
+  },
+  {
+    "value": {
+      "length": "9",
+      "position": "4",
+      "dataConfig": {
+        "type": "string"
+      },
+      "stateConfigs": [
+        {
+          "type": "urlaValueCount",
+          "stateMapIdentifierKey": "liabilitiesIndex",
+          "urlaStateMapIdentifierKey": "urlaIndex"
+        },
+        {
+          "type": "value",
+          "stateMapIdentifierKey": "lineUniqueValueKey"
+        }
+      ],
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "liabilitiesIndex"
+        ]
+      },
+      "destinationKey": "06L",
+      "additionalDestinationKeys": [
+        "06F"
+      ]
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/liabilities/{}/owner"
+  },
+  {
+    "value": {
+      "length": "2",
+      "position": "13",
+      "dataConfig": {
+        "type": "enum",
+        "enumMappings": [
+          {
+            "destinationValue": "M",
+            "value": "MORTGAGE_ACCOUNT"
+          },
+          {
+            "destinationValue": "C",
+            "value": "HELOC"
+          },
+          {
+            "destinationValue": "F",
+            "value": "LEASE_PAYMENTS"
+          },
+          {
+            "destinationValue": "N",
+            "value": "LIENS"
+          },
+          {
+            "destinationValue": "A",
+            "value": "TAXES"
+          },
+          {
+            "destinationValue": "O",
+            "value": "30_DAY_CHARGE_ACCOUNT_OPEN"
+          },
+          {
+            "destinationValue": "I",
+            "value": "INSTALLMENT_LOAN"
+          },
+          {
+            "value": "REVOLVING_CHARGE_ACCOUNT",
+            "destinationValue": "R"
+          },
+          {
+            "value": "OTHER_LIABILITY",
+            "destinationValue": "Z"
+          }
+        ]
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "liabilitiesIndex"
+        ]
+      },
+      "destinationKey": "06L"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/liabilities/{}/liabilityType"
+  },
+  {
+    "value": {
+      "length": "35",
+      "position": "15",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "liabilitiesIndex"
+        ]
+      },
+      "destinationKey": "06L"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/liabilities/{}/companyName"
+  },
+  {
+    "value": {
+      "length": "35",
+      "position": "50",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "liabilitiesIndex"
+        ]
+      },
+      "destinationKey": "06L"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/liabilities/{}/addressLine"
+  },
+  {
+    "value": {
+      "length": "35",
+      "position": "85",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "liabilitiesIndex"
+        ]
+      },
+      "destinationKey": "06L"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/liabilities/{}/city"
+  },
+  {
+    "value": {
+      "length": "2",
+      "position": "120",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "liabilitiesIndex"
+        ]
+      },
+      "destinationKey": "06L"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/liabilities/{}/state"
+  },
+  {
+    "value": {
+      "length": "5",
+      "position": "122",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "liabilitiesIndex"
+        ]
+      },
+      "destinationKey": "06L"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/liabilities/{}/zip"
+  },
+  {
+    "value": {
+      "length": "4",
+      "position": "127",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "liabilitiesIndex"
+        ]
+      },
+      "destinationKey": "06L"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/liabilities/{}/zipCodePlusFour"
+  },
+  {
+    "value": {
+      "length": "30",
+      "position": "131",
+      "destinationDataConfig": {
+        "type": "string"
+      },
+      "dataConfig": {
+        "type": "encryptionString"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "liabilitiesIndex"
+        ]
+      },
+      "destinationKey": "06L"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/liabilities/{}/accountNumber"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "179",
+      "dataConfig": {
+        "type": "double"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "liabilitiesIndex"
+        ]
+      },
+      "destinationKey": "06L"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/liabilities/{}/unpaidBalance"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "161",
+      "dataConfig": {
+        "type": "double"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "liabilitiesIndex"
+        ]
+      },
+      "destinationKey": "06L"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/liabilities/{}/monthlyPayment"
+  },
+  {
+    "value": {
+      "length": "3",
+      "position": "176",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "liabilitiesIndex"
+        ]
+      },
+      "destinationKey": "06L"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/liabilities/{}/monthsLeftToPay"
+  },
+  {
+    "value": {
+      "length": "3",
+      "position": "31",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "liabilitiesIndex"
+        ]
+      },
+      "destinationKey": "06F"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/liabilities/{}/otherMonthsLeftToPay"
+  },
+  {
+    "value": {
+      "length": "3",
+      "position": "13",
+      "dataConfig": {
+        "type": "enum",
+        "enumMappings": [
+          {
+            "destinationValue": "DR",
+            "value": "ALIMONY_CHILD_SUPPORT"
+          },
+          {
+            "destinationValue": "DT",
+            "value": "ALIMONY_CHILD_SUPPORT"
+          },
+          {
+            "destinationValue": "DV",
+            "value": "ALIMONY_CHILD_SUPPORT"
+          },
+          {
+            "destinationValue": "DZ",
+            "value": "JOB_RELATED_EXPENSE"
+          },
+          {
+            "destinationValue": "EE",
+            "value": "JOB_RELATED_EXPENSE_OTHER"
+          }
+        ]
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "liabilitiesIndex"
+        ]
+      },
+      "destinationKey": "06F"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/liabilities/{}/otherType"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "16",
+      "dataConfig": {
+        "type": "double"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "liabilitiesIndex"
+        ]
+      },
+      "destinationKey": "06F"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/liabilities/{}/otherPayment"
+  },
+  {
+    "value": {
+      "length": "30",
+      "position": "34",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "liabilitiesIndex"
+        ]
+      },
+      "destinationKey": "06F"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/liabilities/{}/otherDescription"
+  },
+  {
+    "value": {
+      "length": "9",
+      "position": "4",
+      "dataConfig": {
+        "type": "string"
+      },
+      "stateConfigs": [
+        {
+          "type": "urlaValueCount",
+          "stateMapIdentifierKey": "reoIndex",
+          "urlaStateMapIdentifierKey": "urlaIndex"
+        },
+        {
+          "type": "value",
+          "stateMapIdentifierKey": "lineUniqueValueKey"
+        }
+      ],
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "reoIndex"
+        ]
+      },
+      "destinationKey": "06G"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/reoProperties/{}/owner"
+  },
+  {
+    "value": {
+      "length": "35",
+      "position": "13",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "reoIndex"
+        ]
+      },
+      "destinationKey": "06G"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/reoProperties/{}/streetAddress"
+  },
+  {
+    "value": {
+      "length": "35",
+      "position": "48",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "reoIndex"
+        ]
+      },
+      "destinationKey": "06G"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/reoProperties/{}/city"
+  },
+  {
+    "value": {
+      "length": "2",
+      "position": "83",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "reoIndex"
+        ]
+      },
+      "destinationKey": "06G"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/reoProperties/{}/state"
+  },
+  {
+    "value": {
+      "length": "5",
+      "position": "85",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "reoIndex"
+        ]
+      },
+      "destinationKey": "06G"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/reoProperties/{}/zip"
+  },
+  {
+    "value": {
+      "length": "4",
+      "position": "90",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "reoIndex"
+        ]
+      },
+      "destinationKey": "06G"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/reoProperties/{}/zipCodePlusFour"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "97",
+      "dataConfig": {
+        "type": "double"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "reoIndex"
+        ]
+      },
+      "destinationKey": "06G"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/reoProperties/{}/presentMarketValue"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "112",
+      "dataConfig": {
+        "type": "double"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "reoIndex"
+        ]
+      },
+      "destinationKey": "06G"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/reoProperties/{}/amountofMortgageLiens"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "127",
+      "dataConfig": {
+        "type": "double"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "reoIndex"
+        ]
+      },
+      "destinationKey": "06G"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/reoProperties/{}/grossRentalIncome"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "142",
+      "dataConfig": {
+        "type": "double"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "reoIndex"
+        ]
+      },
+      "destinationKey": "06G"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/reoProperties/{}/mortgagePayment"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "157",
+      "dataConfig": {
+        "type": "double"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "reoIndex"
+        ]
+      },
+      "destinationKey": "06G"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/reoProperties/{}/insuranceAndMaintenance"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "172",
+      "dataConfig": {
+        "type": "double"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "reoIndex"
+        ]
+      },
+      "destinationKey": "06G"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/reoProperties/{}/netRentalIncome"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "enumMappings": [
+          {
+            "destinationValue": "S",
+            "value": "Sold"
+          },
+          {
+            "destinationValue": "H",
+            "value": "Retained"
+          },
+          {
+            "destinationValue": "P",
+            "value": "Pending Sale"
+          },
+          {
+            "destinationValue": "R",
+            "value": "Rented"
+          }
+        ],
+        "type": "enum",
+        "parseHardStopInd": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "reoIndex"
+        ]
+      },
+      "position": "94",
+      "destinationKey": "06G"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/reoProperties/{}/propertyStatus"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "type": "boolean",
+        "trueValue": true,
+        "falseValue": false
+      },
+      "destinationDataConfig": {
+        "type": "boolean",
+        "trueValue": "Y",
+        "falseValue": "N"
+      },
+      "defaultValueConfig": {
+        "sourceValue": null,
+        "destinationValue": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "liabilitiesIndex"
+        ]
+      },
+      "position": "194",
+      "destinationKey": "06L"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/liabilities/{}/isTobePaidOff"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "type": "boolean",
+        "trueValue": true,
+        "falseValue": false
+      },
+      "destinationDataConfig": {
+        "type": "boolean",
+        "trueValue": "Y",
+        "falseValue": "N"
+      },
+      "defaultValueConfig": {
+        "sourceValue": null,
+        "destinationValue": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "liabilitiesIndex"
+        ]
+      },
+      "position": "197",
+      "destinationKey": "06L"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/liabilities/{}/isResubordinated"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "type": "boolean",
+        "trueValue": true,
+        "falseValue": false
+      },
+      "destinationDataConfig": {
+        "type": "boolean",
+        "trueValue": "Y",
+        "falseValue": "N"
+      },
+      "defaultValueConfig": {
+        "sourceValue": null,
+        "destinationValue": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "liabilitiesIndex"
+        ]
+      },
+      "position": "198",
+      "destinationKey": "06L"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/liabilities/{}/isOmitted"
+  },
+  {
+    "value": {
+      "length": "2",
+      "dataConfig": {
+        "enumMappings": [
+          {
+            "value": "SINGLE_FAMILY",
+            "destinationValue": "14"
+          },
+          {
+            "value": "CONDOMINIUM",
+            "destinationValue": "04"
+          },
+          {
+            "value": "TOWNHOUSE",
+            "destinationValue": "16"
+          },
+          {
+            "value": "TWO_TO_FOUR_UNIT_PROPERTY",
+            "destinationValue": "15"
+          },
+          {
+            "value": "COOPERATIVE",
+            "destinationValue": "13"
+          },
+          {
+            "value": "MULTI_FAMILY_MORE_THAN_4_UNITS",
+            "destinationValue": "18"
+          },
+          {
+            "value": "MANUFACTURED_MOBILE_HOME",
+            "destinationValue": "08"
+          },
+          {
+            "value": "COMMERCIAL_NON_RESIDENTIAL",
+            "destinationValue": "02"
+          },
+          {
+            "value": "MIXED_USE_RESIDENTIAL",
+            "destinationValue": "F1"
+          },
+          {
+            "value": "FARM",
+            "destinationValue": "05"
+          },
+          {
+            "value": "HOME_AND_BUSINESS_COMBINED",
+            "destinationValue": "03"
+          },
+          {
+            "value": "LAND",
+            "destinationValue": "07"
+          }
+        ],
+        "type": "enum",
+        "parseHardStopInd": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "reoIndex"
+        ]
+      },
+      "position": "95",
+      "label": "property",
+      "destinationKey": "06G"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/reoProperties/{}/propertyType"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "type": "boolean",
+        "trueValue": true,
+        "falseValue": false
+      },
+      "destinationDataConfig": {
+        "type": "boolean",
+        "trueValue": "Y",
+        "falseValue": "N"
+      },
+      "defaultValueConfig": {
+        "sourceValue": null,
+        "destinationValue": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "reoIndex"
+        ]
+      },
+      "position": "188",
+      "destinationKey": "06G"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/reoProperties/{}/isSubjectProperty"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "type": "boolean",
+        "trueValue": true,
+        "falseValue": false
+      },
+      "destinationDataConfig": {
+        "type": "boolean",
+        "trueValue": "Y",
+        "falseValue": "N"
+      },
+      "defaultValueConfig": {
+        "sourceValue": null,
+        "destinationValue": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "reoIndex"
+        ]
+      },
+      "position": "187",
+      "destinationKey": "06G"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/reoProperties/{}/isCurrentResidence"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "4",
+      "dataConfig": {
+        "type": "double",
+        "scale": 2
+      },
+      "destinationKey": "07A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/estimatedValue"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "19",
+      "dataConfig": {
+        "type": "double"
+      },
+      "destinationKey": "07A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/transactionDetails/alterationImprvmntRepairs"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "34",
+      "dataConfig": {
+        "type": "double"
+      },
+      "destinationKey": "07A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/transactionDetails/landIfAcquiredSeparately"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "49",
+      "dataConfig": {
+        "type": "double"
+      },
+      "destinationKey": "07A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/payoffAmount"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "124",
+      "dataConfig": {
+        "type": "double"
+      },
+      "destinationKey": "07A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/transactionDetails/subordinateFinancing"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "139",
+      "dataConfig": {
+        "type": "double"
+      },
+      "destinationKey": "07A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/transactionDetails/borrowerClosingCostsPaidBySeller"
+  },
+  {
+    "value": {
+      "length": "2",
+      "dataConfig": {
+        "enumMappings": [
+          {
+            "destinationValue": "04",
+            "value": "RELOCATION_FUNDS"
+          },
+          {
+            "destinationValue": "05",
+            "value": "EMPLOYER_ASSISTED_HOUSING"
+          },
+          {
+            "destinationValue": "06",
+            "value": "LEASE_PURCAHSE_FUND"
+          },
+          {
+            "destinationValue": "01",
+            "value": "CASH_DEPOSIT_ON_SALES_CONTRACT"
+          },
+          {
+            "destinationValue": "02",
+            "value": "SELLER_CREDIT"
+          },
+          {
+            "destinationValue": "08",
+            "value": "BORROWER_PAID_FEES"
+          },
+          {
+            "destinationValue": "09",
+            "value": "SWEAT_EQUITY"
+          },
+          {
+            "destinationValue": "07",
+            "value": "Other"
+          }
+        ],
+        "type": "enum",
+        "parseHardStopInd": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "otherCreditsIndex"
+        ]
+      },
+      "position": "4",
+      "destinationKey": "07B"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/transactionDetails/otherCredits/{}/creditDescription"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "6",
+      "dataConfig": {
+        "type": "double"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "otherCreditsIndex"
+        ]
+      },
+      "destinationKey": "07B"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/transactionDetails/otherCredits/{}/creditValue"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "enumMappings": [
+          {
+            "destinationValue": "1",
+            "value": "PRIMARY_RESIDENCE"
+          },
+          {
+            "destinationValue": "2",
+            "value": "SECONDARY_RESIDENCE"
+          },
+          {
+            "destinationValue": "D",
+            "value": "INVESTMENT"
+          }
+        ],
+        "type": "enum",
+        "parseHardStopInd": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "position": "26",
+      "destinationKey": "08A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/propertyType"
+  },
+  {
+    "value": {
+      "length": "2",
+      "dataConfig": {
+        "enumMappings": [
+          {
+            "destinationValue": "01",
+            "value": "SOLE"
+          },
+          {
+            "destinationValue": "25",
+            "value": "JOINT_WITH_SPOUSE"
+          },
+          {
+            "destinationValue": "26",
+            "value": "JOINT_WITH_OTHER_THEN_SPOUSE"
+          }
+        ],
+        "type": "enum",
+        "parseHardStopInd": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "position": "27",
+      "destinationKey": "08A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/homeTitle"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "type": "boolean",
+        "trueValue": true,
+        "falseValue": false
+      },
+      "destinationDataConfig": {
+        "type": "boolean",
+        "trueValue": "Y",
+        "falseValue": "N"
+      },
+      "defaultValueConfig": {
+        "sourceValue": null,
+        "destinationValue": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "position": "13",
+      "destinationKey": "08A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/hasOutstandingJudgements"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "type": "boolean",
+        "trueValue": true,
+        "falseValue": false
+      },
+      "destinationDataConfig": {
+        "type": "boolean",
+        "trueValue": "Y",
+        "falseValue": "N"
+      },
+      "defaultValueConfig": {
+        "sourceValue": null,
+        "destinationValue": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "position": "14",
+      "destinationKey": "08A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/isDeclaredBankrupt"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "type": "boolean",
+        "trueValue": true,
+        "falseValue": false
+      },
+      "destinationDataConfig": {
+        "type": "boolean",
+        "trueValue": "Y",
+        "falseValue": "N"
+      },
+      "defaultValueConfig": {
+        "sourceValue": null,
+        "destinationValue": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "position": "15",
+      "destinationKey": "08A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/hasForeclosure"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "type": "boolean",
+        "trueValue": true,
+        "falseValue": false
+      },
+      "destinationDataConfig": {
+        "type": "boolean",
+        "trueValue": "Y",
+        "falseValue": "N"
+      },
+      "defaultValueConfig": {
+        "sourceValue": null,
+        "destinationValue": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "position": "16",
+      "destinationKey": "08A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/isPartyLawsuit"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "type": "boolean",
+        "trueValue": true,
+        "falseValue": false
+      },
+      "destinationDataConfig": {
+        "type": "boolean",
+        "trueValue": "Y",
+        "falseValue": "N"
+      },
+      "defaultValueConfig": {
+        "sourceValue": null,
+        "destinationValue": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "position": "17",
+      "destinationKey": "08A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/hasForeclosureJudgment"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "type": "boolean",
+        "trueValue": true,
+        "falseValue": false
+      },
+      "destinationDataConfig": {
+        "type": "boolean",
+        "trueValue": "Y",
+        "falseValue": "N"
+      },
+      "defaultValueConfig": {
+        "sourceValue": null,
+        "destinationValue": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "position": "18",
+      "destinationKey": "08A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/isLoanGuarantee"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "type": "boolean",
+        "trueValue": true,
+        "falseValue": false
+      },
+      "destinationDataConfig": {
+        "type": "boolean",
+        "trueValue": "Y",
+        "falseValue": "N"
+      },
+      "defaultValueConfig": {
+        "sourceValue": null,
+        "destinationValue": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "position": "19",
+      "destinationKey": "08A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/isObligatedToPayMaintenance"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "type": "boolean",
+        "trueValue": true,
+        "falseValue": false
+      },
+      "destinationDataConfig": {
+        "type": "boolean",
+        "trueValue": "Y",
+        "falseValue": "N"
+      },
+      "defaultValueConfig": {
+        "sourceValue": null,
+        "destinationValue": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "position": "20",
+      "destinationKey": "08A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/isDownPaymentBorrowed"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "type": "boolean",
+        "trueValue": true,
+        "falseValue": false
+      },
+      "destinationDataConfig": {
+        "type": "boolean",
+        "trueValue": "Y",
+        "falseValue": "N"
+      },
+      "defaultValueConfig": {
+        "sourceValue": null,
+        "destinationValue": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "position": "21",
+      "destinationKey": "08A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/isComakerEndorser"
+  },
+  {
+    "value": {
+      "length": "2",
+      "dataConfig": {
+        "enumMappings": [
+          {
+            "destinationValue": "01",
+            "value": "US_CITIZEN"
+          },
+          {
+            "destinationValue": "03",
+            "value": "PERMANENT_RESIDENT_ALIEN"
+          },
+          {
+            "destinationValue": "05",
+            "value": "NON_PERMANENT_RESIDENT_ALIEN"
+          }
+        ],
+        "type": "enum",
+        "parseHardStopInd": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "position": "22",
+      "destinationKey": "08A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/citizenshipType"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "type": "boolean",
+        "trueValue": true,
+        "falseValue": false
+      },
+      "destinationDataConfig": {
+        "type": "boolean",
+        "trueValue": "Y",
+        "falseValue": "N"
+      },
+      "defaultValueConfig": {
+        "sourceValue": null,
+        "destinationValue": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "position": "24",
+      "destinationKey": "08A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/isPrimaryResidence"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "type": "boolean",
+        "trueValue": true,
+        "falseValue": false
+      },
+      "destinationDataConfig": {
+        "type": "boolean",
+        "trueValue": "Y",
+        "falseValue": "N"
+      },
+      "defaultValueConfig": {
+        "sourceValue": null,
+        "destinationValue": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "position": "25",
+      "destinationKey": "08A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/hasOwnershipInterest"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "enumMappings": [
+          {
+            "destinationValue": "1",
+            "value": "HISPANIC_OR_LATINO"
+          },
+          {
+            "destinationValue": "2",
+            "value": "NOT_HISPANIC_OR_LATINO"
+          },
+          {
+            "destinationValue": "3",
+            "value": "INFORMATION_NOT_PROVIDED_BY_APPLICANT"
+          },
+          {
+            "destinationValue": "4",
+            "value": "NOT_APPLICABLE"
+          }
+        ],
+        "type": "enum",
+        "parseHardStopInd": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "position": "14",
+      "destinationKey": "10A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/hmda/borrowers/{}/ethnicity"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "enumMappings": [
+          {
+            "destinationValue": "F",
+            "value": "FEMALE"
+          },
+          {
+            "destinationValue": "M",
+            "value": "MALE"
+          },
+          {
+            "destinationValue": "I",
+            "value": "INFORMATION_NOT_PROVIDED_BY_APPLICANT"
+          },
+          {
+            "destinationValue": "N",
+            "value": "NOT_APPLICABLE"
+          }
+        ],
+        "type": "enum",
+        "parseHardStopInd": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "position": "45",
+      "destinationKey": "10A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/hmda/borrowers/{}/gender"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "enumMappings": [
+          {
+            "destinationValue": "F",
+            "value": "IN_A_FACE_TO_FACE_INTERVIEW"
+          },
+          {
+            "destinationValue": "I",
+            "value": "BY_THE_APPLICANT_AND_SUBMITTED_VIA_EMAIL_OR_THE_INTERNET"
+          },
+          {
+            "destinationValue": "M",
+            "value": "BY_THE_APPLICANT_AND_SUBMITTED_BY_FAX_OR_MAIL"
+          },
+          {
+            "destinationValue": "T",
+            "value": "IN_A_TELEPHONE_INTERVIEW"
+          }
+        ],
+        "type": "enum",
+        "parseHardStopInd": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "position": "4",
+      "destinationKey": "10B"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/infoProvidedBy"
+  },
+  {
+    "value": {
+      "length": "60",
+      "position": "5",
+      "destinationDataConfig": {
+        "type": "string"
+      },
+      "dataConfig": {
+        "type": "encryptionString"
+      },
+      "destinationKey": "10B"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/originator/name"
+  },
+  {
+    "value": {
+      "length": "8",
+      "position": "65",
+      "dataConfig": {
+        "type": "date"
+      },
+      "destinationKey": "10B"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/originator/interviewDate"
+  },
+  {
+    "value": {
+      "length": "10",
+      "position": "73",
+      "dataConfig": {
+        "type": "string"
+      },
+      "destinationKey": "10B"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/originator/phone"
+  },
+  {
+    "value": {
+      "length": "35",
+      "position": "83",
+      "dataConfig": {
+        "type": "string"
+      },
+      "destinationKey": "10B"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/originator/brokerCompanyName"
+  },
+  {
+    "value": {
+      "length": "2",
+      "dataConfig": {
+        "enumMappings": [
+          {
+            "destinationValue": "1",
+            "value": "AMERICAN_INDIAN_OR_ALASKA_NATIVE"
+          },
+          {
+            "destinationValue": "2",
+            "value": "ASIAN"
+          },
+          {
+            "destinationValue": "3",
+            "value": "BLACK_OR_AFRICAN_AMERICAN"
+          },
+          {
+            "destinationValue": "4",
+            "value": "NATIVE_HAWAIIAN_OR_OTHER_PACIFIC_ISLANDER"
+          },
+          {
+            "destinationValue": "5",
+            "value": "WHITE"
+          },
+          {
+            "destinationValue": "6",
+            "value": "NOT_PROVIDED_IN_MAIL_TELEPHONE_OR_INTERNET_APPLICATION"
+          },
+          {
+            "destinationValue": "7",
+            "value": "NOT_APPLICABLE"
+          }
+        ],
+        "type": "enum",
+        "parseHardStopInd": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "position": "13",
+      "destinationKey": "10R"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/hmda/borrowers/{}/races"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "7",
+      "dataConfig": {
+        "type": "double"
+      },
+      "destinationKey": "99B"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/appraisedValue"
+  },
+  {
+    "value": {
+      "length": "20",
+      "position": "4",
+      "dataConfig": {
+        "type": "string"
+      },
+      "destinationKey": "LEA"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/hud/lenderIdCode"
+  },
+  {
+    "value": {
+      "length": "20",
+      "position": "24",
+      "dataConfig": {
+        "type": "string"
+      },
+      "destinationKey": "LEA"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/hud/sponserIdCode"
+  },
+  {
+    "value": {
+      "length": "35",
+      "dataConfig": {
+        "enumMappings": [
+          {
+            "destinationValue": "LoanOriginatorID",
+            "value": "LoanOriginatorID"
+          },
+          {
+            "destinationValue": "LoanOriginationCompanyID",
+            "value": "LoanOriginationCompanyID"
+          }
+        ],
+        "type": "enum",
+        "parseHardStopInd": false
+      },
+      "position": "4",
+      "destinationKey": "ADS"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/originator/nmlsId"
+  },
+  {
+    "value": {
+      "length": "9",
+      "position": "39",
+      "dataConfig": {
+        "type": "string"
+      },
+      "stateConfigs": [
+        {
+          "type": "valueCount",
+          "stateMapIdentifierKey": "recordIndex",
+          "urlaStateMapIdentifierKey": "urlaIndex"
+        },
+        {
+          "type": "value",
+          "stateMapIdentifierKey": "lineUniqueValueKey"
+        }
+      ],
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "recordIndex"
+        ]
+      },
+      "destinationKey": "ADS"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/hmda/borrowers/{}/records/{}/recordOwner"
+  },
+  {
+    "value": {
+      "length": "35",
+      "position": "4",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "recordIndex"
+        ]
+      },
+      "destinationKey": "ADS"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/hmda/borrowers/{}/records/{}/recordType"
+  },
+  {
+    "value": {
+      "length": "40",
+      "position": "49",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex",
+          "recordIndex"
+        ]
+      },
+      "destinationKey": "ADS"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/hmda/borrowers/{}/records/{}/recordValue"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "enumMappings": [
+          {
+            "destinationValue": "1",
+            "value": "SECURED_FIRST_LIEN"
+          },
+          {
+            "destinationValue": "2",
+            "value": "SECURED_SUBORDINATE_LIEN"
+          }
+        ],
+        "type": "enum",
+        "parseHardStopInd": true
+      },
+      "position": "4",
+      "label": "Lien ",
+      "destinationKey": "LNC"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/lienPosition"
+  },
+  {
+    "value": {
+      "length": "2",
+      "dataConfig": {
+        "enumMappings": [
+          {
+            "destinationValue": "01",
+            "value": "DETACHED"
+          },
+          {
+            "destinationValue": "02",
+            "value": "ATTACHED"
+          },
+          {
+            "destinationValue": "03",
+            "value": "CONDOMNIMUM"
+          },
+          {
+            "destinationValue": "04",
+            "value": "PUD"
+          },
+          {
+            "destinationValue": "07",
+            "value": "HIGHRISE_CONDO"
+          },
+          {
+            "destinationValue": "09",
+            "value": "DETACHED_CONDO"
+          }
+        ],
+        "type": "enum",
+        "parseHardStopInd": false
+      },
+      "position": "6",
+      "destinationKey": "LNC"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/subjectProperty/propertyType"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "type": "string"
+      },
+      "position": "28",
+      "destinationKey": "LNC"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/homeBuyerEducationCert"
+  },
+  {
+    "value": {
+      "length": "7",
+      "position": "75",
+      "dataConfig": {
+        "type": "double"
+      },
+      "destinationKey": "LNC"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/miCoveragePercentage"
+  },
+  {
+    "value": {
+      "length": "8",
+      "position": "59",
+      "dataConfig": {
+        "type": "date"
+      },
+      "destinationKey": "LNC"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/estimatedClosingDate"
+  },
+  {
+    "value": {
+      "length": "35",
+      "position": "102",
+      "dataConfig": {
+        "type": "string"
+      },
+      "destinationKey": "GOA"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/subjectProperty/county"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "5",
+      "dataConfig": {
+        "type": "double"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "destinationKey": "GOA"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/mtgCreditCertificateAmount"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "20",
+      "dataConfig": {
+        "type": "double"
+      },
+      "destinationKey": "GOA"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/hud/sellerConcessions"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "enumMappings": [
+          {
+            "value": "FULL",
+            "destinationValue": "1"
+          },
+          {
+            "value": "STREAMLINE",
+            "destinationValue": "2"
+          },
+          {
+            "value": "IRRRL",
+            "destinationValue": "4"
+          }
+        ],
+        "type": "enum",
+        "parseHardStopInd": false
+      },
+      "position": "101",
+      "destinationKey": "GOA"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/docType"
+  },
+  {
+    "value": {
+      "length": "13",
+      "dataConfig": {
+        "enumMappings": [
+          {
+            "destinationValue": "203(b)",
+            "value": "BASICPROGRAM_PURCHASE_REFIS"
+          },
+          {
+            "destinationValue": "203(b)/251",
+            "value": "BASICPROGRAM_PURCHASE_REFIS_ARM"
+          },
+          {
+            "destinationValue": "234(c)",
+            "value": "CONDOMINIUM"
+          },
+          {
+            "destinationValue": "234(c)/251",
+            "value": "CONDOMINIUM"
+          }
+        ],
+        "type": "enum",
+        "parseHardStopInd": false
+      },
+      "position": "4",
+      "destinationKey": "GOB"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/hud/sectionoftheAct"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "5",
+      "dataConfig": {
+        "type": "double"
+      },
+      "destinationKey": "GOC"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/hud/entitlementAmount"
+  },
+  {
+    "value": {
+      "length": "7",
+      "position": "20",
+      "dataConfig": {
+        "type": "double"
+      },
+      "destinationKey": "GOC"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/hud/monthlyMaintenance"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "type": "boolean",
+        "trueValue": true,
+        "falseValue": false
+      },
+      "destinationDataConfig": {
+        "type": "boolean",
+        "trueValue": "Y",
+        "falseValue": "N"
+      },
+      "defaultValueConfig": {
+        "sourceValue": null,
+        "destinationValue": false
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex"
+        ]
+      },
+      "position": "4",
+      "destinationKey": "GOC"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/isCoBorrMarriedToPrimaryBorr"
+  },
+  {
+    "value": {
+      "length": "7",
+      "position": "27",
+      "dataConfig": {
+        "type": "double"
+      },
+      "destinationKey": "GOC"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/hud/monthlyUtilities"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "28",
+      "dataConfig": {
+        "type": "double"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "destinationKey": "GOD"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/deductions/stateTaxAmount"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "43",
+      "dataConfig": {
+        "type": "double"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "destinationKey": "GOD"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/deductions/localTaxAmount"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "58",
+      "dataConfig": {
+        "type": "double"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "destinationKey": "GOD"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/deductions/socialSecurityTaxAmount"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "88",
+      "dataConfig": {
+        "type": "double"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "destinationKey": "GOD"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/deductions/totalOtherNonTaxableIncomeAmount"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "118",
+      "dataConfig": {
+        "type": "double"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "destinationKey": "GOD"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/deductions/totalOtherTaxableIncomeAmount"
+  },
+  {
+    "value": {
+      "length": "3",
+      "position": "23",
+      "dataConfig": {
+        "type": "number"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "destinationKey": "GOE"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/equifax"
+  },
+  {
+    "value": {
+      "length": "10",
+      "position": "13",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "destinationKey": "GOE"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/caivr"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "type": "boolean",
+        "trueValue": true,
+        "falseValue": false
+      },
+      "destinationDataConfig": {
+        "type": "boolean",
+        "trueValue": "Y",
+        "falseValue": "N"
+      },
+      "defaultValueConfig": {
+        "sourceValue": null,
+        "destinationValue": false
+      },
+      "position": "4",
+      "destinationKey": "GOA"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/isEnergyEfficientNewHome"
+  },
+  {
+    "value": {
+      "length": "11",
+      "position": "4",
+      "dataConfig": {
+        "type": "string"
+      },
+      "destinationKey": "PAI"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/subjectProperty/houseNumber"
+  },
+  {
+    "value": {
+      "length": "40",
+      "position": "15",
+      "dataConfig": {
+        "type": "string"
+      },
+      "destinationKey": "PAI"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/subjectProperty/streetName"
+  },
+  {
+    "value": {
+      "length": "11",
+      "position": "55",
+      "dataConfig": {
+        "type": "string"
+      },
+      "destinationKey": "PAI"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/subjectProperty/unitNumber"
+  },
+  {
+    "value": {
+      "length": "3",
+      "position": "1",
+      "dataConfig": {
+        "type": "enum",
+        "enumMappings": [
+          {
+            "destinationValue": "06D",
+            "value": "AUTO_OWNED"
+          }
+        ]
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "assetIndex"
+        ]
+      },
+      "destinationKey": "06D"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/assets/{}/autoOwnedAssetType"
+  },
+  {
+    "value": {
+      "length": "15",
+      "position": "47",
+      "dataConfig": {
+        "type": "double"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "assetIndex"
+        ]
+      },
+      "destinationKey": "06D"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/assets/{}/autoOwnedAmount"
+  },
+  {
+    "value": {
+      "length": "4",
+      "position": "43",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "assetIndex"
+        ]
+      },
+      "destinationKey": "06D"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/assets/{}/year"
+  },
+  {
+    "value": {
+      "length": "30",
+      "position": "13",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "assetIndex"
+        ]
+      },
+      "destinationKey": "06D"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/assets/{}/make"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "type": "boolean",
+        "trueValue": true,
+        "falseValue": false
+      },
+      "destinationDataConfig": {
+        "type": "boolean",
+        "trueValue": "Y",
+        "falseValue": "N"
+      },
+      "defaultValueConfig": {
+        "sourceValue": null,
+        "destinationValue": false
+      },
+      "position": "4",
+      "destinationKey": "00A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/firstSingleOrJoitCreditDeclaration"
+  },
+  {
+    "value": {
+      "length": "1",
+      "dataConfig": {
+        "type": "boolean",
+        "trueValue": true,
+        "falseValue": false
+      },
+      "destinationDataConfig": {
+        "type": "boolean",
+        "trueValue": "Y",
+        "falseValue": "N"
+      },
+      "defaultValueConfig": {
+        "sourceValue": null,
+        "destinationValue": false
+      },
+      "position": "5",
+      "destinationKey": "00A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/secondSingleOrJoitCreditDeclaration"
+  },
+  {
+    "value": {
+      "length": "9",
+      "position": "4",
+      "dataConfig": {
+        "type": "string"
+      },
+      "stateConfigs": [
+        {
+          "type": "valueCount",
+          "urlaStateMapIdentifierKey": "urlaIndex"
+        },
+        {
+          "type": "value",
+          "stateMapIdentifierKey": "lineUniqueValueKey"
+        }
+      ],
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "destinationKey": "06H"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/alternateNameowner"
+  },
+  {
+    "value": {
+      "length": "35",
+      "position": "13",
+      "destinationDataConfig": {
+        "type": "string"
+      },
+      "dataConfig": {
+        "type": "encryptionString"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "destinationKey": "06H"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/alternateFirstName"
+  },
+  {
+    "value": {
+      "length": "35",
+      "position": "48",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "destinationKey": "06H"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/alternateMiddleName"
+  },
+  {
+    "value": {
+      "length": "35",
+      "position": "83",
+      "destinationDataConfig": {
+        "type": "string"
+      },
+      "dataConfig": {
+        "type": "encryptionString"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "destinationKey": "06H"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/alternateLastName"
+  },
+  {
+    "value": {
+      "length": "9",
+      "position": "4",
+      "dataConfig": {
+        "type": "string"
+      },
+      "stateConfigs": [
+        {
+          "type": "valueCount",
+          "urlaStateMapIdentifierKey": "urlaIndex"
+        },
+        {
+          "type": "value",
+          "stateMapIdentifierKey": "lineUniqueValueKey"
+        }
+      ],
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "destinationKey": "08A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/declOwner"
+  },
+  {
+    "value": {
+      "length": "9",
+      "position": "4",
+      "dataConfig": {
+        "type": "string"
+      },
+      "stateConfigs": [
+        {
+          "type": "valueCount",
+          "urlaStateMapIdentifierKey": "urlaIndex"
+        },
+        {
+          "type": "value",
+          "stateMapIdentifierKey": "lineUniqueValueKey"
+        }
+      ],
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "destinationKey": "10A"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/hmda/borrowers/{}/hmdaOwner"
+  },
+  {
+    "value": {
+      "length": "3",
+      "dataConfig": {
+        "type": "string"
+      },
+      "stateConfigs": [
+        {
+          "type": "valueCount",
+          "stateMapIdentifierKey": "otherCreditsIndex"
+        },
+        {
+          "type": "value",
+          "stateMapIdentifierKey": "lineUniqueValueKey"
+        }
+      ],
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "otherCreditsIndex"
+        ]
+      },
+      "position": "1",
+      "destinationKey": "07B"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/transactionDetails/otherCredits/{}/owner"
+  },
+  {
+    "value": {
+      "length": "9",
+      "dataConfig": {
+        "type": "string"
+      },
+      "stateConfigs": [
+        {
+          "type": "valueCount",
+          "urlaStateMapIdentifierKey": "urlaIndex"
+        },
+        {
+          "type": "value",
+          "stateMapIdentifierKey": "lineUniqueValueKey"
+        }
+      ],
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "position": "4",
+      "destinationKey": "GOE"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/caivrOwner"
+  },
+  {
+    "value": {
+      "length": "9",
+      "dataConfig": {
+        "type": "string"
+      },
+      "stateConfigs": [
+        {
+          "type": "valueCount",
+          "urlaStateMapIdentifierKey": "urlaIndex"
+        },
+        {
+          "type": "value",
+          "stateMapIdentifierKey": "lineUniqueValueKey"
+        }
+      ],
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "borrowerIndex"
+        ]
+      },
+      "position": "4",
+      "destinationKey": "GOD"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/borrowers/{}/deductions/taxOwner"
+  },
+  {
+    "value": {
+      "length": "2",
+      "position": "195",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "liabilitiesIndex"
+        ]
+      },
+      "destinationKey": "06L"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/liabilities/{}/mortgagePropertyReoId"
+  },
+  {
+    "value": {
+      "length": "1",
+      "position": "200",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "liabilitiesIndex"
+        ]
+      },
+      "destinationKey": "06L"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/liabilities/{}/rentalpropertyindicator"
+  },
+  {
+    "value": {
+      "length": "2",
+      "position": "189",
+      "dataConfig": {
+        "type": "string"
+      },
+      "generationConfig": {
+        "type": "stateIdentifierIndex",
+        "stateIndentifierIndexKeys": [
+          "urlaIndex",
+          "reoIndex"
+        ]
+      },
+      "destinationKey": "06G"
+    },
+    "type": "linePositionMapping",
+    "key": "loan/urlas/{}/reoProperties/{}/linktoLiability"
+  }
+]

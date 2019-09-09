@@ -1,0 +1,19 @@
+{
+  "errors": {
+    "error": [
+      {
+        "errormessages": {
+          "errormessage": [
+            {
+              "errorMessageText": "System error, can not make service request - Category: Data Liability: PRIME VISA - 411711911  _MonthlyPaymentAmount - Required field - must be numeric with two decimals and no special characters Liability: PRIME VISA - 411711911  _RemainingTermMonths - Required field - Remaining Liability Term Months should not exceed 999 and have no special characters Liability: BURSTING CREDIT - 171442  _MonthlyPaymentAmount - Required field - must be numeric with two decimals and no special characters Liability: BURSTING CREDIT - 171442  _RemainingTermMonths - Required field - Remaining Liability Term Months should not exceed 999 and have no special characters Liability: ALLEN BANK CARD - 435617  _MonthlyPaymentAmount - Required field - must be numeric with two decimals and no special characters Liability: ALLEN BANK CARD - 435617  _RemainingTermMonths - Required field - Remaining Liability Term Months should not exceed 999 and have no special characters Category: Data Liability: PRIME VISA - 411711911  _MonthlyPaymentAmount - Required field - must be numeric with two decimals and no special characters Liability: PRIME VISA - 411711911  _RemainingTermMonths - Required field - Remaining Liability Term Months should not exceed 999 and have no special characters Liability: BURSTING CREDIT - 171442  _MonthlyPaymentAmount - Required field - must be numeric with two decimals and no special characters Liability: BURSTING CREDIT - 171442  _RemainingTermMonths - Required field - Remaining Liability Term Months should not exceed 999 and have no special characters Liability: ALLEN BANK CARD - 435617  _MonthlyPaymentAmount - Required field - must be numeric with two decimals and no special characters Liability: ALLEN BANK CARD - 435617  _RemainingTermMonths - Required field - Remaining Liability Term Months should not exceed 999 and have no special characters "
+            }
+          ],
+          "errormessagesummary": {
+            "errorCode": "VPC-101418",
+            "errorSummaryText": "Error occurred in Vendor Platform"
+          }
+        }
+      }
+    ]
+  }
+}

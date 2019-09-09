@@ -1,0 +1,98 @@
+[
+  {
+    "op": "replace",
+    "value": {
+      "loan": {
+        "applicationStatus": "APP_DATE_AVAILABLE_LE_NOT_REQUESTED",
+        "fullDisclosureInd": true,
+        "leDisclosureInd": true,
+        "firstSingleOrJoitCreditDeclaration": false,
+        "secondSingleOrJoitCreditDeclaration": false,
+        "mortgageAppliedFor": "FHA",
+        "agencyCaseNumber": "",
+        "estimatedValue": 12345,
+        "appraisedValue": "",
+        "loanAmount": 1110001,
+        "intrestRate": 5.555,
+        "loanTerm": 96,
+        "amortizationType": "FIXED",
+        "lienPosition": "SECURED_FIRST_LIEN",
+        "buydownTemporarySubsidyIndicator": "",
+        "subordinationType": "HELOC",
+        "helocLineAmount": 420,
+        "subordinateLienUPB": "840",
+        "hud": {
+          "agencyType": "HUD/FHA"
+        },
+        "transactionDetails": {},
+        "purchasePrice": 12345
+      },
+      "lockedFieldIdsToBeOverridden": "CASASRN.X168,CASASRN.X167"
+    },
+    "path": null
+  },
+  {
+    "op": "replace",
+    "value": {
+      "loan": {
+        "applicationStatus": "APP_DATE_AVAILABLE_LE_NOT_REQUESTED",
+        "fullDisclosureInd": true,
+        "leDisclosureInd": true,
+        "firstSingleOrJoitCreditDeclaration": false,
+        "secondSingleOrJoitCreditDeclaration": false,
+        "mortgageAppliedFor": "FHA",
+        "agencyCaseNumber": "",
+        "estimatedValue": 12345,
+        "appraisedValue": "",
+        "loanAmount": 1110001,
+        "intrestRate": 5.555,
+        "loanTerm": 96,
+        "amortizationType": "FIXED",
+        "lienPosition": "SECURED_FIRST_LIEN",
+        "buydownTemporarySubsidyIndicator": "",
+        "subordinationType": "HELOC",
+        "helocLineAmount": 420,
+        "subordinateLienUPB": "840",
+        "hud": {
+          "agencyType": "HUD/FHA"
+        },
+        "transactionDetails": {},
+        "purchasePrice": 12345
+      },
+      "lockedFieldIdsToBeOverridden": "CASASRN.X268,CASASRN.X267"
+    },
+    "path": null
+  },
+  {
+    "op": "replace",
+    "value": {
+      "loan": {
+        "applicationStatus": "APP_DATE_AVAILABLE_LE_NOT_REQUESTED",
+        "fullDisclosureInd": true,
+        "leDisclosureInd": true,
+        "firstSingleOrJoitCreditDeclaration": false,
+        "secondSingleOrJoitCreditDeclaration": false,
+        "mortgageAppliedFor": "FHA",
+        "agencyCaseNumber": "",
+        "estimatedValue": 12345,
+        "appraisedValue": "",
+        "loanAmount": 1110001,
+        "intrestRate": 5.555,
+        "loanTerm": 96,
+        "amortizationType": "FIXED",
+        "lienPosition": "SECURED_FIRST_LIEN",
+        "buydownTemporarySubsidyIndicator": "",
+        "subordinationType": "HELOC",
+        "helocLineAmount": 420,
+        "subordinateLienUPB": "840",
+        "hud": {
+          "agencyType": "HUD/FHA"
+        },
+        "transactionDetails": {},
+        "purchasePrice": 12345
+      },
+      "lockedFieldIdsToBeOverridden": "CASASRN.X368,CASASRN.X367"
+    },
+    "path": null
+  }
+]

@@ -2,58 +2,139 @@ package practice;
 
 import lombok.Data;
 
+import java.util.Map;
+import java.util.Scanner;
+import java.util.TreeMap;
+
 
 public class TopViewofBinaryTree {
 
     @Data
-    class TreeNode {
-        int key;
+    static class TreeNode {
+        int data;
         TreeNode left, right;
 
-        public TreeNode(int key, TreeNode left, TreeNode right) {
-            this.key = key;
+        public TreeNode(int data) {
+            this.data = data;
+        }
+
+        public TreeNode(int data, TreeNode left, TreeNode right) {
+            this.data = data;
             this.left = left;
             this.right = right;
         }
     }
 
-    public static void main(String[] args) {
-        TopViewofBinaryTree topViewofBinaryTree = new TopViewofBinaryTree();
-        topViewofBinaryTree.printTopView(topViewofBinaryTree.fillAnfReturnRoot_());
+    @Data
+    static class Rank implements Comparable {
+        int row;
+        int score;
+
+        public Rank(int score) {
+            this.score = score;
+        }
+
+        @Override
+        public int compareTo(Object o) {
+            Rank temp = (Rank) o;
+            return temp.score - this.score;
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            Rank temp = (Rank) o;
+            return temp.score == this.score;
+        }
+
+        @Override
+        public int hashCode() {
+            return super.hashCode() * this.score;
+        }
     }
 
-    public void printTopView(TreeNode root) {
-        System.out.print(root.key + " ");
-        printD(root.left, root.right);
+    static Map<Rank, Integer> treeMap = new TreeMap<>();
+
+    public static void topView(TreeNode root) {
+
+        printD(root, 0);
+        //System.out.println(treeMap.size());
+
+        treeMap.entrySet().stream().forEach(entry -> System.out.print(entry.getValue() + " "));
+        System.out.println("");
+        System.out.println("1 2 4 14 23 37 108 111 115 116 83 84 85 ");
+        System.out.println("------------");
+
+        int start = 0;
+        while (!treeMap.isEmpty()) {
+            Integer remove = treeMap.remove(start * -1);
+            if (remove != null)
+                System.out.print(remove + " ");
+            remove = treeMap.remove(start);
+            if (remove != null)
+                System.out.print(remove + " ");
+
+            start++;
+        }
+
+
+
     }
 
-    public void printD(TreeNode left, TreeNode right) {
-        TreeNode newL = null;
-        TreeNode newR = null;
-
-        if (left == null && right == null) {
+    static void printD(TreeNode node, int score) {
+        if (node == null)
             return;
-        }
-
-        if (left != null) {
-            System.out.print(left.key + " ");
-            newL = left.left;
-        }
-
-        if (right != null) {
-            System.out.print(right.key + " ");
-            newR = right.right;
-        }
-
-        printD(newL, newR);
+        if (score > 0)
+            treeMap.put(new Rank(score), node.data);
+        else
+            treeMap.putIfAbsent(new Rank(score), node.data);
+        printD(node.left, score - 1);
+        printD(node.right, score + 1);
     }
 
+    public static TreeNode insert(TreeNode root, int data) {
+        if (root == null) {
+            return new TreeNode(data);
+        } else {
+            TreeNode cur;
+            if (data <= root.data) {
+                cur = insert(root.left, data);
+                root.left = cur;
+            } else {
+                cur = insert(root.right, data);
+                root.right = cur;
+            }
+            return root;
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int t = scan.nextInt();
+        TreeNode root = null;
+        while (t-- > 0) {
+            int data = scan.nextInt();
+            root = insert(root, data);
+        }
+        scan.close();
+        topView(root);
+    }
     private TreeNode fillAnfReturnRoot() {
         TreeNode _1 = new TreeNode(1, null, null);
         TreeNode _2 = new TreeNode(2, null, null);
         TreeNode _3 = new TreeNode(3, null, null);
+        TreeNode _4 = new TreeNode(4, null, null);
+        TreeNode _5 = new TreeNode(5, null, null);
+        TreeNode _6 = new TreeNode(6, null, null);
+        TreeNode _7 = new TreeNode(7, null, null);
+
         _1.left = _2;
         _1.right = _3;
+
+        _2.left = _4;
+        _2.right = _5;
+
+        _3.left = _6;
+        _3.right = _7;
 
         return _1;
     }

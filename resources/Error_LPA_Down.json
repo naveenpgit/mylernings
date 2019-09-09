@@ -1,0 +1,25 @@
+{
+  "errors": {
+    "error": [
+      {
+        "errormessages": {
+          "errormessage": [
+            {
+              "errorMessageText": "Internal Server Error Occurred - Communication Module throws error or returned false"
+            }
+          ],
+          "errormessagesummary": {
+            "errorCode": "VPC-3003",
+            "errorSummaryText": "Error occurred in Vendor Platform"
+          }
+        }
+      },
+      {
+        "errordetail": {
+          "ruleCode": "VPC-9000",
+          "ruleDescription": "Loan is locked by some other user so changes cannot be saved"
+        }
+      }
+    ]
+  }
+}

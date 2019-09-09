@@ -1,0 +1,34 @@
+{
+  "dealsets": {
+    "dealset": [
+      {
+        "deals": {
+          "deal": [
+            {
+              "loans": {
+                "loan": [
+                  {
+                    "loandetail": {
+                      "extension": {
+                        "other": {
+                          "transactionId": "ep3_3ae78556-cace-4e74-aa80-46734554a7be"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "extension": {
+    "other": {
+      "productCode": "ENC_LOS_SER",
+      "correlationId": "90627fe9-9371-4681-bfaa-83e443da1d2c"
+    }
+  },
+  "mismoReferenceModelIdentifier": "3.4"
+}

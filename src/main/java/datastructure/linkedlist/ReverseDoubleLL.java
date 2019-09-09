@@ -10,13 +10,20 @@ import static datastructure.linkedlist.LinkedListUtil.printDoublyLinkedList;
 
 public class ReverseDoubleLL {
     static DoublyLinkedListNode reverse(DoublyLinkedListNode head) {
-        if (head.next != null)
-            reverse(head.next);
 
-        DoublyLinkedListNode temp = head.next;
-        head.next= head.prev;
-        head.prev = temp;
-        return head;
+        if(head.next == null)
+            return head;
+
+        DoublyLinkedListNode current =head;
+        while (head!=null){
+             current = head;
+            DoublyLinkedListNode next = current.next;
+            DoublyLinkedListNode prev = current.prev;
+            current.prev = next;
+            current.next = prev;
+            head = next;
+        }
+        return current;
     }
 
     private static final Scanner scanner = new Scanner(System.in);

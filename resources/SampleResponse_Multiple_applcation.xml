@@ -1,0 +1,755 @@
+<?xml version="1.0" ?><!DOCTYPE SERVICE_ORDER_RESPONSE SYSTEM "file:///LOANPROSPECTOR_RESPONSE_4.3.DTD">
+<SERVICE_ORDER_RESPONSE _Date="02-21-2019">
+    <KEY _Name="LOANPROSPECTOR_REQUEST" _Value="4.3"/>
+    <KEY _Name="LOANPROSPECTOR_RESPONSE" _Value="4.3"/>
+    <STATUS _Processing="Completed"/>
+    <LOAN_FEEDBACK AssetRepresentationAndWarrantyReliefEligibilityType="NotEligible"
+                   CollateralRepresentationAndWarrantyReliefEligibilityType="NotEligible" DebtRatioPercent="6"
+                   FRECreditExpirationDate="06/13/2019" FREDocumentationLevelDescription="Refer"
+                   FREHigherTotalLTV="81.40" FRELoanProspectorTransactionIdentifier="T827994"
+                   FRELoanPurposeDescription="Purchase" FREOccupantDebtRatio="6.00" FREOccupantHousingRatio="2.00"
+                   FREProductEvaluationDescription="F30" FREPropertyCategoryDescription="SingleFamilyDetached"
+                   FRE_HUDScoredIndicator="Y" HousingRatioPercent="2" LenderCaseIdentifier="680-0102924"
+                   LoanProspectorCreditRiskClassificationDescription="Refer"
+                   LoanProspectorDocumentationClassificationDescription="Refer"
+                   LoanProspectorEvaluationDate="02/21/2019 09:25:49"
+                   LoanProspectorEvaluationStatusDescription="Complete" LoanProspectorInitialLTVRatio="80.00"
+                   LoanProspectorInitialTotalLTVRatio="80.00" LoanProspectorKeyIdentifier="A0318258"
+                   LoanProspectorLoanIdentifier="L546145" LoanProspectorServiceEvaluationDescription="Credit"
+                   LoanProspectorSubmissionDate="02/21/2019 09:25:47" LoanProspectorSubmissionNumber="4"
+                   LoanProspectorTransactionIdentifier="1497918" MortgageLoanLimit="529000.00"
+                   OriginatingCompanyName="Cybertek Test2" SubmittingCompanyName="Cybertek Test2">
+        <LOAN_PROCESSING_MESSAGE _Type="LoanProcessingMessages">
+            <FEEDBACK_MESSAGE MessageCode="23" MessageSection="EmploymentAndIncome"
+                              MessageTag="LoanProcessingInformation"
+                              MessageText="Based on Loan Product Advisor&apos;s overall assessment, the loan is not eligible for income representation and warranty relief; however, it may be eligible for relief offered through Freddie Mac&apos;s selling representation and warranty framework."/>
+            <FEEDBACK_MESSAGE MessageCode="25" MessageSection="EmploymentAndIncome"
+                              MessageTag="LoanProcessingInformation"
+                              MessageText="FHA/VA loans are not eligible for income validation."/>
+            <FEEDBACK_MESSAGE MessageCode="26" MessageSection="EmploymentAndIncome"
+                              MessageTag="LoanProcessingInformation"
+                              MessageText="Caution loans are not eligible for income validation."/>
+            <FEEDBACK_MESSAGE MessageCode="DT" MessageSection="EmploymentAndIncome"
+                              MessageTag="DocumentationGuidelineMessages"
+                              MessageText="Employed: For all borrowers(s), obtain most recent YTD paystub covering/documenting subsequent 1 full month showing year-to-date earnings and a verbal VOE or written VOE or electronic verification to confirm current employment covering most recent 2 years for ALICE FREDDIE. Refer to the FHA Handbook 4000.1, Section II, for income documentation requirements for both Traditional and Alternative for TOTAL."/>
+            <FEEDBACK_MESSAGE MessageCode="DT" MessageSection="EmploymentAndIncome"
+                              MessageTag="DocumentationGuidelineMessages"
+                              MessageText="Employed: For all borrowers(s), obtain most recent YTD paystub covering/documenting subsequent 1 full month showing year-to-date earnings and a verbal VOE or written VOE or electronic verification to confirm current employment covering most recent 2 years for ELIZABETH FREDDIE. Refer to the FHA Handbook 4000.1, Section II, for income documentation requirements for both Traditional and Alternative for TOTAL."/>
+            <FEEDBACK_MESSAGE MessageCode="DT" MessageSection="EmploymentAndIncome"
+                              MessageTag="DocumentationGuidelineMessages"
+                              MessageText="Employed: For all borrowers(s), obtain most recent YTD paystub covering/documenting subsequent 1 full month showing year-to-date earnings and a verbal VOE or written VOE or electronic verification to confirm current employment covering most recent 2 years for LOCO FREDDIE. Refer to the FHA Handbook 4000.1, Section II, for income documentation requirements for both Traditional and Alternative for TOTAL."/>
+            <FEEDBACK_MESSAGE MessageCode="DL" MessageSection="EmploymentAndIncome"
+                              MessageTag="DocumentationGuidelineMessages"
+                              MessageText="Employed: If borrower not employed with same employer for the previous 2 years, obtain most recent 2 years W-2(s) and written VOE or electronic verification to confirm for ALICE FREDDIE."/>
+            <FEEDBACK_MESSAGE MessageCode="DL" MessageSection="EmploymentAndIncome"
+                              MessageTag="DocumentationGuidelineMessages"
+                              MessageText="Employed: If borrower not employed with same employer for the previous 2 years, obtain most recent 2 years W-2(s) and written VOE or electronic verification to confirm for ELIZABETH FREDDIE."/>
+            <FEEDBACK_MESSAGE MessageCode="DL" MessageSection="EmploymentAndIncome"
+                              MessageTag="DocumentationGuidelineMessages"
+                              MessageText="Employed: If borrower not employed with same employer for the previous 2 years, obtain most recent 2 years W-2(s) and written VOE or electronic verification to confirm for LOCO FREDDIE."/>
+            <FEEDBACK_MESSAGE MessageCode="MW" MessageSection="EmploymentAndIncome"
+                              MessageTag="DocumentationGuidelineMessages"
+                              MessageText="If borrower receives commission income greater than 25% of his/her annual income, obtain most recent 2 years signed individual federal income tax returns and consider business expenses in underwriting, or the mortgagee may obtain a signed IRS Form 4506, Request for Copy of Tax Return, IRS Form 4506-T, Request for Transcript of Tax Return, or IRS Form 8821, Tax Information Authorization, and tax transcripts directly from the IRS."/>
+            <FEEDBACK_MESSAGE MessageCode="98" MessageSection="AssetsAndReserves" MessageTag="LoanProcessingInformation"
+                              MessageText="Based on Freddie Mac&apos;s overall assessment, the loan is not eligible for asset representation and warranty relief; however, it may be eligible for relief offered through Freddie Mac&apos;s selling representation and warranty framework."/>
+            <FEEDBACK_MESSAGE MessageCode="EQ" MessageSection="AssetsAndReserves" MessageTag="LoanProcessingInformation"
+                              MessageText="Review for Accuracy: This loan was submitted with zero reserves."/>
+            <FEEDBACK_MESSAGE MessageCode="BT" MessageSection="AssetsAndReserves" MessageTag="LoanProcessingInformation"
+                              MessageText="This loan was submitted with $799.00 in closing costs paid by the borrower."/>
+            <FEEDBACK_MESSAGE MessageCode="B0" MessageSection="AssetsAndReserves"
+                              MessageTag="DocumentationGuidelineMessages"
+                              MessageText="Sale of Assets: Obtain bill of sale and proof of proceeds, if an asset (other than real estate or exchange-traded securities) will be sold for funds required to close."/>
+            <FEEDBACK_MESSAGE MessageCode="KC" MessageSection="CreditAndLiabilities"
+                              MessageTag="DocumentationGuidelineMessages"
+                              MessageText="If CAIVRS indicates federal delinquency/lien, this loan must be documented and underwritten to FHA&apos;s REFER requirements."/>
+            <FEEDBACK_MESSAGE MessageCode="KM" MessageSection="CreditAndLiabilities" MessageTag="LoanProcessingRemark"
+                              MessageText="Include all debts from credit report, alimony, child support, separate maintenance, negative rent, mortgage debt, installment debt paid through payroll deduction and all other debt in ratios."/>
+            <FEEDBACK_MESSAGE MessageCode="NA" MessageSection="CreditAndLiabilities" MessageTag="LoanProcessingRemark"
+                              MessageText="The following debt(s) was submitted as paid off and/or excluded and is therefore omitted from the debt-to-income (DTI) ratio; include evidence to support omission in the mortgage file: Creditor: BEST EVER MORTGAGE, Acct: ***2088, Bal: $210,279."/>
+            <FEEDBACK_MESSAGE MessageCode="U9" MessageSection="CreditAndLiabilities"
+                              MessageTag="DocumentationGuidelineMessages"
+                              MessageText="If the credit report utilized by TOTAL indicates that the borrower has $1,000 or more collectively in Disputed Derogatory Credit Accounts, the mortgage must be downgraded to a Refer and manually underwritten. Exclusions include disputed medical accounts or disputed derogatory credit resulting from identity theft, credit card theft or unauthorized use. Please consult the FHA Handbook 4000.1, Section II for full details."/>
+            <FEEDBACK_MESSAGE MessageCode="J3" MessageSection="CreditAndLiabilities"
+                              MessageTag="LoanProcessingInformation"
+                              MessageText="584 is the FHA TOTAL Scorecard selected credit score from TRW (Experian) for LOCO FREDDIE."/>
+            <FEEDBACK_MESSAGE MessageCode="3L" MessageSection="CreditAndLiabilities"
+                              MessageTag="LoanProcessingInformation"
+                              MessageText="Merged Credit Reference Number for ALICE FREDDIE is 300344723250000."/>
+            <FEEDBACK_MESSAGE MessageCode="6K" MessageSection="CreditAndLiabilities"
+                              MessageTag="LoanProcessingInformation"
+                              MessageText="Merged Credit Reference Number for ELIZABETH FREDDIE is 300344723250000."/>
+            <FEEDBACK_MESSAGE MessageCode="6L" MessageSection="CreditAndLiabilities"
+                              MessageTag="LoanProcessingInformation"
+                              MessageText="Merged Credit Reference Number for LOCO FREDDIE is 300344723270000."/>
+            <FEEDBACK_MESSAGE MessageCode="KE" MessageSection="CreditAndLiabilities" MessageTag="LoanProcessingRemark"
+                              MessageText="If credit report shows a contingent mortgage debt, obtain transfer of title and assumption or divorce agreement. Do not count in borrower&apos;s ratios if you obtain evidence that the mortgage has been current during the previous 12 months, or that the loan-to-value ratio is at or below 75%."/>
+            <FEEDBACK_MESSAGE MessageCode="F6" MessageSection="CreditAndLiabilities"
+                              MessageTag="CreditWarrantiesAndWaivers"
+                              MessageText="Credit Warranty: Required to determine that the borrower shows the willingness and financial ability to pay."/>
+            <FEEDBACK_MESSAGE MessageCode="FZ" MessageSection="CreditAndLiabilities"
+                              MessageTag="CreditWarrantiesAndWaivers"
+                              MessageText="Ratio Warranty: Required to document reasons, including compensating factors, for approving loans that exceed FHA-established debt ratios."/>
+            <FEEDBACK_MESSAGE MessageCode="D3" MessageSection="PropertyAndAppraisal"
+                              MessageTag="CollateralWarrantiesAndWaivers"
+                              MessageText="Based on Freddie Mac&apos;s overall assessment of loan and collateral risk, including appraisal quality, collateral quality and loan characteristics, this loan is not eligible for collateral representation and warranty relief."/>
+            <FEEDBACK_MESSAGE MessageCode="PO" MessageSection="PropertyAndAppraisal"
+                              MessageTag="CollateralWarrantiesAndWaivers"
+                              MessageText="This property is located in a zip code that corresponds, in whole or in part, with a county designated a disaster area. Please ensure the loan meets all the valuation and property eligibility requirements of the Guide."/>
+            <FEEDBACK_MESSAGE MessageCode="5Y" MessageSection="PropertyAndAppraisal"
+                              MessageTag="LoanProcessingInformation"
+                              MessageText="Unable to match address entered.  Please confirm accuracy and resubmit if necessary."/>
+            <FEEDBACK_MESSAGE MessageCode="46" MessageSection="PropertyAndAppraisal"
+                              MessageTag="CollateralWarrantiesAndWaivers"
+                              MessageText="Loan type ineligible - MAF not available for FHA or VA. Follow requirements of HUD Handbook 4000.1 or VA Lenders Guide for appraisal requirements."/>
+            <FEEDBACK_MESSAGE MessageCode="TV" MessageSection="GeneralMessages" MessageTag="LoanProcessingInformation"
+                              MessageText="Loan Product Advisor Assessment Expiration Date for ALICE FREDDIE is 06/13/2019."/>
+            <FEEDBACK_MESSAGE MessageCode="TW" MessageSection="GeneralMessages" MessageTag="LoanProcessingInformation"
+                              MessageText="Loan Product Advisor Assessment Expiration Date for ELIZABETH FREDDIE is 06/13/2019."/>
+            <FEEDBACK_MESSAGE MessageCode="TX" MessageSection="GeneralMessages" MessageTag="LoanProcessingInformation"
+                              MessageText="Loan Product Advisor Assessment Expiration Date for LOCO FREDDIE is 06/13/2019."/>
+            <FEEDBACK_MESSAGE MessageCode="KK" MessageSection="GeneralMessages" MessageTag="LoanProcessingInformation"
+                              MessageText="The FHA TOTAL Scorecard evaluated this loan through the Loan Product Advisor platform for processing and feedback."/>
+            <FEEDBACK_MESSAGE MessageCode="KJ" MessageSection="GeneralMessages" MessageTag="LoanProcessingInformation"
+                              MessageText="The FHA Case Number submitted for this loan is 341-1663019-703."/>
+            <FEEDBACK_MESSAGE MessageCode="GA" MessageSection="GeneralMessages" MessageTag="LoanProcessingInformation"
+                              MessageText="Review for Accuracy:  Verify submitted loan amount calculation meets FHA or VA eligibility requirements."/>
+            <FEEDBACK_MESSAGE MessageCode="BN" MessageSection="GeneralMessages" MessageTag="LoanProcessingInformation"
+                              MessageText="The Maximum Mortgage Limit for Monroe County, FL is $529000.00."/>
+            <FEEDBACK_MESSAGE MessageCode="BR" MessageSection="GeneralMessages" MessageTag="LoanProcessingInformation"
+                              MessageText="The FHA Statutory Investment Requirement for this loan is $12600.00."/>
+            <FEEDBACK_MESSAGE MessageCode="BS" MessageSection="GeneralMessages" MessageTag="LoanProcessingInformation"
+                              MessageText="The FHA Minimum Down Payment submitted for this loan is $72000.00."/>
+            <FEEDBACK_MESSAGE MessageCode="LX" MessageSection="GeneralMessages" MessageTag="LoanProcessingInformation"
+                              MessageText="The Proposed Monthly Housing Expense includes Homeowner&apos;s Association (HOA) dues greater than zero; however, the subject property is not submitted as a unit in a Planned Unit Development (PUD) or Condominium or Cooperative Project.  Review for accuracy."/>
+            <FEEDBACK_MESSAGE MessageCode="KG" MessageSection="GeneralMessages"
+                              MessageTag="DocumentationGuidelineMessages"
+                              MessageText="This loan qualifies for REFER FHA TOTAL Scorecard documentation."/>
+            <FEEDBACK_MESSAGE MessageCode="KA" MessageSection="GeneralMessages"
+                              MessageTag="DocumentationGuidelineMessages"
+                              MessageText="Lender is responsible for documenting any situation not addressed on this feedback certificate according to the FHA TOTAL Mortgage Scorecard User&apos;s Guide and/or HUD Handbook 4000.1, Section II, FHA Single Family Housing Policy Handbook."/>
+            <FEEDBACK_MESSAGE MessageCode="BX" MessageSection="GeneralMessages" MessageTag="LoanProcessingRemark"
+                              MessageText="FHA Direct Endorsement Underwriter signature required on HUD 92900 for this loan.  FHA-approved DE Lender must submit this loan for FHA insurance."/>
+        </LOAN_PROCESSING_MESSAGE>
+        <LOAN_PROCESSING_MESSAGE _Type="DocumentationMessages">
+            <FEEDBACK_MESSAGE MessageCode="WS" MessageSection="DocumentationChecklistMessages"
+                              MessageTag="DocumentationChecklistMessages"
+                              MessageText="Bill of Sale and Proof of Proceeds: If non-real estate or non-security asset will be sold for funds to close."/>
+            <FEEDBACK_MESSAGE MessageCode="VC" MessageSection="DocumentationChecklistMessages"
+                              MessageTag="DocumentationChecklistMessages"
+                              MessageText="If CAIVRS indicates federal delinquency/lien, this loan must be documented and underwritten to FHA&apos;s REFER requirements."/>
+            <FEEDBACK_MESSAGE MessageCode="NB" MessageSection="DocumentationChecklistMessages"
+                              MessageTag="DocumentationChecklistMessages"
+                              MessageText="The following debt(s) was submitted as paid off and/or excluded and is therefore omitted from the debt-to-income (DTI) ratio; include evidence to support omission in the mortgage file: Creditor: BEST EVER MORTGAGE, Acct: ***2088, Bal: $210,279."/>
+            <FEEDBACK_MESSAGE MessageCode="VE" MessageSection="DocumentationChecklistMessages"
+                              MessageTag="DocumentationChecklistMessages"
+                              MessageText="If credit report shows a contingent mortgage debt, obtain transfer of title and assumption or divorce agreement. Do not count in borrower&apos;s ratios if you obtain evidence that the mortgage has been current during the previous 12 months, or that the loan-to-value ratio is at or below 75%."/>
+            <FEEDBACK_MESSAGE MessageCode="SJ" MessageSection="DocumentationChecklistMessages"
+                              MessageTag="DocumentationChecklistMessages"
+                              MessageText="Employed: For all borrower(s), obtain most recent YTD paystub covering/documenting subsequent 1 full month showing year-to-date earnings and a verbal VOE or written VOE or electronic verification to confirm current employment covering most recent 2 years for ALICE FREDDIE. Refer to the FHA Handbook 4000.1, Section II, for income documentation requirements for both Traditional and Alternative for TOTAL."/>
+            <FEEDBACK_MESSAGE MessageCode="SJ" MessageSection="DocumentationChecklistMessages"
+                              MessageTag="DocumentationChecklistMessages"
+                              MessageText="Employed: For all borrower(s), obtain most recent YTD paystub covering/documenting subsequent 1 full month showing year-to-date earnings and a verbal VOE or written VOE or electronic verification to confirm current employment covering most recent 2 years for ELIZABETH FREDDIE. Refer to the FHA Handbook 4000.1, Section II, for income documentation requirements for both Traditional and Alternative for TOTAL."/>
+            <FEEDBACK_MESSAGE MessageCode="SJ" MessageSection="DocumentationChecklistMessages"
+                              MessageTag="DocumentationChecklistMessages"
+                              MessageText="Employed: For all borrower(s), obtain most recent YTD paystub covering/documenting subsequent 1 full month showing year-to-date earnings and a verbal VOE or written VOE or electronic verification to confirm current employment covering most recent 2 years for LOCO FREDDIE. Refer to the FHA Handbook 4000.1, Section II, for income documentation requirements for both Traditional and Alternative for TOTAL."/>
+            <FEEDBACK_MESSAGE MessageCode="SB" MessageSection="DocumentationChecklistMessages"
+                              MessageTag="DocumentationChecklistMessages"
+                              MessageText="Employed: If borrower not employed with same employer for the previous 2 years, obtain most recent 2 years W-2(s) and written VOE or electronic verification to confirm for ALICE FREDDIE."/>
+            <FEEDBACK_MESSAGE MessageCode="SB" MessageSection="DocumentationChecklistMessages"
+                              MessageTag="DocumentationChecklistMessages"
+                              MessageText="Employed: If borrower not employed with same employer for the previous 2 years, obtain most recent 2 years W-2(s) and written VOE or electronic verification to confirm for ELIZABETH FREDDIE."/>
+            <FEEDBACK_MESSAGE MessageCode="SB" MessageSection="DocumentationChecklistMessages"
+                              MessageTag="DocumentationChecklistMessages"
+                              MessageText="Employed: If borrower not employed with same employer for the previous 2 years, obtain most recent 2 years W-2(s) and written VOE or electronic verification to confirm for LOCO FREDDIE."/>
+            <FEEDBACK_MESSAGE MessageCode="VN" MessageSection="DocumentationChecklistMessages"
+                              MessageTag="DocumentationChecklistMessages"
+                              MessageText="If borrower receives commission income greater than 25% of his/her annual income, obtain most recent 2 years signed individual federal income tax returns and consider business expenses in underwriting, or the mortgage may obtain a signed IRS Form 4506, Request for Copy of Tax Return, IRS Form 4506-T, Request for Transcript of Tax Return, or IRS Form 8821, Tax Information Authorization, and tax transcripts directly from the IRS."/>
+        </LOAN_PROCESSING_MESSAGE>
+        <LOAN_PROCESSING_MESSAGE _Type="CreditMessages">
+            <FEEDBACK_MESSAGE MessageCode="HA" MessageTag="CreditRiskComment"
+                              MessageText="If CAIVRS indicates delin/lien, enter Yes on app &amp; resubmit"/>
+            <FEEDBACK_MESSAGE MessageCode="FQ" MessageTag="CreditRiskComment"
+                              MessageText="One or more borrowers without an available credit score."/>
+            <FEEDBACK_MESSAGE MessageCode="HB" MessageTag="CreditRiskComment"
+                              MessageText="----------FHA TOTAL Scorecard Assessment Messages----------"/>
+        </LOAN_PROCESSING_MESSAGE>
+        <MERGED_CREDIT_REPORT>
+            <![CDATA[MERGED CREDIT**
+
+------------------------------------------------------------------------------
+REF:3-00344-72325-0000 02/13/2019        TID:3-00344-72325 02/13/2019 04:11:21
+Credco Instant Merge Credit Report
+Prepared for: FREDDIE MAC INTERNAL TEST ACCOUNT    Notes: 680-0102924
+Requested: EFX, XPN, TUC - J                   Delivered: EFX, XPN, TUC
+------------------------------------------------------------------------------
+Agency Case Id: 201475206 A0318258                 xAcct: 0006019999
+------------------------------------------------------------------------------
+App: FREDDIE, ALICE                                           Ssn: 991-70-0017
+Cap: FREDDIE, ELIZABETH                                       Ssn: 991-50-0015
+Curr Addr: 4420 DOUGLAS EAST AV, HIGLEY, AZ 85236 US
+------------------------------------------------------------------------------
+
+WARNING: Possible Incomplete Data.
+WARNING: SSN Possible ITIN.
+WARNING: See Fraud Detection Section.
+
+                            INSTANT MERGE SUMMARY
+                            ---------------------
+ACCOUNT DISTRIBUTION                               CURRENT STATUS(tradelines)
+Account Type      Count       Balance      Payments Curr Clsd Unrt 30  60  90+
+  Real Estate        0             $0            $0  -    -     -   -   -   -
+  Installment        0             $0            $0  -    -     -   -   -   -
+  Revolving          0             $0            $0  -    -     -   -   -   -
+  Other              0             $0            $0  -    -     -   -   -   -
+  Total              0             $0            $0  -    -     -   -   -   -
+
+INQUIRIES                  PUBLIC RECORDS   HISTORICAL DELINQUENCIES(count)
+  3 Month Total      0        EFX     N/A   Account Type  LastDlq  30  60  90+
+  Elim. same day  -  0        XPN     N/A     Real Estate           -   -   -
+  Adjusted Total     0        TUC     N/A     Installment           -   -   -
+  New Trades(6 mon)  0        Last 2yrs N     Revolving             -   -   -
+                                              Other                 -   -   -
+  Oldest Trd:         On File: Unavailable    Total                 -   -   -
+------------------------------------------------------------------------------
+Only Applicant/Co-applicant information included in the Summary.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                         End of Decision Maker Report
+------------------------------------------------------------------------------
+REF:3-00344-72325-0000 02/13/2019        TID:3-00344-72325 02/13/2019 04:11:21
+Credco Instant Merge Credit Report
+Prepared for: FREDDIE MAC INTERNAL TEST ACCOUNT    Notes: 680-0102924
+Requested: EFX, XPN, TUC - J                   Delivered: EFX, XPN, TUC
+------------------------------------------------------------------------------
+Agency Case Id: 201475206 A0318258                 xAcct: 0006019999
+------------------------------------------------------------------------------
+App: FREDDIE, ALICE                                           Ssn: 991-70-0017
+Cap: FREDDIE, ELIZABETH                                       Ssn: 991-50-0015
+Curr Addr: 4420 DOUGLAS EAST AV, HIGLEY, AZ 85236 US
+------------------------------------------------------------------------------
+
+                         ******DEROGATORY ITEMS******
+
+Public Records:
+---------------
+No Public Records found
+
+                     ******END OF DEROGATORY ITEMS******
+
+Inquiries made in the last 90 days:
+-----------------------------------
+No Inquiries made in the last 90 days found
+
+Miscellaneous Information:
+--------------------------
+  1. 1152 CKPT: INPUT SSN INVALID-OUT OF RANGE  (XPN) (APP)
+  2. 0027 CKPT: INPUT SSN ISSUE DATE UNVERIFIED  (XPN) (CAP)
+
+Fraud Verification Information:
+-------------------------------
+EFX IDENTITY SCAN (APP)
+   INQUIRY SSN MAY BE A TAX ID NUMBER.
+EFX IDENTITY SCAN (CAP)
+   INQUIRY SSN IS INVALID.
+
+Error Information:
+------------------
+  1. NO APPLICANT RECORD FOUND AT EFX. (EFX-E0001)
+  2. NO CO-APPLICANT RECORD FOUND AT EFX. (EFX-E0002)
+  3. NO APPLICANT RECORD FOUND AT XPN. (XPN-E07A)
+  4. NO CO-APPLICANT RECORD FOUND AT XPN. (XPN-E07C)
+  5. NO APPLICANT RECORD FOUND AT TUC. (TUC-E01NZ)
+  6. NO CO-APPLICANT RECORD FOUND AT TUC. (TUC-E02NZ)
+
+Consumer Referral Information:
+------------------------------
+EFX - EQUIFAX INFORMATION SVCS, PHONE: (800) 685-1111
+      P.O. BOX 740241, ATLANTA, GA 30374
+XPN - EXPERIAN, PHONE: (888) 397-3742
+      P.O. BOX 2002, ALLEN, TX 75013
+TUC - TRANS UNION, PHONE: (800) 888-4213
+      P.O. BOX 1000, CHESTER, PA 19022
+
+
+
+
+                                 Page 1 of 2
+------------------------------------------------------------------------------
+REF:3-00344-72325-0000 02/13/2019        TID:3-00344-72325 02/13/2019 04:11:21
+------------------------------------------------------------------------------
+
+Prepared By: CoreLogic Credco
+             P.O. BOX 509124
+             SAN DIEGO, CA 92150
+             Contact: (800)986-4343  Fax: 800 237 6526
+
+This report contains information supplied by the repositories named above. Its
+contents have not been verified by CoreLogic Credco and may contain duplicate
+information. While this report is being used for some real estate lending
+purposes, it is not a Residential Mortgage Credit Report as defined by FNMA,
+FHLMC, and FHA/VA guidelines.
+
+                   ******END OF INSTANT MERGE REPORT******
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             End of Credit Report
+
+------------------------------------------------------------------------------
+REF:3-00344-72327-0000 02/13/2019        TID:3-00344-72327 02/13/2019 04:11:21
+Credco Instant Merge Credit Report
+Prepared for: FREDDIE MAC INTERNAL TEST ACCOUNT    Notes: 680-0102924
+Requested: EFX, XPN, TUC - I                   Delivered: EFX, XPN, TUC
+------------------------------------------------------------------------------
+Agency Case Id: 201475206 A0318258                 xAcct: 0006019999
+------------------------------------------------------------------------------
+App: FREDDIE, LOCO                                            Ssn: 992-10-0021
+Curr Addr: 9991 WARFORD, DAWSON, IA 50066 US
+------------------------------------------------------------------------------
+
+WARNING: Possible Incomplete Data.
+
+                            INSTANT MERGE SUMMARY
+                            ---------------------
+ACCOUNT DISTRIBUTION                               CURRENT STATUS(tradelines)
+Account Type      Count       Balance      Payments Curr Clsd Unrt 30  60  90+
+  Real Estate        2       $217,582        $1,248  -    -     2   -   -   -
+  Installment        0             $0            $0  -    -     -   -   -   -
+  Revolving          1             $0            $0  1    -     -   -   -   -
+  Other              0             $0            $0  -    -     -   -   -   -
+  Total              3       $217,582        $1,248  1    -     2   -   -   -
+
+INQUIRIES                  PUBLIC RECORDS   HISTORICAL DELINQUENCIES(count)
+  3 Month Total      2        EFX     N/A   Account Type  LastDlq  30  60  90+
+  Elim. same day  -  1        XPN     N/A     Real Estate           -   -   -
+  Adjusted Total     1        TUC     N/A     Installment           -   -   -
+  New Trades(6 mon)  2        Last 2yrs N     Revolving             -   -   -
+                                              Other                 -   -   -
+  Oldest Trd: 06/14        On File: 10/14     Total                 -   -   -
+------------------------------------------------------------------------------
+Only Applicant/Co-applicant information included in the Summary.
+
+                          BUREAU SCORE INFORMATION:
+                          -------------------------
+EFX BEACON 5.0                 (APP)= Not Provided By The Repository
+
+XPN FICO-II                    (APP)=   584 Factor:    10,    05,    08,    09
+  10 RATIO OF BALANCE TO LIMIT ON BANK REVOLVING OR OTHER REV ACCTS TOO HIGH
+  05 TOO MANY ACCOUNTS WITH BALANCES
+  08 TOO MANY INQUIRIES LAST 12 MONTHS
+  09 TOO MANY ACCOUNTS RECENTLY OPENED
+
+TUC FICO Classic 98            (APP)= Not Provided By The Repository
+
+TUC FICO Classic 04            (APP)=   641 Factor:   022,   010,   018,   002
+  022 SERIOUS DELINQUENCY
+  010 PROPORTION OF BALANCES TO CREDIT LIMITS IS TOO HIGH ON BANK REVOLVING OR
+      OTHER REVOLVING ACCOUNTS
+  018 NUMBER OF ACCOUNTS WITH DELINQUENCY
+  002 LEVEL OF DELINQUENCY ON ACCOUNTS
+
+
+
+
+
+
+                         End of Decision Maker Report
+------------------------------------------------------------------------------
+REF:3-00344-72327-0000 02/13/2019        TID:3-00344-72327 02/13/2019 04:11:21
+Credco Instant Merge Credit Report
+Prepared for: FREDDIE MAC INTERNAL TEST ACCOUNT    Notes: 680-0102924
+Requested: EFX, XPN, TUC - I                   Delivered: EFX, XPN, TUC
+------------------------------------------------------------------------------
+Agency Case Id: 201475206 A0318258                 xAcct: 0006019999
+------------------------------------------------------------------------------
+App: FREDDIE, LOCO                                            Ssn: 992-10-0021
+Curr Addr: 9991 WARFORD, DAWSON, IA 50066 US
+------------------------------------------------------------------------------
+
+                         ******DEROGATORY ITEMS******
+
+Public Records:
+---------------
+No Public Records found
+
+                     ******END OF DEROGATORY ITEMS******
+
+Account Name/Number (Sources)                              Past due      Last
+     Open       High   Payment   Balance MOP  Status  Rptd  30 60 90+ MR Dlq
+------------------------------------------------------------------------------
+Tradeline Information:
+----------------------
+  1. CITI MORTGAGE/3334444486325 (XPN-FM7907753)
+   I 09-18    150000       624    140000 M-U UNRATED  11-18 00 00 00   1
+     Hist:  11-18 U                             PYMT  11-18 APP
+     Ctgy:  REAL ESTATE/CONVENTIONAL LOAN         Term: 360 MON
+
+  2. NEW CENTURY MORTGAGE/3331111523684 (TUC-F01YP6002)
+   I 09-18     77625       624     77582 M-U UNRATED  11-18 00 00 00   2
+     Hist:  11-18 --                            PYMT  11-18 APP
+     Ctgy:  REAL ESTATE/CONVENTIONAL LOAN         Term: 360 MON
+
+  3. A TEE&TEE VISA/6571 (TUC-B012TE002)
+   I 06-14      4300         0     -0-   R-1 CURRENT  11-18 00 00 00   1
+     Hist:  11-18 1                             PYMT  11-18 APP
+     Ctgy:  UNKNOWN                               Term: REV
+
+Identification Information:
+---------------------------
+  1. FREDDIE, LOCO  Ssn: 992-10-0021 Dob: 06-15-95 (XPN)
+     SSN MATCHES.
+  2. FREDDIE, LOCO A  Ssn: 992-10-0021 Dob: 06-15-95 (TUC)
+     SSN MATCHES.
+
+Inquiries made in the last 90 days:
+-----------------------------------
+  1. 11-15-18 CAPITAL ONE FSB  (XPN-BC1220450) (APP)
+  2. 11-15-18 FAC FREMONT  (TUC-Z08256891) (APP)
+
+Address Information:
+--------------------
+  1. 9653 ANACAPA LN
+     SAN BARBARA, CA 93101 Rptd 08-16  (EFX) (APP)
+
+
+                                 Page 1 of 2
+------------------------------------------------------------------------------
+REF:3-00344-72327-0000 02/13/2019        TID:3-00344-72327 02/13/2019 04:11:21
+------------------------------------------------------------------------------
+
+Address Information (continued):
+--------------------------------
+  2. 107 DEER HIL DR
+     DANBURY, ID 06810 Rptd 12-17  (TUC) (APP)
+  3. 51 ROBINVIEW TE
+     DANBURY, CT 06810 Rptd 10-14  (TUC) (APP)
+
+Employment Information:
+-----------------------
+  1. XFIHR1 FILENES
+     OCCUPATION UNKNOWN Rptd 10-14  (TUC) (APP)
+
+Error Information:
+------------------
+  1. NO APPLICANT RECORD FOUND AT EFX. (EFX-E0001)
+
+Consumer Referral Information:
+------------------------------
+EFX - EQUIFAX INFORMATION SVCS, PHONE: (800) 685-1111
+      P.O. BOX 740241, ATLANTA, GA 30374
+XPN - EXPERIAN, PHONE: (888) 397-3742
+      P.O. BOX 2002, ALLEN, TX 75013
+TUC - TRANS UNION, PHONE: (800) 888-4213
+      P.O. BOX 1000, CHESTER, PA 19022
+
+Prepared By: CoreLogic Credco
+             P.O. BOX 509124
+             SAN DIEGO, CA 92150
+             Contact: (800)986-4343  Fax: 800 237 6526
+
+This report contains information supplied by the repositories named above. Its
+contents have not been verified by CoreLogic Credco and may contain duplicate
+information. While this report is being used for some real estate lending
+purposes, it is not a Residential Mortgage Credit Report as defined by FNMA,
+FHLMC, and FHA/VA guidelines.
+
+                   ******END OF INSTANT MERGE REPORT******
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             End of Credit Report
+
+**MERGED CREDIT]]>
+        </MERGED_CREDIT_REPORT>
+    </LOAN_FEEDBACK>
+    <CALCULATIONS _Name="TotalIncome" _Value="64305.0000"/>
+    <CALCULATIONS _Name="ProposedHousingExpense" _Value="1597.5000"/>
+    <CALCULATIONS _Name="TotalMonthlyDebt" _Value="3904.2700"/>
+    <CALCULATIONS BorrowerID="B991700017" _Name="BorrowerTotalMonthlyIncome" _Value="3500.0000"/>
+    <CALCULATIONS BorrowerID="B991500015" _Name="BorrowerTotalMonthlyIncome" _Value="55555.0000"/>
+    <CALCULATIONS BorrowerID="B992100021" _Name="BorrowerTotalMonthlyIncome" _Value="5250.0000"/>
+    <CALCULATIONS _Name="BorrowerRequestedLoanAmount" _Value="293040.0000"/>
+    <CALCULATIONS _Name="TotalPresentHousingExpense" _Value="1850.0000"/>
+    <CALCULATIONS _Name="NetPurchasePrice" _Value="360000.0000"/>
+    <CALCULATIONS _Name="DownPayment" _Value="72000.0000"/>
+    <LOAN_APPLICATION MISMOVersionID="2.4">
+        <_DATA_INFORMATION>
+            <DATA_VERSION _Name="000165" _Number="S4.8.00"/>
+        </_DATA_INFORMATION>
+        <ADDITIONAL_CASE_DATA>
+            <TRANSMITTAL_DATA CaseStateType="Application" PropertyAppraisedValueAmount="360000.0000"
+                              PropertyEstimatedValueAmount="360000.0000"/>
+        </ADDITIONAL_CASE_DATA>
+        <ASSET BorrowerID="B991700017" _CashOrMarketValueAmount="65000.0000" _HolderName="Suntrust"
+               _Type="OtherLiquidAssets"/>
+        <DOWN_PAYMENT _Amount="72000.0000" _Type="OtherTypeOfDownPayment"/>
+        <GOVERNMENT_LOAN>
+            <FHA_LOAN BorrowerFinancedFHADiscountPointsAmount="1399.0000" _LenderIdentifier="4953709991"/>
+            <FHA_VA_LOAN BorrowerPaidFHA_VAClosingCostsAmount="799.0000"/>
+        </GOVERNMENT_LOAN>
+        <INTERVIEWER_INFORMATION InterviewerApplicationSignedDate="20190211" InterviewersEmployerCity="Greer"
+                                 InterviewersEmployerName="First Bank Broker Company"
+                                 InterviewersEmployerPostalCode="29650" InterviewersEmployerState="SC"
+                                 InterviewersEmployerStreetAddress="89 Sonia Drive" InterviewersName="Portal Admin"/>
+        <LIABILITY BorrowerID="B991700017" SubjectLoanResubordinationIndicator="N" _AccountIdentifier="529115"
+                   _ExclusionIndicator="N" _HolderName="CAPITAL BANK" _MonthlyPaymentAmount="10.0000"
+                   _PayoffStatusIndicator="N" _RemainingTermMonths="2" _Type="Revolving"
+                   _UnpaidBalanceAmount="29.0000"/>
+        <LIABILITY BorrowerID="B991700017" SubjectLoanResubordinationIndicator="N" _AccountIdentifier="411711911"
+                   _ExclusionIndicator="N" _HolderName="PRIME VISA" _MonthlyPaymentAmount="20.0000"
+                   _PayoffStatusIndicator="N" _RemainingTermMonths="22" _Type="Revolving"
+                   _UnpaidBalanceAmount="450.0000"/>
+        <LIABILITY BorrowerID="B991700017" SubjectLoanResubordinationIndicator="N" _AccountIdentifier="171442"
+                   _ExclusionIndicator="N" _HolderName="BURSTING CREDIT" _MonthlyPaymentAmount="130.0000"
+                   _PayoffStatusIndicator="N" _RemainingTermMonths="10" _Type="Revolving"
+                   _UnpaidBalanceAmount="1357.0000"/>
+        <LIABILITY BorrowerID="B991700017" SubjectLoanResubordinationIndicator="N" _AccountIdentifier="200021"
+                   _ExclusionIndicator="N" _HolderName="RELENTLESS BANK" _MonthlyPaymentAmount="46.0000"
+                   _PayoffStatusIndicator="N" _RemainingTermMonths="33" _Type="Installment"
+                   _UnpaidBalanceAmount="1554.0000"/>
+        <LIABILITY BorrowerID="B991700017" SubjectLoanResubordinationIndicator="N" _AccountIdentifier="435617"
+                   _ExclusionIndicator="N" _HolderName="ALLEN BANK CARD" _MonthlyPaymentAmount="450.0000"
+                   _PayoffStatusIndicator="N" _RemainingTermMonths="10" _Type="Revolving"
+                   _UnpaidBalanceAmount="4665.0000"/>
+        <LIABILITY BorrowerID="B991700017" REO_ID="R1" SubjectLoanResubordinationIndicator="N"
+                   _AccountIdentifier="502088" _ExclusionIndicator="N" _HolderName="BEST EVER MORTGAGE" _ID="L16"
+                   _MonthlyPaymentAmount="1691.0000" _PayoffStatusIndicator="Y" _RemainingTermMonths="124"
+                   _Type="MortgageLoan" _UnpaidBalanceAmount="210279.0000"/>
+        <LIABILITY BorrowerID="B992100021" SubjectLoanResubordinationIndicator="N" _ExclusionIndicator="N"
+                   _HolderName="Chase" _MonthlyPaymentAmount="100.0000" _PayoffStatusIndicator="N"
+                   _RemainingTermMonths="20" _Type="Revolving" _UnpaidBalanceAmount="2000.0000"/>
+        <LIABILITY BorrowerID="B992100021" SubjectLoanResubordinationIndicator="N" _AccountIdentifier="3563A019732"
+                   _ExclusionIndicator="N" _HolderName="MOUNTAIN BANK" _MonthlyPaymentAmount="123.0000"
+                   _PayoffStatusIndicator="N" _RemainingTermMonths="21" _Type="Installment"
+                   _UnpaidBalanceAmount="2600.0000"/>
+        <LIABILITY BorrowerID="B992100021" SubjectLoanResubordinationIndicator="N" _AccountIdentifier="98E543184"
+                   _ExclusionIndicator="N" _HolderName="HEMLOCKS" _MonthlyPaymentAmount="44.0000"
+                   _PayoffStatusIndicator="N" _RemainingTermMonths="9" _Type="Revolving"
+                   _UnpaidBalanceAmount="437.0000"/>
+        <LOAN_PRODUCT_DATA>
+            <LOAN_FEATURES BalloonLoanMaturityTermMonths="360" BuydownTemporarySubsidyIndicator="N"
+                           LienPriorityType="FirstLien" ScheduledFirstPaymentDate="20190221"/>
+        </LOAN_PRODUCT_DATA>
+        <LOAN_PURPOSE GSETitleMannerHeldDescription="Other" PropertyRightsType="FeeSimple"
+                      PropertyUsageType="PrimaryResidence" _Type="Purchase"/>
+        <MORTGAGE_TERMS AgencyCaseIdentifier="341-1663019-703" BaseLoanAmount="288000.0000"
+                        BorrowerRequestedLoanAmount="293040.0000" LenderCaseIdentifier="680-0102924"
+                        LoanAmortizationTermMonths="360" LoanAmortizationType="Fixed" MortgageType="FHA"
+                        RequestedInterestRatePercent="3.7500"/>
+        <PROPERTY BuildingStatusType="Existing" PlannedUnitDevelopmentIndicator="N" _City="Islamorada" _County="Monroe"
+                  _FinancedNumberOfUnits="1" _PostalCode="33036" _State="FL" _StreetAddress="111 Long John Drives"
+                  _StructureBuiltYear="1995">
+            <_VALUATION>
+                <EXTENSION_VALUATION AppraisalIdentifier=" "/>
+            </_VALUATION>
+            <_CATEGORY _Type="Detached"/>
+            <PROJECT LivingUnitCount="1"/>
+        </PROPERTY>
+        <PROPOSED_HOUSING_EXPENSE HousingExpenseType="MI" _PaymentAmount="190.3900"/>
+        <PROPOSED_HOUSING_EXPENSE HousingExpenseType="HomeownersAssociationDuesAndCondominiumFees"
+                                  _PaymentAmount="50.0000"/>
+        <PROPOSED_HOUSING_EXPENSE HousingExpenseType="FirstMortgagePrincipalAndInterest" _PaymentAmount="1357.1100"/>
+        <REO_PROPERTY BorrowerID="B991700017" LiabilityID="L16" REO_ID="R1" _City="Decatur"
+                      _CurrentResidenceIndicator="Y" _DispositionStatusType="RetainForPrimaryOrSecondaryResidence"
+                      _GSEPropertyType="SingleFamily" _LienInstallmentAmount="1691.0000" _LienUPBAmount="210279.0000"
+                      _MaintenanceExpenseAmount="0.0000" _MarketValueAmount="300000.0000" _PostalCode="33036"
+                      _RentalIncomeGrossAmount="0.0000" _State="GA" _StreetAddress="116 Test Drive"
+                      _SubjectIndicator="N"/>
+        <TITLE_HOLDER _Name="Alice Freddie"/>
+        <TITLE_HOLDER _Name="Elizabeth Freddie"/>
+        <TRANSACTION_DETAIL BorrowerPaidDiscountPointsTotalAmount="1399.0000" EstimatedClosingCostsAmount="799.0000"
+                            FREReservesAmount="0.0000" MIAndFundingFeeFinancedAmount="5040.0000"
+                            MIAndFundingFeeTotalAmount="5040.0000" PurchasePriceAmount="360000.0000"
+                            SubordinateLienAmount="0.0000">
+            <PURCHASE_CREDIT _Amount="2880.0000" _SourceType="BorrowerPaidOutsideClosing"/>
+            <PURCHASE_CREDIT _Amount="799.0000" _SourceType="BorrowerPaidOutsideClosing"/>
+            <EXTENSION_TRANSACTION_DETAIL TotalDiscountPointsAmount="1399.0000"/>
+        </TRANSACTION_DETAIL>
+        <BORROWER BorrowerID="B991700017" DependentCount="0" JointAssetLiabilityReportingType="NotJointly"
+                  MaritalStatusType="Unmarried" _AgeAtApplicationYears="33" _BirthDate="19850505" _FirstName="ALICE"
+                  _HomeTelephoneNumber="5088888888" _LastName="FREDDIE" _PrintPositionType="Borrower" _SSN="991700017">
+            <_MAIL_TO _City="Islamorada" _Country="US" _PostalCode="33036" _State="FL"
+                      _StreetAddress="111 Long John Drives"/>
+            <_RESIDENCE BorrowerResidencyBasisType="Own" BorrowerResidencyDurationYears="5"
+                        BorrowerResidencyType="Current" _City="Higley" _Country="US" _PostalCode="85236" _State="AZ"
+                        _StreetAddress="4420 Douglas Avenue East"/>
+            <CURRENT_INCOME IncomeType="Base" _MonthlyTotalAmount="3500.0000"/>
+            <DECLARATION AlimonyChildSupportObligationIndicator="N" BankruptcyIndicator="N"
+                         BorrowedDownPaymentIndicator="N" CitizenshipResidencyType="USCitizen"
+                         CoMakerEndorserOfNoteIndicator="N" HomeownerPastThreeYearsType="Yes" IntentToOccupyType="Yes"
+                         LoanForeclosureOrJudgementIndicator="N" OutstandingJudgementsIndicator="N"
+                         PartyToLawsuitIndicator="N" PresentlyDelinquentIndicator="N" PriorPropertyTitleType="Sole"
+                         PriorPropertyUsageType="PrimaryResidence" PropertyForeclosedPastSevenYearsIndicator="N"/>
+            <EMPLOYER EmploymentBorrowerSelfEmployedIndicator="N" EmploymentCurrentIndicator="Y"
+                      EmploymentPrimaryIndicator="Y" _Name="Abacus"/>
+            <FHA_VA_BORROWER VeteranStatusIndicator="N"/>
+            <GOVERNMENT_MONITORING RaceNationalOriginRefusalIndicator="Y">
+                <GOVERNMENT_MONITORING_EXTENSION>
+                    <GOVERNMENT_MONITORING_DETAIL ApplicationTakenMethodType="Internet"
+                                                  HMDAEthnicityRefusalIndicator="Y" HMDAGenderRefusalIndicator="Y"
+                                                  HMDARaceRefusalIndicator="Y"/>
+                </GOVERNMENT_MONITORING_EXTENSION>
+            </GOVERNMENT_MONITORING>
+            <PRESENT_HOUSING_EXPENSE HousingExpenseType="HazardInsurance" _PaymentAmount="150.0000"/>
+            <PRESENT_HOUSING_EXPENSE HousingExpenseType="HomeownersAssociationDuesAndCondominiumFees"
+                                     _PaymentAmount="50.0000"/>
+            <PRESENT_HOUSING_EXPENSE HousingExpenseType="RealEstateTax" _PaymentAmount="150.0000"/>
+            <PRESENT_HOUSING_EXPENSE HousingExpenseType="Rent" _PaymentAmount="0.0000"/>
+            <PRESENT_HOUSING_EXPENSE HousingExpenseType="FirstMortgagePrincipalAndInterest" _PaymentAmount="1500.0000"/>
+        </BORROWER>
+        <BORROWER BorrowerID="B991500015" DependentCount="0" JointAssetLiabilityReportingType="NotJointly"
+                  MaritalStatusType="Married" _AgeAtApplicationYears="30" _BirthDate="19880505" _FirstName="ELIZABETH"
+                  _LastName="FREDDIE" _PrintPositionType="CoBorrower" _SSN="991500015">
+            <_MAIL_TO _City="Higley" _Country="US" _PostalCode="85236" _State="AZ"
+                      _StreetAddress="4420 Douglas Avenue East"/>
+            <_RESIDENCE BorrowerResidencyBasisType="Own" BorrowerResidencyDurationYears="5"
+                        BorrowerResidencyType="Current" _City="Higley" _Country="US" _PostalCode="85236" _State="AZ"
+                        _StreetAddress="4420 Douglas Avenue East"/>
+            <CURRENT_INCOME IncomeType="Base" _MonthlyTotalAmount="55555.0000"/>
+            <DECLARATION AlimonyChildSupportObligationIndicator="N" BankruptcyIndicator="N"
+                         BorrowedDownPaymentIndicator="N" CitizenshipResidencyType="USCitizen"
+                         CoMakerEndorserOfNoteIndicator="N" HomeownerPastThreeYearsType="Yes" IntentToOccupyType="Yes"
+                         LoanForeclosureOrJudgementIndicator="N" OutstandingJudgementsIndicator="N"
+                         PartyToLawsuitIndicator="N" PresentlyDelinquentIndicator="N" PriorPropertyTitleType="Sole"
+                         PriorPropertyUsageType="PrimaryResidence" PropertyForeclosedPastSevenYearsIndicator="N"/>
+            <EMPLOYER EmploymentBorrowerSelfEmployedIndicator="N" EmploymentCurrentIndicator="Y"
+                      EmploymentPrimaryIndicator="Y" _Name="ggi"/>
+            <GOVERNMENT_MONITORING RaceNationalOriginRefusalIndicator="Y">
+                <GOVERNMENT_MONITORING_EXTENSION>
+                    <GOVERNMENT_MONITORING_DETAIL ApplicationTakenMethodType="Internet"
+                                                  HMDAEthnicityRefusalIndicator="Y" HMDAGenderRefusalIndicator="Y"
+                                                  HMDARaceRefusalIndicator="Y"/>
+                </GOVERNMENT_MONITORING_EXTENSION>
+            </GOVERNMENT_MONITORING>
+        </BORROWER>
+        <BORROWER BorrowerID="B992100021" DependentCount="0" JointAssetLiabilityReportingType="NotJointly"
+                  MaritalStatusType="Unmarried" _AgeAtApplicationYears="32" _BirthDate="19860307" _FirstName="LOCO"
+                  _HomeTelephoneNumber="5155555555" _LastName="FREDDIE" _PrintPositionType="Borrower" _SSN="992100021">
+            <_MAIL_TO _City="Dawson" _Country="US" _PostalCode="50066" _State="IA" _StreetAddress="3726 Poplar St"/>
+            <_RESIDENCE BorrowerResidencyDurationYears="2" BorrowerResidencyType="Current" _City="Dawson" _Country="US"
+                        _PostalCode="50066" _State="IA" _StreetAddress="9991 Warford"/>
+            <CURRENT_INCOME IncomeType="Overtime" _MonthlyTotalAmount="250.0000"/>
+            <CURRENT_INCOME IncomeType="Base" _MonthlyTotalAmount="5000.0000"/>
+            <CURRENT_INCOME IncomeType="SubjectPropertyNetCashFlow" _MonthlyTotalAmount="-1383.7700"/>
+            <DECLARATION AlimonyChildSupportObligationIndicator="N" BankruptcyIndicator="N"
+                         BorrowedDownPaymentIndicator="N" CitizenshipResidencyType="USCitizen"
+                         CoMakerEndorserOfNoteIndicator="N" HomeownerPastThreeYearsType="No" IntentToOccupyType="Yes"
+                         LoanForeclosureOrJudgementIndicator="N" OutstandingJudgementsIndicator="N"
+                         PartyToLawsuitIndicator="N" PresentlyDelinquentIndicator="N"
+                         PropertyForeclosedPastSevenYearsIndicator="N"/>
+            <EMPLOYER CurrentEmploymentTimeInLineOfWorkYears="2" CurrentEmploymentYearsOnJob="2"
+                      EmploymentBorrowerSelfEmployedIndicator="N" EmploymentCurrentIndicator="Y"
+                      EmploymentPrimaryIndicator="Y" _Name="Abacab"/>
+            <FHA_VA_BORROWER VeteranStatusIndicator="N"/>
+            <GOVERNMENT_MONITORING GenderType="Female" HMDAEthnicityType="NotHispanicOrLatino"
+                                   RaceNationalOriginRefusalIndicator="N">
+                <HMDA_RACE _Type="Asian"/>
+                <GOVERNMENT_MONITORING_EXTENSION>
+                    <GOVERNMENT_MONITORING_DETAIL HMDAGenderType="Female"/>
+                </GOVERNMENT_MONITORING_EXTENSION>
+            </GOVERNMENT_MONITORING>
+            <PRESENT_HOUSING_EXPENSE HousingExpenseType="Rent" _PaymentAmount="0.0000"/>
+        </BORROWER>
+        <LOAN_ORIGINATION_SYSTEM _VendorIdentifier="000165" _VersionIdentifier="3.5 or greater                "/>
+        <EXTENSION_LOAN_APPLICATION FRELoanProspectorVersionIdentifier="4.3">
+            <FUNCTION_REQUEST _Type="PollingRequest"/>
+            <SERVICE_REQUEST _Description="OrderAUS"/>
+            <SERVICE_REQUEST _Description="OrderMergedCredit"/>
+            <FRE_REQUESTING_PARTY Password="TESTCASE" SellerServicerNumber="000601"/>
+            <MERGED_CREDIT_REQUEST>
+                <CREDIT_BUREAU _Name="8"/>
+                <FRE_MERGED_CREDIT_SPECIFICATIONS _Description="B991700017,B991500015"/>
+                <FRE_MERGED_CREDIT_SPECIFICATIONS _Description="B992100021,B992100021"/>
+            </MERGED_CREDIT_REQUEST>
+            <VERIFICATION_REPORT_REQUEST CompanyCode="EFX" VerificationType="2">
+                <REPORT_IDENTIFICATION ReportNumber="991700017"/>
+                <PARTY_IDENTIFICATION SocialSecurityNumber="991700017"/>
+            </VERIFICATION_REPORT_REQUEST>
+            <VERIFICATION_REPORT_REQUEST CompanyCode="EFX" VerificationType="2">
+                <REPORT_IDENTIFICATION ReportNumber="991500015"/>
+                <PARTY_IDENTIFICATION SocialSecurityNumber="991500015"/>
+            </VERIFICATION_REPORT_REQUEST>
+            <VERIFICATION_REPORT_REQUEST CompanyCode="EFX" VerificationType="2">
+                <REPORT_IDENTIFICATION ReportNumber="992100021"/>
+                <PARTY_IDENTIFICATION SocialSecurityNumber="992100021"/>
+            </VERIFICATION_REPORT_REQUEST>
+            <LOAN_IDENTIFIER_DATA FRELoanProspectorTransactionIdentifier="T827994"
+                                  GloballyUniqueIdentifier="{6a6a7914-e90b-42ec-bbc5-38150716033b}"
+                                  LoanProspectorLoanIdentifier="L546145"/>
+            <POLLING_STATUS LoanProspectorAsynchronousIdentifier="A827994"/>
+        </EXTENSION_LOAN_APPLICATION>
+    </LOAN_APPLICATION>
+</SERVICE_ORDER_RESPONSE>
