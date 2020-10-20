@@ -1,0 +1,1687 @@
+{
+  "responses": [
+    {
+      "took": 181,
+      "timed_out": false,
+      "_shards": {
+        "total": 300,
+        "successful": 300,
+        "skipped": 290,
+        "failed": 0
+      },
+      "hits": {
+        "total": 19,
+        "max_score": null,
+        "hits": [
+          {
+            "_index": "logstash-2020.01.09",
+            "_type": "doc",
+            "_id": "G8DSiG8BelFUzm0RaWYR",
+            "_version": 1,
+            "_score": null,
+            "_source": {
+              "input": {
+                "type": "log"
+              },
+              "fields": {
+                "env": "Flagstar-cdp-prod"
+              },
+              "source": "/logs/finexpusermgmt/finexpusermgmt-debug.log",
+              "beat": {
+                "hostname": "ip-10-216-48-184.us-west-1.compute.internal",
+                "version": "6.6.2",
+                "name": "ip-10-216-48-184.us-west-1.compute.internal"
+              },
+              "tags": [
+                "beats_input_codec_plain_applied"
+              ],
+              "thread": "http-nio-9091-exec-7",
+              "class": "c.t.f.a.c.c.FlagStarArbiterClientController",
+              "@version": "1",
+              "@timestamp": "2020-01-09T05:41:18.216Z",
+              "offset": 205,
+              "traceid": "87b83f458a4bb0c8",
+              "severity": "INFO",
+              "msg": ": Login request received for user - \"jagadeesh.panchal@tavant.com\"Login request received for user - \"jagadeesh.panchal@tavant.com\" ",
+              "message": "2020-01-09 05:41:18.216  INFO [finexpusermgmt,87b83f458a4bb0c8,4b49cc2962d50b8d,true] 1 --- [http-nio-9091-exec-7] c.t.f.a.c.c.FlagStarArbiterClientController : Login request received for user - \"jagadeesh.panchal@tavant.com\"Login request received for user - \"jagadeesh.panchal@tavant.com\" ",
+              "host": {
+                "architecture": "x86_64",
+                "containerized": true,
+                "id": "05cb8c7b39fe0f70e3ce97e5beab809d",
+                "os": {
+                  "codename": "Core",
+                  "family": "redhat",
+                  "version": "7 (Core)",
+                  "platform": "centos",
+                  "name": "CentOS Linux"
+                },
+                "name": "ip-10-216-48-184.us-west-1.compute.internal"
+              },
+              "application": "finexpusermgmt",
+              "spanid": "4b49cc2962d50b8d",
+              "meta": {
+                "cloud": {
+                  "machine_type": "m5.xlarge",
+                  "region": "us-west-1",
+                  "instance_id": "i-0dab35fca52afdc2a",
+                  "availability_zone": "us-west-1a",
+                  "provider": "ec2"
+                }
+              },
+              "prospector": {
+                "type": "log"
+              },
+              "debug": "true",
+              "log": {
+                "file": {
+                  "path": "/logs/finexpusermgmt/finexpusermgmt-debug.log"
+                }
+              },
+              "pid": "1",
+              "type": "ms_log",
+              "timestamp": "2020-01-09 05:41:18.216"
+            },
+            "fields": {
+              "@timestamp": [
+                "2020-01-09T05:41:18.216Z"
+              ]
+            },
+            "highlight": {
+              "msg": [
+                ": @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"jagadeesh.panchal@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"jagadeesh.panchal@tavant.com\""
+              ],
+              "message": [
+                "2020-01-09 05:41:18.216  INFO [finexpusermgmt,87b83f458a4bb0c8,4b49cc2962d50b8d,true] 1 --- [http-nio-9091-exec-7] c.t.f.a.c.c.FlagStarArbiterClientController : @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"jagadeesh.panchal@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"jagadeesh.panchal@tavant.com\""
+              ]
+            },
+            "sort": [
+              1578548478216
+            ]
+          },
+          {
+            "_index": "logstash-2020.01.09",
+            "_type": "doc",
+            "_id": "tcDPiG8BelFUzm0Rb1oz",
+            "_version": 1,
+            "_score": null,
+            "_source": {
+              "fields": {
+                "env": "Flagstar-cdp-prod"
+              },
+              "input": {
+                "type": "log"
+              },
+              "source": "/logs/finexpusermgmt/finexpusermgmt-debug.log",
+              "beat": {
+                "hostname": "ip-10-216-48-184.us-west-1.compute.internal",
+                "version": "6.6.2",
+                "name": "ip-10-216-48-184.us-west-1.compute.internal"
+              },
+              "tags": [
+                "beats_input_codec_plain_applied"
+              ],
+              "thread": "http-nio-9091-exec-1",
+              "class": "c.t.f.a.c.c.FlagStarArbiterClientController",
+              "@version": "1",
+              "@timestamp": "2020-01-09T05:38:11.355Z",
+              "offset": 0,
+              "traceid": "83d67d3b151637ab",
+              "severity": "INFO",
+              "msg": ": Login request received for user - \"jagadeesh.panchal@tavant.com\"Login request received for user - \"jagadeesh.panchal@tavant.com\" ",
+              "message": "2020-01-09 05:38:11.355  INFO [finexpusermgmt,83d67d3b151637ab,dd049724a7c54278,true] 1 --- [http-nio-9091-exec-1] c.t.f.a.c.c.FlagStarArbiterClientController : Login request received for user - \"jagadeesh.panchal@tavant.com\"Login request received for user - \"jagadeesh.panchal@tavant.com\" ",
+              "host": {
+                "architecture": "x86_64",
+                "containerized": true,
+                "id": "05cb8c7b39fe0f70e3ce97e5beab809d",
+                "os": {
+                  "codename": "Core",
+                  "family": "redhat",
+                  "version": "7 (Core)",
+                  "platform": "centos",
+                  "name": "CentOS Linux"
+                },
+                "name": "ip-10-216-48-184.us-west-1.compute.internal"
+              },
+              "application": "finexpusermgmt",
+              "spanid": "dd049724a7c54278",
+              "meta": {
+                "cloud": {
+                  "machine_type": "m5.xlarge",
+                  "region": "us-west-1",
+                  "instance_id": "i-0dab35fca52afdc2a",
+                  "availability_zone": "us-west-1a",
+                  "provider": "ec2"
+                }
+              },
+              "prospector": {
+                "type": "log"
+              },
+              "debug": "true",
+              "log": {
+                "file": {
+                  "path": "/logs/finexpusermgmt/finexpusermgmt-debug.log"
+                }
+              },
+              "pid": "1",
+              "type": "ms_log",
+              "timestamp": "2020-01-09 05:38:11.355"
+            },
+            "fields": {
+              "@timestamp": [
+                "2020-01-09T05:38:11.355Z"
+              ]
+            },
+            "highlight": {
+              "msg": [
+                ": @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"jagadeesh.panchal@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"jagadeesh.panchal@tavant.com\""
+              ],
+              "message": [
+                "2020-01-09 05:38:11.355  INFO [finexpusermgmt,83d67d3b151637ab,dd049724a7c54278,true] 1 --- [http-nio-9091-exec-1] c.t.f.a.c.c.FlagStarArbiterClientController : @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"jagadeesh.panchal@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"jagadeesh.panchal@tavant.com\""
+              ]
+            },
+            "sort": [
+              1578548291355
+            ]
+          },
+          {
+            "_index": "logstash-2020.01.08",
+            "_type": "doc",
+            "_id": "Rb-VhW8BelFUzm0R5Zf5",
+            "_version": 1,
+            "_score": null,
+            "_source": {
+              "input": {
+                "type": "log"
+              },
+              "fields": {
+                "env": "Flagstar-cdp-prod"
+              },
+              "source": "/logs/finexpusermgmt/finexpusermgmt-debug.log",
+              "beat": {
+                "hostname": "ip-10-216-48-251.us-west-1.compute.internal",
+                "version": "6.6.2",
+                "name": "ip-10-216-48-251.us-west-1.compute.internal"
+              },
+              "tags": [
+                "beats_input_codec_plain_applied"
+              ],
+              "thread": "http-nio-9091-exec-3",
+              "class": "c.t.f.a.c.c.FlagStarArbiterClientController",
+              "@version": "1",
+              "@timestamp": "2020-01-08T14:36:24.334Z",
+              "offset": 2239388,
+              "traceid": "bfc59ef2c9c7d854",
+              "severity": "INFO",
+              "msg": ": Login request received for user - \"jagadeesh.panchal@tavant.com\"Login request received for user - \"jagadeesh.panchal@tavant.com\" ",
+              "message": "2020-01-08 14:36:24.334  INFO [finexpusermgmt,bfc59ef2c9c7d854,b3f8eaa55d31d919,true] 1 --- [http-nio-9091-exec-3] c.t.f.a.c.c.FlagStarArbiterClientController : Login request received for user - \"jagadeesh.panchal@tavant.com\"Login request received for user - \"jagadeesh.panchal@tavant.com\" ",
+              "host": {
+                "architecture": "x86_64",
+                "containerized": true,
+                "id": "05cb8c7b39fe0f70e3ce97e5beab809d",
+                "os": {
+                  "codename": "Core",
+                  "family": "redhat",
+                  "version": "7 (Core)",
+                  "platform": "centos",
+                  "name": "CentOS Linux"
+                },
+                "name": "ip-10-216-48-251.us-west-1.compute.internal"
+              },
+              "application": "finexpusermgmt",
+              "spanid": "b3f8eaa55d31d919",
+              "meta": {
+                "cloud": {
+                  "machine_type": "m5.xlarge",
+                  "instance_id": "i-04ff086516fa18af4",
+                  "region": "us-west-1",
+                  "availability_zone": "us-west-1b",
+                  "provider": "ec2"
+                }
+              },
+              "prospector": {
+                "type": "log"
+              },
+              "debug": "true",
+              "log": {
+                "file": {
+                  "path": "/logs/finexpusermgmt/finexpusermgmt-debug.log"
+                }
+              },
+              "pid": "1",
+              "type": "ms_log",
+              "timestamp": "2020-01-08 14:36:24.334"
+            },
+            "fields": {
+              "@timestamp": [
+                "2020-01-08T14:36:24.334Z"
+              ]
+            },
+            "highlight": {
+              "msg": [
+                ": @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"jagadeesh.panchal@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"jagadeesh.panchal@tavant.com\""
+              ],
+              "message": [
+                "2020-01-08 14:36:24.334  INFO [finexpusermgmt,bfc59ef2c9c7d854,b3f8eaa55d31d919,true] 1 --- [http-nio-9091-exec-3] c.t.f.a.c.c.FlagStarArbiterClientController : @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"jagadeesh.panchal@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"jagadeesh.panchal@tavant.com\""
+              ]
+            },
+            "sort": [
+              1578494184334
+            ]
+          },
+          {
+            "_index": "logstash-2020.01.08",
+            "_type": "doc",
+            "_id": "SqsBhW8BelFUzm0RnvGW",
+            "_version": 1,
+            "_score": null,
+            "_source": {
+              "input": {
+                "type": "log"
+              },
+              "fields": {
+                "env": "Flagstar-cdp-prod"
+              },
+              "source": "/logs/finexpusermgmt/finexpusermgmt-debug.log",
+              "beat": {
+                "hostname": "ip-10-216-48-251.us-west-1.compute.internal",
+                "version": "6.6.2",
+                "name": "ip-10-216-48-251.us-west-1.compute.internal"
+              },
+              "tags": [
+                "beats_input_codec_plain_applied"
+              ],
+              "thread": "http-nio-9091-exec-5",
+              "class": "c.t.f.a.c.c.FlagStarArbiterClientController",
+              "@version": "1",
+              "@timestamp": "2020-01-08T11:54:29.304Z",
+              "offset": 1193768,
+              "traceid": "412f37a4d60019ef",
+              "severity": "INFO",
+              "msg": ": Login request received for user - \"tavant.admin@tavant.com\"Login request received for user - \"tavant.admin@tavant.com\" ",
+              "message": "2020-01-08 11:54:29.304  INFO [finexpusermgmt,412f37a4d60019ef,f609eaf7e2e694d1,true] 1 --- [http-nio-9091-exec-5] c.t.f.a.c.c.FlagStarArbiterClientController : Login request received for user - \"tavant.admin@tavant.com\"Login request received for user - \"tavant.admin@tavant.com\" ",
+              "host": {
+                "architecture": "x86_64",
+                "containerized": true,
+                "id": "05cb8c7b39fe0f70e3ce97e5beab809d",
+                "os": {
+                  "codename": "Core",
+                  "family": "redhat",
+                  "version": "7 (Core)",
+                  "platform": "centos",
+                  "name": "CentOS Linux"
+                },
+                "name": "ip-10-216-48-251.us-west-1.compute.internal"
+              },
+              "application": "finexpusermgmt",
+              "spanid": "f609eaf7e2e694d1",
+              "meta": {
+                "cloud": {
+                  "machine_type": "m5.xlarge",
+                  "instance_id": "i-04ff086516fa18af4",
+                  "region": "us-west-1",
+                  "availability_zone": "us-west-1b",
+                  "provider": "ec2"
+                }
+              },
+              "prospector": {
+                "type": "log"
+              },
+              "debug": "true",
+              "log": {
+                "file": {
+                  "path": "/logs/finexpusermgmt/finexpusermgmt-debug.log"
+                }
+              },
+              "pid": "1",
+              "type": "ms_log",
+              "timestamp": "2020-01-08 11:54:29.304"
+            },
+            "fields": {
+              "@timestamp": [
+                "2020-01-08T11:54:29.304Z"
+              ]
+            },
+            "highlight": {
+              "msg": [
+                ": @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\""
+              ],
+              "message": [
+                "2020-01-08 11:54:29.304  INFO [finexpusermgmt,412f37a4d60019ef,f609eaf7e2e694d1,true] 1 --- [http-nio-9091-exec-5] c.t.f.a.c.c.FlagStarArbiterClientController : @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\""
+              ]
+            },
+            "sort": [
+              1578484469304
+            ]
+          },
+          {
+            "_index": "logstash-2020.01.08",
+            "_type": "doc",
+            "_id": "rJemhG8BelFUzm0RR7-s",
+            "_version": 1,
+            "_score": null,
+            "_source": {
+              "input": {
+                "type": "log"
+              },
+              "fields": {
+                "env": "Flagstar-cdp-prod"
+              },
+              "source": "/logs/finexpusermgmt/finexpusermgmt-debug.log",
+              "beat": {
+                "hostname": "ip-10-216-48-251.us-west-1.compute.internal",
+                "version": "6.6.2",
+                "name": "ip-10-216-48-251.us-west-1.compute.internal"
+              },
+              "tags": [
+                "beats_input_codec_plain_applied"
+              ],
+              "thread": "http-nio-9091-exec-6",
+              "class": "c.t.f.a.c.c.FlagStarArbiterClientController",
+              "@version": "1",
+              "@timestamp": "2020-01-08T10:14:44.541Z",
+              "offset": 52964,
+              "traceid": "5c32d1297b1d4cb2",
+              "severity": "INFO",
+              "msg": ": Login request received for user - \"tavant.admin@tavant.com\"Login request received for user - \"tavant.admin@tavant.com\" ",
+              "message": "2020-01-08 10:14:44.541  INFO [finexpusermgmt,5c32d1297b1d4cb2,0ef645fd0a414c22,true] 1 --- [http-nio-9091-exec-6] c.t.f.a.c.c.FlagStarArbiterClientController : Login request received for user - \"tavant.admin@tavant.com\"Login request received for user - \"tavant.admin@tavant.com\" ",
+              "host": {
+                "architecture": "x86_64",
+                "containerized": true,
+                "id": "05cb8c7b39fe0f70e3ce97e5beab809d",
+                "os": {
+                  "codename": "Core",
+                  "family": "redhat",
+                  "version": "7 (Core)",
+                  "platform": "centos",
+                  "name": "CentOS Linux"
+                },
+                "name": "ip-10-216-48-251.us-west-1.compute.internal"
+              },
+              "application": "finexpusermgmt",
+              "spanid": "0ef645fd0a414c22",
+              "meta": {
+                "cloud": {
+                  "machine_type": "m5.xlarge",
+                  "instance_id": "i-04ff086516fa18af4",
+                  "region": "us-west-1",
+                  "availability_zone": "us-west-1b",
+                  "provider": "ec2"
+                }
+              },
+              "prospector": {
+                "type": "log"
+              },
+              "debug": "true",
+              "log": {
+                "file": {
+                  "path": "/logs/finexpusermgmt/finexpusermgmt-debug.log"
+                }
+              },
+              "pid": "1",
+              "type": "ms_log",
+              "timestamp": "2020-01-08 10:14:44.541"
+            },
+            "fields": {
+              "@timestamp": [
+                "2020-01-08T10:14:44.541Z"
+              ]
+            },
+            "highlight": {
+              "msg": [
+                ": @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\""
+              ],
+              "message": [
+                "2020-01-08 10:14:44.541  INFO [finexpusermgmt,5c32d1297b1d4cb2,0ef645fd0a414c22,true] 1 --- [http-nio-9091-exec-6] c.t.f.a.c.c.FlagStarArbiterClientController : @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\""
+              ]
+            },
+            "sort": [
+              1578478484541
+            ]
+          },
+          {
+            "_index": "logstash-2020.01.08",
+            "_type": "doc",
+            "_id": "zpeChG8BelFUzm0REXwh",
+            "_version": 1,
+            "_score": null,
+            "_source": {
+              "fields": {
+                "env": "Flagstar-cdp-prod"
+              },
+              "input": {
+                "type": "log"
+              },
+              "source": "/logs/finexpusermgmt/finexpusermgmt-debug.log",
+              "beat": {
+                "hostname": "ip-10-216-48-184.us-west-1.compute.internal",
+                "version": "6.6.2",
+                "name": "ip-10-216-48-184.us-west-1.compute.internal"
+              },
+              "tags": [
+                "beats_input_codec_plain_applied"
+              ],
+              "thread": "http-nio-9091-exec-2",
+              "class": "c.t.f.a.c.c.FlagStarArbiterClientController",
+              "@version": "1",
+              "@timestamp": "2020-01-08T09:35:10.636Z",
+              "offset": 51360,
+              "traceid": "b0d2d35fd3d0c592",
+              "severity": "INFO",
+              "msg": ": Login request received for user - \"jagadeesh.panchal@tavant.com\"Login request received for user - \"jagadeesh.panchal@tavant.com\" ",
+              "message": "2020-01-08 09:35:10.636  INFO [finexpusermgmt,b0d2d35fd3d0c592,ecb06dcc2717c31c,true] 1 --- [http-nio-9091-exec-2] c.t.f.a.c.c.FlagStarArbiterClientController : Login request received for user - \"jagadeesh.panchal@tavant.com\"Login request received for user - \"jagadeesh.panchal@tavant.com\" ",
+              "host": {
+                "architecture": "x86_64",
+                "containerized": true,
+                "id": "05cb8c7b39fe0f70e3ce97e5beab809d",
+                "os": {
+                  "codename": "Core",
+                  "family": "redhat",
+                  "version": "7 (Core)",
+                  "platform": "centos",
+                  "name": "CentOS Linux"
+                },
+                "name": "ip-10-216-48-184.us-west-1.compute.internal"
+              },
+              "application": "finexpusermgmt",
+              "spanid": "ecb06dcc2717c31c",
+              "meta": {
+                "cloud": {
+                  "machine_type": "m5.xlarge",
+                  "region": "us-west-1",
+                  "instance_id": "i-0dab35fca52afdc2a",
+                  "provider": "ec2",
+                  "availability_zone": "us-west-1a"
+                }
+              },
+              "prospector": {
+                "type": "log"
+              },
+              "debug": "true",
+              "log": {
+                "file": {
+                  "path": "/logs/finexpusermgmt/finexpusermgmt-debug.log"
+                }
+              },
+              "pid": "1",
+              "type": "ms_log",
+              "timestamp": "2020-01-08 09:35:10.636"
+            },
+            "fields": {
+              "@timestamp": [
+                "2020-01-08T09:35:10.636Z"
+              ]
+            },
+            "highlight": {
+              "msg": [
+                ": @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"jagadeesh.panchal@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"jagadeesh.panchal@tavant.com\""
+              ],
+              "message": [
+                "2020-01-08 09:35:10.636  INFO [finexpusermgmt,b0d2d35fd3d0c592,ecb06dcc2717c31c,true] 1 --- [http-nio-9091-exec-2] c.t.f.a.c.c.FlagStarArbiterClientController : @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"jagadeesh.panchal@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"jagadeesh.panchal@tavant.com\""
+              ]
+            },
+            "sort": [
+              1578476110636
+            ]
+          },
+          {
+            "_index": "logstash-2020.01.08",
+            "_type": "doc",
+            "_id": "b5d9hG8BelFUzm0Rp3qx",
+            "_version": 1,
+            "_score": null,
+            "_source": {
+              "input": {
+                "type": "log"
+              },
+              "fields": {
+                "env": "Flagstar-cdp-prod"
+              },
+              "source": "/logs/finexpusermgmt/finexpusermgmt-debug.log",
+              "beat": {
+                "hostname": "ip-10-216-48-184.us-west-1.compute.internal",
+                "version": "6.6.2",
+                "name": "ip-10-216-48-184.us-west-1.compute.internal"
+              },
+              "tags": [
+                "beats_input_codec_plain_applied"
+              ],
+              "thread": "http-nio-9091-exec-10",
+              "class": "c.t.f.a.c.c.FlagStarArbiterClientController",
+              "@version": "1",
+              "@timestamp": "2020-01-08T09:30:22.253Z",
+              "offset": 50294,
+              "traceid": "6525d105157dc649",
+              "severity": "INFO",
+              "msg": ": Login request received for user - \"tavant.admin@tavant.com\"Login request received for user - \"tavant.admin@tavant.com\" ",
+              "message": "2020-01-08 09:30:22.253  INFO [finexpusermgmt,6525d105157dc649,d82172673daab2b8,true] 1 --- [http-nio-9091-exec-10] c.t.f.a.c.c.FlagStarArbiterClientController : Login request received for user - \"tavant.admin@tavant.com\"Login request received for user - \"tavant.admin@tavant.com\" ",
+              "host": {
+                "name": "ip-10-216-48-184.us-west-1.compute.internal",
+                "containerized": true,
+                "id": "05cb8c7b39fe0f70e3ce97e5beab809d",
+                "os": {
+                  "codename": "Core",
+                  "family": "redhat",
+                  "version": "7 (Core)",
+                  "platform": "centos",
+                  "name": "CentOS Linux"
+                },
+                "architecture": "x86_64"
+              },
+              "application": "finexpusermgmt",
+              "spanid": "d82172673daab2b8",
+              "meta": {
+                "cloud": {
+                  "machine_type": "m5.xlarge",
+                  "instance_id": "i-0dab35fca52afdc2a",
+                  "region": "us-west-1",
+                  "availability_zone": "us-west-1a",
+                  "provider": "ec2"
+                }
+              },
+              "prospector": {
+                "type": "log"
+              },
+              "debug": "true",
+              "log": {
+                "file": {
+                  "path": "/logs/finexpusermgmt/finexpusermgmt-debug.log"
+                }
+              },
+              "pid": "1",
+              "type": "ms_log",
+              "timestamp": "2020-01-08 09:30:22.253"
+            },
+            "fields": {
+              "@timestamp": [
+                "2020-01-08T09:30:22.253Z"
+              ]
+            },
+            "highlight": {
+              "msg": [
+                ": @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\""
+              ],
+              "message": [
+                "2020-01-08 09:30:22.253  INFO [finexpusermgmt,6525d105157dc649,d82172673daab2b8,true] 1 --- [http-nio-9091-exec-10] c.t.f.a.c.c.FlagStarArbiterClientController : @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\""
+              ]
+            },
+            "sort": [
+              1578475822253
+            ]
+          },
+          {
+            "_index": "logstash-2020.01.08",
+            "_type": "doc",
+            "_id": "9ZdzhG8BelFUzm0R-HCB",
+            "_version": 1,
+            "_score": null,
+            "_source": {
+              "fields": {
+                "env": "Flagstar-cdp-prod"
+              },
+              "input": {
+                "type": "log"
+              },
+              "source": "/logs/finexpusermgmt/finexpusermgmt-debug.log",
+              "beat": {
+                "hostname": "ip-10-216-48-184.us-west-1.compute.internal",
+                "version": "6.6.2",
+                "name": "ip-10-216-48-184.us-west-1.compute.internal"
+              },
+              "tags": [
+                "beats_input_codec_plain_applied"
+              ],
+              "thread": "http-nio-9091-exec-6",
+              "class": "c.t.f.a.c.c.FlagStarArbiterClientController",
+              "@version": "1",
+              "@timestamp": "2020-01-08T09:19:44.320Z",
+              "offset": 49231,
+              "traceid": "cd99e24f4a6c7aaf",
+              "severity": "INFO",
+              "msg": ": Login request received for user - \"tavant.admin@tavant.com\"Login request received for user - \"tavant.admin@tavant.com\" ",
+              "message": "2020-01-08 09:19:44.320  INFO [finexpusermgmt,cd99e24f4a6c7aaf,875ded2e8bdf69b3,true] 1 --- [http-nio-9091-exec-6] c.t.f.a.c.c.FlagStarArbiterClientController : Login request received for user - \"tavant.admin@tavant.com\"Login request received for user - \"tavant.admin@tavant.com\" ",
+              "host": {
+                "architecture": "x86_64",
+                "containerized": true,
+                "id": "05cb8c7b39fe0f70e3ce97e5beab809d",
+                "os": {
+                  "codename": "Core",
+                  "family": "redhat",
+                  "version": "7 (Core)",
+                  "platform": "centos",
+                  "name": "CentOS Linux"
+                },
+                "name": "ip-10-216-48-184.us-west-1.compute.internal"
+              },
+              "application": "finexpusermgmt",
+              "spanid": "875ded2e8bdf69b3",
+              "meta": {
+                "cloud": {
+                  "machine_type": "m5.xlarge",
+                  "region": "us-west-1",
+                  "instance_id": "i-0dab35fca52afdc2a",
+                  "availability_zone": "us-west-1a",
+                  "provider": "ec2"
+                }
+              },
+              "prospector": {
+                "type": "log"
+              },
+              "debug": "true",
+              "log": {
+                "file": {
+                  "path": "/logs/finexpusermgmt/finexpusermgmt-debug.log"
+                }
+              },
+              "pid": "1",
+              "type": "ms_log",
+              "timestamp": "2020-01-08 09:19:44.320"
+            },
+            "fields": {
+              "@timestamp": [
+                "2020-01-08T09:19:44.320Z"
+              ]
+            },
+            "highlight": {
+              "msg": [
+                ": @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\""
+              ],
+              "message": [
+                "2020-01-08 09:19:44.320  INFO [finexpusermgmt,cd99e24f4a6c7aaf,875ded2e8bdf69b3,true] 1 --- [http-nio-9091-exec-6] c.t.f.a.c.c.FlagStarArbiterClientController : @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\""
+              ]
+            },
+            "sort": [
+              1578475184320
+            ]
+          },
+          {
+            "_index": "logstash-2020.01.08",
+            "_type": "doc",
+            "_id": "VpdzhG8BelFUzm0RG2_6",
+            "_version": 1,
+            "_score": null,
+            "_source": {
+              "fields": {
+                "env": "Flagstar-cdp-prod"
+              },
+              "input": {
+                "type": "log"
+              },
+              "source": "/logs/finexpusermgmt/finexpusermgmt-debug.log",
+              "beat": {
+                "hostname": "ip-10-216-48-184.us-west-1.compute.internal",
+                "version": "6.6.2",
+                "name": "ip-10-216-48-184.us-west-1.compute.internal"
+              },
+              "tags": [
+                "beats_input_codec_plain_applied"
+              ],
+              "thread": "http-nio-9091-exec-5",
+              "class": "c.t.f.a.c.c.FlagStarArbiterClientController",
+              "@version": "1",
+              "@timestamp": "2020-01-08T09:18:52.852Z",
+              "offset": 43053,
+              "traceid": "cdb96a322ba85840",
+              "severity": "INFO",
+              "msg": ": Login request received for user - \"tavant.admin@tavant.com\"Login request received for user - \"tavant.admin@tavant.com\" ",
+              "message": "2020-01-08 09:18:52.852  INFO [finexpusermgmt,cdb96a322ba85840,3ddc5968d10da6ff,true] 1 --- [http-nio-9091-exec-5] c.t.f.a.c.c.FlagStarArbiterClientController : Login request received for user - \"tavant.admin@tavant.com\"Login request received for user - \"tavant.admin@tavant.com\" ",
+              "host": {
+                "architecture": "x86_64",
+                "containerized": true,
+                "id": "05cb8c7b39fe0f70e3ce97e5beab809d",
+                "os": {
+                  "codename": "Core",
+                  "family": "redhat",
+                  "version": "7 (Core)",
+                  "platform": "centos",
+                  "name": "CentOS Linux"
+                },
+                "name": "ip-10-216-48-184.us-west-1.compute.internal"
+              },
+              "application": "finexpusermgmt",
+              "spanid": "3ddc5968d10da6ff",
+              "meta": {
+                "cloud": {
+                  "machine_type": "m5.xlarge",
+                  "instance_id": "i-0dab35fca52afdc2a",
+                  "region": "us-west-1",
+                  "availability_zone": "us-west-1a",
+                  "provider": "ec2"
+                }
+              },
+              "prospector": {
+                "type": "log"
+              },
+              "debug": "true",
+              "log": {
+                "file": {
+                  "path": "/logs/finexpusermgmt/finexpusermgmt-debug.log"
+                }
+              },
+              "pid": "1",
+              "type": "ms_log",
+              "timestamp": "2020-01-08 09:18:52.852"
+            },
+            "fields": {
+              "@timestamp": [
+                "2020-01-08T09:18:52.852Z"
+              ]
+            },
+            "highlight": {
+              "msg": [
+                ": @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\""
+              ],
+              "message": [
+                "2020-01-08 09:18:52.852  INFO [finexpusermgmt,cdb96a322ba85840,3ddc5968d10da6ff,true] 1 --- [http-nio-9091-exec-5] c.t.f.a.c.c.FlagStarArbiterClientController : @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\""
+              ]
+            },
+            "sort": [
+              1578475132852
+            ]
+          },
+          {
+            "_index": "logstash-2020.01.08",
+            "_type": "doc",
+            "_id": "i5ddhG8BelFUzm0R42f8",
+            "_version": 1,
+            "_score": null,
+            "_source": {
+              "input": {
+                "type": "log"
+              },
+              "fields": {
+                "env": "Flagstar-cdp-prod"
+              },
+              "source": "/logs/finexpusermgmt/finexpusermgmt-debug.log",
+              "beat": {
+                "hostname": "ip-10-216-48-251.us-west-1.compute.internal",
+                "version": "6.6.2",
+                "name": "ip-10-216-48-251.us-west-1.compute.internal"
+              },
+              "tags": [
+                "beats_input_codec_plain_applied"
+              ],
+              "thread": "http-nio-9091-exec-5",
+              "class": "c.t.f.a.c.c.FlagStarArbiterClientController",
+              "@version": "1",
+              "@timestamp": "2020-01-08T08:55:33.046Z",
+              "offset": 35061,
+              "traceid": "438f14e8dfea2c2d",
+              "severity": "INFO",
+              "msg": ": Login request received for user - \"tavant.admin@tavant.com\"Login request received for user - \"tavant.admin@tavant.com\" ",
+              "message": "2020-01-08 08:55:33.046  INFO [finexpusermgmt,438f14e8dfea2c2d,be83d9465c8f532e,true] 1 --- [http-nio-9091-exec-5] c.t.f.a.c.c.FlagStarArbiterClientController : Login request received for user - \"tavant.admin@tavant.com\"Login request received for user - \"tavant.admin@tavant.com\" ",
+              "host": {
+                "architecture": "x86_64",
+                "containerized": true,
+                "id": "05cb8c7b39fe0f70e3ce97e5beab809d",
+                "os": {
+                  "codename": "Core",
+                  "family": "redhat",
+                  "version": "7 (Core)",
+                  "platform": "centos",
+                  "name": "CentOS Linux"
+                },
+                "name": "ip-10-216-48-251.us-west-1.compute.internal"
+              },
+              "application": "finexpusermgmt",
+              "spanid": "be83d9465c8f532e",
+              "meta": {
+                "cloud": {
+                  "machine_type": "m5.xlarge",
+                  "region": "us-west-1",
+                  "instance_id": "i-04ff086516fa18af4",
+                  "provider": "ec2",
+                  "availability_zone": "us-west-1b"
+                }
+              },
+              "prospector": {
+                "type": "log"
+              },
+              "debug": "true",
+              "log": {
+                "file": {
+                  "path": "/logs/finexpusermgmt/finexpusermgmt-debug.log"
+                }
+              },
+              "pid": "1",
+              "type": "ms_log",
+              "timestamp": "2020-01-08 08:55:33.046"
+            },
+            "fields": {
+              "@timestamp": [
+                "2020-01-08T08:55:33.046Z"
+              ]
+            },
+            "highlight": {
+              "msg": [
+                ": @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\""
+              ],
+              "message": [
+                "2020-01-08 08:55:33.046  INFO [finexpusermgmt,438f14e8dfea2c2d,be83d9465c8f532e,true] 1 --- [http-nio-9091-exec-5] c.t.f.a.c.c.FlagStarArbiterClientController : @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\""
+              ]
+            },
+            "sort": [
+              1578473733046
+            ]
+          },
+          {
+            "_index": "logstash-2020.01.08",
+            "_type": "doc",
+            "_id": "qJdYhG8BelFUzm0Rgl-8",
+            "_version": 1,
+            "_score": null,
+            "_source": {
+              "fields": {
+                "env": "Flagstar-cdp-prod"
+              },
+              "input": {
+                "type": "log"
+              },
+              "source": "/logs/finexpusermgmt/finexpusermgmt-debug.log",
+              "beat": {
+                "hostname": "ip-10-216-48-184.us-west-1.compute.internal",
+                "version": "6.6.2",
+                "name": "ip-10-216-48-184.us-west-1.compute.internal"
+              },
+              "tags": [
+                "beats_input_codec_plain_applied"
+              ],
+              "thread": "http-nio-9091-exec-3",
+              "class": "c.t.f.a.c.c.FlagStarArbiterClientController",
+              "@version": "1",
+              "@timestamp": "2020-01-08T08:49:43.133Z",
+              "offset": 31555,
+              "traceid": "03572ea7d6127357",
+              "severity": "INFO",
+              "msg": ": Login request received for user - \"tavant.admin@tavant.com\"Login request received for user - \"tavant.admin@tavant.com\" ",
+              "message": "2020-01-08 08:49:43.133  INFO [finexpusermgmt,03572ea7d6127357,7b87f4f7061fc8a7,true] 1 --- [http-nio-9091-exec-3] c.t.f.a.c.c.FlagStarArbiterClientController : Login request received for user - \"tavant.admin@tavant.com\"Login request received for user - \"tavant.admin@tavant.com\" ",
+              "host": {
+                "name": "ip-10-216-48-184.us-west-1.compute.internal",
+                "containerized": true,
+                "id": "05cb8c7b39fe0f70e3ce97e5beab809d",
+                "os": {
+                  "codename": "Core",
+                  "family": "redhat",
+                  "version": "7 (Core)",
+                  "platform": "centos",
+                  "name": "CentOS Linux"
+                },
+                "architecture": "x86_64"
+              },
+              "application": "finexpusermgmt",
+              "spanid": "7b87f4f7061fc8a7",
+              "meta": {
+                "cloud": {
+                  "machine_type": "m5.xlarge",
+                  "region": "us-west-1",
+                  "instance_id": "i-0dab35fca52afdc2a",
+                  "provider": "ec2",
+                  "availability_zone": "us-west-1a"
+                }
+              },
+              "prospector": {
+                "type": "log"
+              },
+              "debug": "true",
+              "log": {
+                "file": {
+                  "path": "/logs/finexpusermgmt/finexpusermgmt-debug.log"
+                }
+              },
+              "pid": "1",
+              "type": "ms_log",
+              "timestamp": "2020-01-08 08:49:43.133"
+            },
+            "fields": {
+              "@timestamp": [
+                "2020-01-08T08:49:43.133Z"
+              ]
+            },
+            "highlight": {
+              "msg": [
+                ": @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\""
+              ],
+              "message": [
+                "2020-01-08 08:49:43.133  INFO [finexpusermgmt,03572ea7d6127357,7b87f4f7061fc8a7,true] 1 --- [http-nio-9091-exec-3] c.t.f.a.c.c.FlagStarArbiterClientController : @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\""
+              ]
+            },
+            "sort": [
+              1578473383133
+            ]
+          },
+          {
+            "_index": "logstash-2020.01.08",
+            "_type": "doc",
+            "_id": "n5dXhG8BelFUzm0RM1i4",
+            "_version": 1,
+            "_score": null,
+            "_source": {
+              "fields": {
+                "env": "Flagstar-cdp-prod"
+              },
+              "input": {
+                "type": "log"
+              },
+              "source": "/logs/finexpusermgmt/finexpusermgmt-debug.log",
+              "beat": {
+                "hostname": "ip-10-216-48-184.us-west-1.compute.internal",
+                "version": "6.6.2",
+                "name": "ip-10-216-48-184.us-west-1.compute.internal"
+              },
+              "tags": [
+                "beats_input_codec_plain_applied"
+              ],
+              "thread": "http-nio-9091-exec-1",
+              "class": "c.t.f.a.c.c.FlagStarArbiterClientController",
+              "@version": "1",
+              "@timestamp": "2020-01-08T08:48:21.079Z",
+              "offset": 24961,
+              "traceid": "100096be928568bc",
+              "severity": "INFO",
+              "msg": ": Login request received for user - \"tavant.admin@tavant.com\"Login request received for user - \"tavant.admin@tavant.com\" ",
+              "message": "2020-01-08 08:48:21.079  INFO [finexpusermgmt,100096be928568bc,e0d91413540d73e6,true] 1 --- [http-nio-9091-exec-1] c.t.f.a.c.c.FlagStarArbiterClientController : Login request received for user - \"tavant.admin@tavant.com\"Login request received for user - \"tavant.admin@tavant.com\" ",
+              "host": {
+                "name": "ip-10-216-48-184.us-west-1.compute.internal",
+                "containerized": true,
+                "id": "05cb8c7b39fe0f70e3ce97e5beab809d",
+                "os": {
+                  "codename": "Core",
+                  "family": "redhat",
+                  "version": "7 (Core)",
+                  "platform": "centos",
+                  "name": "CentOS Linux"
+                },
+                "architecture": "x86_64"
+              },
+              "application": "finexpusermgmt",
+              "spanid": "e0d91413540d73e6",
+              "meta": {
+                "cloud": {
+                  "machine_type": "m5.xlarge",
+                  "region": "us-west-1",
+                  "instance_id": "i-0dab35fca52afdc2a",
+                  "availability_zone": "us-west-1a",
+                  "provider": "ec2"
+                }
+              },
+              "prospector": {
+                "type": "log"
+              },
+              "debug": "true",
+              "log": {
+                "file": {
+                  "path": "/logs/finexpusermgmt/finexpusermgmt-debug.log"
+                }
+              },
+              "pid": "1",
+              "type": "ms_log",
+              "timestamp": "2020-01-08 08:48:21.079"
+            },
+            "fields": {
+              "@timestamp": [
+                "2020-01-08T08:48:21.079Z"
+              ]
+            },
+            "highlight": {
+              "msg": [
+                ": @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\""
+              ],
+              "message": [
+                "2020-01-08 08:48:21.079  INFO [finexpusermgmt,100096be928568bc,e0d91413540d73e6,true] 1 --- [http-nio-9091-exec-1] c.t.f.a.c.c.FlagStarArbiterClientController : @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\""
+              ]
+            },
+            "sort": [
+              1578473301079
+            ]
+          },
+          {
+            "_index": "logstash-2020.01.08",
+            "_type": "doc",
+            "_id": "uJdWhG8BelFUzm0R0lYx",
+            "_version": 1,
+            "_score": null,
+            "_source": {
+              "fields": {
+                "env": "Flagstar-cdp-prod"
+              },
+              "input": {
+                "type": "log"
+              },
+              "source": "/logs/finexpusermgmt/finexpusermgmt-debug.log",
+              "beat": {
+                "hostname": "ip-10-216-48-184.us-west-1.compute.internal",
+                "version": "6.6.2",
+                "name": "ip-10-216-48-184.us-west-1.compute.internal"
+              },
+              "tags": [
+                "beats_input_codec_plain_applied"
+              ],
+              "thread": "http-nio-9091-exec-1",
+              "class": "c.t.f.a.c.c.FlagStarArbiterClientController",
+              "@version": "1",
+              "@timestamp": "2020-01-08T08:47:57.465Z",
+              "offset": 23687,
+              "traceid": "2188c27ddb169414",
+              "severity": "INFO",
+              "msg": ": Login request received for user - \"tavant.admin@tavant.com\"Login request received for user - \"tavant.admin@tavant.com\" ",
+              "message": "2020-01-08 08:47:57.465  INFO [finexpusermgmt,2188c27ddb169414,e99fca1aa71d0600,true] 1 --- [http-nio-9091-exec-1] c.t.f.a.c.c.FlagStarArbiterClientController : Login request received for user - \"tavant.admin@tavant.com\"Login request received for user - \"tavant.admin@tavant.com\" ",
+              "host": {
+                "architecture": "x86_64",
+                "containerized": true,
+                "id": "05cb8c7b39fe0f70e3ce97e5beab809d",
+                "os": {
+                  "codename": "Core",
+                  "family": "redhat",
+                  "version": "7 (Core)",
+                  "platform": "centos",
+                  "name": "CentOS Linux"
+                },
+                "name": "ip-10-216-48-184.us-west-1.compute.internal"
+              },
+              "application": "finexpusermgmt",
+              "spanid": "e99fca1aa71d0600",
+              "meta": {
+                "cloud": {
+                  "machine_type": "m5.xlarge",
+                  "region": "us-west-1",
+                  "instance_id": "i-0dab35fca52afdc2a",
+                  "availability_zone": "us-west-1a",
+                  "provider": "ec2"
+                }
+              },
+              "prospector": {
+                "type": "log"
+              },
+              "debug": "true",
+              "log": {
+                "file": {
+                  "path": "/logs/finexpusermgmt/finexpusermgmt-debug.log"
+                }
+              },
+              "pid": "1",
+              "type": "ms_log",
+              "timestamp": "2020-01-08 08:47:57.465"
+            },
+            "fields": {
+              "@timestamp": [
+                "2020-01-08T08:47:57.465Z"
+              ]
+            },
+            "highlight": {
+              "msg": [
+                ": @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\""
+              ],
+              "message": [
+                "2020-01-08 08:47:57.465  INFO [finexpusermgmt,2188c27ddb169414,e99fca1aa71d0600,true] 1 --- [http-nio-9091-exec-1] c.t.f.a.c.c.FlagStarArbiterClientController : @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\""
+              ]
+            },
+            "sort": [
+              1578473277465
+            ]
+          },
+          {
+            "_index": "logstash-2020.01.08",
+            "_type": "doc",
+            "_id": "YZbrg28BelFUzm0R6YZa",
+            "_version": 1,
+            "_score": null,
+            "_source": {
+              "input": {
+                "type": "log"
+              },
+              "fields": {
+                "env": "Flagstar-cdp-prod"
+              },
+              "source": "/logs/finexpusermgmt/finexpusermgmt-debug.log",
+              "beat": {
+                "hostname": "ip-10-216-48-184.us-west-1.compute.internal",
+                "version": "6.6.2",
+                "name": "ip-10-216-48-184.us-west-1.compute.internal"
+              },
+              "tags": [
+                "beats_input_codec_plain_applied"
+              ],
+              "thread": "http-nio-9091-exec-1",
+              "class": "c.t.f.a.c.c.FlagStarArbiterClientController",
+              "@version": "1",
+              "@timestamp": "2020-01-08T06:51:03.096Z",
+              "offset": 10845,
+              "traceid": "5bc6b907f3e3290c",
+              "severity": "INFO",
+              "msg": ": Login request received for user - \"jagadeesh.panchal@tavant.com\"Login request received for user - \"jagadeesh.panchal@tavant.com\" ",
+              "message": "2020-01-08 06:51:03.096  INFO [finexpusermgmt,5bc6b907f3e3290c,168526aac6d2a35c,true] 1 --- [http-nio-9091-exec-1] c.t.f.a.c.c.FlagStarArbiterClientController : Login request received for user - \"jagadeesh.panchal@tavant.com\"Login request received for user - \"jagadeesh.panchal@tavant.com\" ",
+              "host": {
+                "name": "ip-10-216-48-184.us-west-1.compute.internal",
+                "containerized": true,
+                "id": "05cb8c7b39fe0f70e3ce97e5beab809d",
+                "os": {
+                  "codename": "Core",
+                  "family": "redhat",
+                  "version": "7 (Core)",
+                  "platform": "centos",
+                  "name": "CentOS Linux"
+                },
+                "architecture": "x86_64"
+              },
+              "application": "finexpusermgmt",
+              "spanid": "168526aac6d2a35c",
+              "meta": {
+                "cloud": {
+                  "machine_type": "m5.xlarge",
+                  "region": "us-west-1",
+                  "instance_id": "i-0dab35fca52afdc2a",
+                  "availability_zone": "us-west-1a",
+                  "provider": "ec2"
+                }
+              },
+              "prospector": {
+                "type": "log"
+              },
+              "debug": "true",
+              "log": {
+                "file": {
+                  "path": "/logs/finexpusermgmt/finexpusermgmt-debug.log"
+                }
+              },
+              "pid": "1",
+              "type": "ms_log",
+              "timestamp": "2020-01-08 06:51:03.096"
+            },
+            "fields": {
+              "@timestamp": [
+                "2020-01-08T06:51:03.096Z"
+              ]
+            },
+            "highlight": {
+              "msg": [
+                ": @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"jagadeesh.panchal@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"jagadeesh.panchal@tavant.com\""
+              ],
+              "message": [
+                "2020-01-08 06:51:03.096  INFO [finexpusermgmt,5bc6b907f3e3290c,168526aac6d2a35c,true] 1 --- [http-nio-9091-exec-1] c.t.f.a.c.c.FlagStarArbiterClientController : @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"jagadeesh.panchal@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"jagadeesh.panchal@tavant.com\""
+              ]
+            },
+            "sort": [
+              1578466263096
+            ]
+          },
+          {
+            "_index": "logstash-2020.01.08",
+            "_type": "doc",
+            "_id": "Ypbpg28BelFUzm0RK4NG",
+            "_version": 1,
+            "_score": null,
+            "_source": {
+              "input": {
+                "type": "log"
+              },
+              "fields": {
+                "env": "Flagstar-cdp-prod"
+              },
+              "source": "/logs/finexpusermgmt/finexpusermgmt-debug.log",
+              "beat": {
+                "hostname": "ip-10-216-48-251.us-west-1.compute.internal",
+                "version": "6.6.2",
+                "name": "ip-10-216-48-251.us-west-1.compute.internal"
+              },
+              "tags": [
+                "beats_input_codec_plain_applied"
+              ],
+              "thread": "http-nio-9091-exec-1",
+              "class": "c.t.f.a.c.c.FlagStarArbiterClientController",
+              "@version": "1",
+              "@timestamp": "2020-01-08T06:48:08.285Z",
+              "offset": 11678,
+              "traceid": "1b4278bb0564c277",
+              "severity": "INFO",
+              "msg": ": Login request received for user - \"tavant.admin@tavant.com\"Login request received for user - \"tavant.admin@tavant.com\" ",
+              "message": "2020-01-08 06:48:08.285  INFO [finexpusermgmt,1b4278bb0564c277,ccbcbb808d6d566a,true] 1 --- [http-nio-9091-exec-1] c.t.f.a.c.c.FlagStarArbiterClientController : Login request received for user - \"tavant.admin@tavant.com\"Login request received for user - \"tavant.admin@tavant.com\" ",
+              "host": {
+                "architecture": "x86_64",
+                "containerized": true,
+                "id": "05cb8c7b39fe0f70e3ce97e5beab809d",
+                "os": {
+                  "codename": "Core",
+                  "family": "redhat",
+                  "version": "7 (Core)",
+                  "platform": "centos",
+                  "name": "CentOS Linux"
+                },
+                "name": "ip-10-216-48-251.us-west-1.compute.internal"
+              },
+              "application": "finexpusermgmt",
+              "spanid": "ccbcbb808d6d566a",
+              "meta": {
+                "cloud": {
+                  "machine_type": "m5.xlarge",
+                  "region": "us-west-1",
+                  "instance_id": "i-04ff086516fa18af4",
+                  "provider": "ec2",
+                  "availability_zone": "us-west-1b"
+                }
+              },
+              "prospector": {
+                "type": "log"
+              },
+              "debug": "true",
+              "log": {
+                "file": {
+                  "path": "/logs/finexpusermgmt/finexpusermgmt-debug.log"
+                }
+              },
+              "pid": "1",
+              "type": "ms_log",
+              "timestamp": "2020-01-08 06:48:08.285"
+            },
+            "fields": {
+              "@timestamp": [
+                "2020-01-08T06:48:08.285Z"
+              ]
+            },
+            "highlight": {
+              "msg": [
+                ": @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\""
+              ],
+              "message": [
+                "2020-01-08 06:48:08.285  INFO [finexpusermgmt,1b4278bb0564c277,ccbcbb808d6d566a,true] 1 --- [http-nio-9091-exec-1] c.t.f.a.c.c.FlagStarArbiterClientController : @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\""
+              ]
+            },
+            "sort": [
+              1578466088285
+            ]
+          },
+          {
+            "_index": "logstash-2020.01.08",
+            "_type": "doc",
+            "_id": "TZbgg28BelFUzm0RGHsy",
+            "_version": 1,
+            "_score": null,
+            "_source": {
+              "input": {
+                "type": "log"
+              },
+              "fields": {
+                "env": "Flagstar-cdp-prod"
+              },
+              "source": "/logs/finexpusermgmt/finexpusermgmt-debug.log",
+              "beat": {
+                "hostname": "ip-10-216-48-251.us-west-1.compute.internal",
+                "version": "6.6.2",
+                "name": "ip-10-216-48-251.us-west-1.compute.internal"
+              },
+              "tags": [
+                "beats_input_codec_plain_applied"
+              ],
+              "thread": "http-nio-9091-exec-9",
+              "class": "c.t.f.a.c.c.FlagStarArbiterClientController",
+              "@version": "1",
+              "@timestamp": "2020-01-08T06:38:12.891Z",
+              "offset": 10820,
+              "traceid": "f290293e20d64ea7",
+              "severity": "INFO",
+              "msg": ": Login request received for user - \"tavant.admin@tavant.com\"Login request received for user - \"tavant.admin@tavant.com\" ",
+              "message": "2020-01-08 06:38:12.891  INFO [finexpusermgmt,f290293e20d64ea7,3426e05d93cf55ac,true] 1 --- [http-nio-9091-exec-9] c.t.f.a.c.c.FlagStarArbiterClientController : Login request received for user - \"tavant.admin@tavant.com\"Login request received for user - \"tavant.admin@tavant.com\" ",
+              "host": {
+                "architecture": "x86_64",
+                "containerized": true,
+                "id": "05cb8c7b39fe0f70e3ce97e5beab809d",
+                "os": {
+                  "codename": "Core",
+                  "family": "redhat",
+                  "version": "7 (Core)",
+                  "platform": "centos",
+                  "name": "CentOS Linux"
+                },
+                "name": "ip-10-216-48-251.us-west-1.compute.internal"
+              },
+              "application": "finexpusermgmt",
+              "spanid": "3426e05d93cf55ac",
+              "meta": {
+                "cloud": {
+                  "machine_type": "m5.xlarge",
+                  "instance_id": "i-04ff086516fa18af4",
+                  "region": "us-west-1",
+                  "provider": "ec2",
+                  "availability_zone": "us-west-1b"
+                }
+              },
+              "prospector": {
+                "type": "log"
+              },
+              "debug": "true",
+              "log": {
+                "file": {
+                  "path": "/logs/finexpusermgmt/finexpusermgmt-debug.log"
+                }
+              },
+              "pid": "1",
+              "type": "ms_log",
+              "timestamp": "2020-01-08 06:38:12.891"
+            },
+            "fields": {
+              "@timestamp": [
+                "2020-01-08T06:38:12.891Z"
+              ]
+            },
+            "highlight": {
+              "msg": [
+                ": @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\""
+              ],
+              "message": [
+                "2020-01-08 06:38:12.891  INFO [finexpusermgmt,f290293e20d64ea7,3426e05d93cf55ac,true] 1 --- [http-nio-9091-exec-9] c.t.f.a.c.c.FlagStarArbiterClientController : @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\""
+              ]
+            },
+            "sort": [
+              1578465492891
+            ]
+          },
+          {
+            "_index": "logstash-2020.01.08",
+            "_type": "doc",
+            "_id": "m5bcg28BelFUzm0R3nlM",
+            "_version": 1,
+            "_score": null,
+            "_source": {
+              "input": {
+                "type": "log"
+              },
+              "fields": {
+                "env": "Flagstar-cdp-prod"
+              },
+              "source": "/logs/finexpusermgmt/finexpusermgmt-debug.log",
+              "beat": {
+                "hostname": "ip-10-216-48-184.us-west-1.compute.internal",
+                "version": "6.6.2",
+                "name": "ip-10-216-48-184.us-west-1.compute.internal"
+              },
+              "tags": [
+                "beats_input_codec_plain_applied"
+              ],
+              "thread": "http-nio-9091-exec-8",
+              "class": "c.t.f.a.c.c.FlagStarArbiterClientController",
+              "@version": "1",
+              "@timestamp": "2020-01-08T06:34:41.233Z",
+              "offset": 2152,
+              "traceid": "34b38c9cf8d842d4",
+              "severity": "INFO",
+              "msg": ": Login request received for user - \"tavant.admin@tavant.com\"Login request received for user - \"tavant.admin@tavant.com\" ",
+              "message": "2020-01-08 06:34:41.233  INFO [finexpusermgmt,34b38c9cf8d842d4,291c30192a1eaffe,true] 1 --- [http-nio-9091-exec-8] c.t.f.a.c.c.FlagStarArbiterClientController : Login request received for user - \"tavant.admin@tavant.com\"Login request received for user - \"tavant.admin@tavant.com\" ",
+              "host": {
+                "architecture": "x86_64",
+                "containerized": true,
+                "id": "05cb8c7b39fe0f70e3ce97e5beab809d",
+                "os": {
+                  "codename": "Core",
+                  "family": "redhat",
+                  "version": "7 (Core)",
+                  "platform": "centos",
+                  "name": "CentOS Linux"
+                },
+                "name": "ip-10-216-48-184.us-west-1.compute.internal"
+              },
+              "application": "finexpusermgmt",
+              "spanid": "291c30192a1eaffe",
+              "meta": {
+                "cloud": {
+                  "machine_type": "m5.xlarge",
+                  "region": "us-west-1",
+                  "instance_id": "i-0dab35fca52afdc2a",
+                  "availability_zone": "us-west-1a",
+                  "provider": "ec2"
+                }
+              },
+              "prospector": {
+                "type": "log"
+              },
+              "debug": "true",
+              "log": {
+                "file": {
+                  "path": "/logs/finexpusermgmt/finexpusermgmt-debug.log"
+                }
+              },
+              "pid": "1",
+              "type": "ms_log",
+              "timestamp": "2020-01-08 06:34:41.233"
+            },
+            "fields": {
+              "@timestamp": [
+                "2020-01-08T06:34:41.233Z"
+              ]
+            },
+            "highlight": {
+              "msg": [
+                ": @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\""
+              ],
+              "message": [
+                "2020-01-08 06:34:41.233  INFO [finexpusermgmt,34b38c9cf8d842d4,291c30192a1eaffe,true] 1 --- [http-nio-9091-exec-8] c.t.f.a.c.c.FlagStarArbiterClientController : @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\""
+              ]
+            },
+            "sort": [
+              1578465281233
+            ]
+          },
+          {
+            "_index": "logstash-2020.01.08",
+            "_type": "doc",
+            "_id": "dZbbg28BelFUzm0Ranjn",
+            "_version": 1,
+            "_score": null,
+            "_source": {
+              "fields": {
+                "env": "Flagstar-cdp-prod"
+              },
+              "input": {
+                "type": "log"
+              },
+              "source": "/logs/finexpusermgmt/finexpusermgmt-debug.log",
+              "beat": {
+                "hostname": "ip-10-216-48-184.us-west-1.compute.internal",
+                "version": "6.6.2",
+                "name": "ip-10-216-48-184.us-west-1.compute.internal"
+              },
+              "tags": [
+                "beats_input_codec_plain_applied"
+              ],
+              "thread": "http-nio-9091-exec-7",
+              "class": "c.t.f.a.c.c.FlagStarArbiterClientController",
+              "@version": "1",
+              "@timestamp": "2020-01-08T06:33:11.038Z",
+              "offset": 1294,
+              "traceid": "794c08c97e696599",
+              "severity": "INFO",
+              "msg": ": Login request received for user - \"tavant.admin@tavant.com\"Login request received for user - \"tavant.admin@tavant.com\" ",
+              "message": "2020-01-08 06:33:11.038  INFO [finexpusermgmt,794c08c97e696599,0bd15a3fe1dba510,true] 1 --- [http-nio-9091-exec-7] c.t.f.a.c.c.FlagStarArbiterClientController : Login request received for user - \"tavant.admin@tavant.com\"Login request received for user - \"tavant.admin@tavant.com\" ",
+              "host": {
+                "architecture": "x86_64",
+                "containerized": true,
+                "id": "05cb8c7b39fe0f70e3ce97e5beab809d",
+                "os": {
+                  "codename": "Core",
+                  "family": "redhat",
+                  "version": "7 (Core)",
+                  "platform": "centos",
+                  "name": "CentOS Linux"
+                },
+                "name": "ip-10-216-48-184.us-west-1.compute.internal"
+              },
+              "application": "finexpusermgmt",
+              "spanid": "0bd15a3fe1dba510",
+              "meta": {
+                "cloud": {
+                  "machine_type": "m5.xlarge",
+                  "region": "us-west-1",
+                  "instance_id": "i-0dab35fca52afdc2a",
+                  "availability_zone": "us-west-1a",
+                  "provider": "ec2"
+                }
+              },
+              "prospector": {
+                "type": "log"
+              },
+              "debug": "true",
+              "log": {
+                "file": {
+                  "path": "/logs/finexpusermgmt/finexpusermgmt-debug.log"
+                }
+              },
+              "pid": "1",
+              "type": "ms_log",
+              "timestamp": "2020-01-08 06:33:11.038"
+            },
+            "fields": {
+              "@timestamp": [
+                "2020-01-08T06:33:11.038Z"
+              ]
+            },
+            "highlight": {
+              "msg": [
+                ": @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\""
+              ],
+              "message": [
+                "2020-01-08 06:33:11.038  INFO [finexpusermgmt,794c08c97e696599,0bd15a3fe1dba510,true] 1 --- [http-nio-9091-exec-7] c.t.f.a.c.c.FlagStarArbiterClientController : @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"tavant.admin@tavant.com\""
+              ]
+            },
+            "sort": [
+              1578465191038
+            ]
+          },
+          {
+            "_index": "logstash-2020.01.08",
+            "_type": "doc",
+            "_id": "YpbQg28BelFUzm0R3mAH",
+            "_version": 1,
+            "_score": null,
+            "_source": {
+              "input": {
+                "type": "log"
+              },
+              "fields": {
+                "env": "Flagstar-cdp-prod"
+              },
+              "source": "/logs/finexpusermgmt/finexpusermgmt-debug.log",
+              "beat": {
+                "hostname": "ip-10-216-48-184.us-west-1.compute.internal",
+                "version": "6.6.2",
+                "name": "ip-10-216-48-184.us-west-1.compute.internal"
+              },
+              "tags": [
+                "beats_input_codec_plain_applied"
+              ],
+              "thread": "http-nio-9091-exec-5",
+              "class": "c.t.f.a.c.c.FlagStarArbiterClientController",
+              "@version": "1",
+              "@timestamp": "2020-01-08T06:21:37.294Z",
+              "offset": 0,
+              "traceid": "b96d338bc11ab775",
+              "severity": "INFO",
+              "msg": ": Login request received for user - \"jagadeesh.panchal@tavant.com\"Login request received for user - \"jagadeesh.panchal@tavant.com\" ",
+              "message": "2020-01-08 06:21:37.294  INFO [finexpusermgmt,b96d338bc11ab775,90ee0ea115aa605a,true] 1 --- [http-nio-9091-exec-5] c.t.f.a.c.c.FlagStarArbiterClientController : Login request received for user - \"jagadeesh.panchal@tavant.com\"Login request received for user - \"jagadeesh.panchal@tavant.com\" ",
+              "host": {
+                "architecture": "x86_64",
+                "containerized": true,
+                "id": "05cb8c7b39fe0f70e3ce97e5beab809d",
+                "os": {
+                  "codename": "Core",
+                  "family": "redhat",
+                  "version": "7 (Core)",
+                  "platform": "centos",
+                  "name": "CentOS Linux"
+                },
+                "name": "ip-10-216-48-184.us-west-1.compute.internal"
+              },
+              "application": "finexpusermgmt",
+              "spanid": "90ee0ea115aa605a",
+              "meta": {
+                "cloud": {
+                  "machine_type": "m5.xlarge",
+                  "region": "us-west-1",
+                  "instance_id": "i-0dab35fca52afdc2a",
+                  "availability_zone": "us-west-1a",
+                  "provider": "ec2"
+                }
+              },
+              "prospector": {
+                "type": "log"
+              },
+              "debug": "true",
+              "log": {
+                "file": {
+                  "path": "/logs/finexpusermgmt/finexpusermgmt-debug.log"
+                }
+              },
+              "pid": "1",
+              "type": "ms_log",
+              "timestamp": "2020-01-08 06:21:37.294"
+            },
+            "fields": {
+              "@timestamp": [
+                "2020-01-08T06:21:37.294Z"
+              ]
+            },
+            "highlight": {
+              "msg": [
+                ": @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"jagadeesh.panchal@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"jagadeesh.panchal@tavant.com\""
+              ],
+              "message": [
+                "2020-01-08 06:21:37.294  INFO [finexpusermgmt,b96d338bc11ab775,90ee0ea115aa605a,true] 1 --- [http-nio-9091-exec-5] c.t.f.a.c.c.FlagStarArbiterClientController : @kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"jagadeesh.panchal@tavant.com\"@kibana-highlighted-field@Login@/kibana-highlighted-field@ @kibana-highlighted-field@request@/kibana-highlighted-field@ @kibana-highlighted-field@received@/kibana-highlighted-field@ @kibana-highlighted-field@for@/kibana-highlighted-field@ @kibana-highlighted-field@user@/kibana-highlighted-field@ - \"jagadeesh.panchal@tavant.com\""
+              ]
+            },
+            "sort": [
+              1578464497294
+            ]
+          }
+        ]
+      },
+      "aggregations": {
+        "2": {
+          "buckets": [
+            {
+              "key_as_string": "2020-01-08T11:30:00.000+05:30",
+              "key": 1578463200000,
+              "doc_count": 1
+            },
+            {
+              "key_as_string": "2020-01-08T12:00:00.000+05:30",
+              "key": 1578465000000,
+              "doc_count": 5
+            },
+            {
+              "key_as_string": "2020-01-08T14:00:00.000+05:30",
+              "key": 1578472200000,
+              "doc_count": 4
+            },
+            {
+              "key_as_string": "2020-01-08T14:30:00.000+05:30",
+              "key": 1578474000000,
+              "doc_count": 2
+            },
+            {
+              "key_as_string": "2020-01-08T15:00:00.000+05:30",
+              "key": 1578475800000,
+              "doc_count": 2
+            },
+            {
+              "key_as_string": "2020-01-08T15:30:00.000+05:30",
+              "key": 1578477600000,
+              "doc_count": 1
+            },
+            {
+              "key_as_string": "2020-01-08T17:00:00.000+05:30",
+              "key": 1578483000000,
+              "doc_count": 1
+            },
+            {
+              "key_as_string": "2020-01-08T20:00:00.000+05:30",
+              "key": 1578493800000,
+              "doc_count": 1
+            },
+            {
+              "key_as_string": "2020-01-09T11:00:00.000+05:30",
+              "key": 1578547800000,
+              "doc_count": 2
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  ]
+}

@@ -2,7 +2,6 @@ package mvel;
 
 import org.mvel2.MVEL;
 import util.json.JSONUtils;
-import util.mvel.MVELUtils;
 
 import java.util.Map;
 

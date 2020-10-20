@@ -2,6 +2,9 @@ package threads;
 
 import java.util.LinkedList;
 
+/*
+ * Producer puts 'n' elements to que, consumers wait until que is full. One of the consumer flushes the queue and waits until producer fills it up again.
+ */
 public class ProduceConsumer {
 
     public static final int CAPACITY = 5;

@@ -11,6 +11,6 @@ public interface Constants {
 			"target",
 			".git",
 			"src",
-			"logs",
+			"resources/logs",
 			".idea"));
 }

@@ -5,7 +5,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import com.tavant.finexp.common.exception.FinExpException;
+import exception.NaveenRuntimeException;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -25,7 +25,7 @@ public class JSONUtils {
                     .readValue(json, new TypeReference<Map<String, Object>>() {
                     });
         } catch (IOException e) {
-            throw new RuntimeException(e);
+			throw new NaveenRuntimeException(e);
         }
         return map;
     }
@@ -36,7 +36,7 @@ public class JSONUtils {
             mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
             return mapper.readValue(json, classType);
         } catch (Exception e) {
-            throw new RuntimeException(e);
+			throw new NaveenRuntimeException(e);
         }
     }
 
@@ -57,7 +57,7 @@ public class JSONUtils {
             ObjectMapper myObjectMapper = new ObjectMapper();
             json = null != map ? myObjectMapper.writeValueAsString(map) : null;
         } catch (JsonProcessingException e) {
-            throw new RuntimeException(e);
+			throw new NaveenRuntimeException(e);
         }
         return json;
     }
@@ -70,7 +70,7 @@ public class JSONUtils {
         try {
             list = mapper.readValue(json, type);
         } catch (IOException e) {
-            throw new FinExpException(e);
+			throw new NaveenRuntimeException(e);
         }
         return list;
     }
@@ -82,7 +82,7 @@ public class JSONUtils {
             myObjectMapper.enable(SerializationFeature.INDENT_OUTPUT);
             json = null != map ? myObjectMapper.writeValueAsString(map) : null;
         } catch (JsonProcessingException e) {
-            throw new RuntimeException(e);
+			throw new NaveenRuntimeException(e);
         }
         return json;
     }

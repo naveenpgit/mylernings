@@ -52,15 +52,13 @@ public class StringWordsAltThread {
                 synchronized (StringWordsAltThread.iterator) {
                     if (StringWordsAltThread.iterator.hasNext()) {
                         System.out.println(name + " :::: " + StringWordsAltThread.iterator.next());
-                        StringWordsAltThread.iterator.remove();
                         try {
                             StringWordsAltThread.iterator.notifyAll();
                             StringWordsAltThread.iterator.wait();
+                            Thread.sleep(1000);
                         } catch (Exception e) {
                             e.printStackTrace();
                         }
-                    } else {
-                        break;
                     }
                 }
             }

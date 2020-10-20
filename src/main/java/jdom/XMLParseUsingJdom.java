@@ -14,14 +14,9 @@ public class XMLParseUsingJdom {
 		SAXBuilder builder = new SAXBuilder(XMLReaders.NONVALIDATING);
 		builder.setXMLReaderFactory(XMLReaders.NONVALIDATING);
 		builder.setFeature("http://xml.org/sax/features/validation", false);
-		builder.setFeature(
-				"http://apache.org/xml/features/nonvalidating/load-dtd-grammar",
-				false);
-		builder.setFeature(
-				"http://apache.org/xml/features/nonvalidating/load-external-dtd",
-				false);
-		File xmlFile = new File(
-				"E:\\naveen_git\\mylernings\\resources\\SampleResponse.xml");
+		builder.setFeature("http://apache.org/xml/features/nonvalidating/load-dtd-grammar", false);
+		builder.setFeature("http://apache.org/xml/features/nonvalidating/load-external-dtd", false);
+		File xmlFile = new File("/home/naveenkumargoudar/Naveen/Personel/naveen_git/mylernings/resources/SampleResponse.xml");
 		try {
 			Document document = (Document) builder.build(xmlFile);
 			Element rootNode = document.getRootElement();
@@ -36,8 +31,7 @@ public class XMLParseUsingJdom {
 					Attribute ssn = n.getAttribute("BorrowerSSN");
 					Attribute crId = n.getAttribute("CreditReportIdentifier");
 
-					System.out.println("BorrowerSSN = " + ssn.getValue() +
-							"     CreditReportIdentifier = " + crId.getValue());
+					System.out.println("BorrowerSSN = " + ssn.getValue() + "     CreditReportIdentifier = " + crId.getValue());
 
 				}
 

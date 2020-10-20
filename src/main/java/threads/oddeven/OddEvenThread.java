@@ -12,7 +12,7 @@ public class OddEvenThread implements Runnable {
 
     @Override
     public void run() {
-        while (lock.i <= 5) {
+        while (true) {
             synchronized (lock.lock) {
                 try {
                     System.out.println(lock.i);
