@@ -12,8 +12,8 @@ public class ColDemo {
         list.add(2);
         list.add(3);
 
-        list.add(5);
         list.add(4);
+        list.add(5);
 
         System.out.println(Collections.binarySearch(list, 4));
     }

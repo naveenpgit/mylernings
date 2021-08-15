@@ -1,30 +1,34 @@
 package threads.oddeven;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
 public class ThreadTest {
     public static void main(String[] args) throws InterruptedException {
 
-        Object lock = new Object();
+        Lock lock = new Lock(false);
 
-        Thread oddThread = new Thread(new OddEvenThread(new LockObject(lock, false, 1)));
-        Thread evenThread = new Thread(new OddEvenThread(new LockObject(lock, true, 2)));
+        Thread oddThread = new Thread(new OddEvenThread(new ThreadMeta(lock, false, 1)));
+        Thread evenThread = new Thread(new OddEvenThread(new ThreadMeta(lock, true, 2)));
 
         oddThread.start();
-
         evenThread.start();
 
     }
 
-    static class LockObject {
+    @Data
+    @AllArgsConstructor
+    static class ThreadMeta {
+        Lock lock;
+
         boolean isEven;
 
-        Object lock;
-
         int i;
+    }
 
-        public LockObject(Object lock, boolean isEven, int i) {
-            this.lock = lock;
-            this.isEven = isEven;
-            this.i = i;
-        }
+    @Data
+    @AllArgsConstructor
+    static class Lock {
+        boolean started;
     }
 }

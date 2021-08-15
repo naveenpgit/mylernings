@@ -1,0 +1,1697 @@
+{
+  "mismoReferenceModelIdentifier": "3.4.032420160128",
+  "extension": {
+    "other": {
+      "tfcTransactionDetails": {
+        "operationType": "serviceorder",
+        "productCode": "UDR_WTG_MSM",
+        "integrationCode": "UDR_WTG"
+      }
+    }
+  },
+  "aboutVersions": {
+    "aboutVersion": [
+      {
+        "aboutVersionIdentifier": "2.1",
+        "createdDatetime": "2019-02-22T14:24:17Z"
+      }
+    ]
+  },
+  "dealSets": {
+    "dealSet": [
+      {
+        "deals": {
+          "deal": [
+            {
+              "aboutVersions": {
+                "aboutVersion": [
+                  {
+                    "dataVersionName": "LPA_REQUEST"
+                  }
+                ]
+              },
+              "assets": {
+                "asset": [
+                  {
+                    "label": "ASSET_1",
+                    "assetDetail": {
+                      "assetAccountIdentifier": "1523421245",
+                      "assetCashOrMarketValueAmount": 45000,
+                      "assetType": "SavingsAccount"
+                    },
+                    "assetHolder": {
+                      "name": {
+                        "fullName": "BankA"
+                      }
+                    },
+                    "sequenceNumber": 1
+                  },
+                  {
+                    "label": "ASSET_2",
+                    "assetDetail": {
+                      "assetAccountIdentifier": "6239",
+                      "assetCashOrMarketValueAmount": 732152,
+                      "assetType": "TrustAccount"
+                    },
+                    "assetHolder": {
+                      "name": {
+                        "fullName": "Trusty Investments"
+                      }
+                    },
+                    "sequenceNumber": 2
+                  },
+                  {
+                    "label": "ASSET_3",
+                    "assetDetail": {
+                      "assetAccountIdentifier": "9012",
+                      "assetCashOrMarketValueAmount": 10000,
+                      "assetType": "CheckingAccount"
+                    },
+                    "assetHolder": {
+                      "name": {
+                        "fullName": "FinBank Profiles - A"
+                      }
+                    },
+                    "sequenceNumber": 3
+                  },
+                  {
+                    "label": "ASSET_4",
+                    "assetDetail": {
+                      "assetAccountIdentifier": "6239",
+                      "assetCashOrMarketValueAmount": 37000,
+                      "assetType": "MoneyMarketFund"
+                    },
+                    "assetHolder": {
+                      "name": {
+                        "fullName": "BVD"
+                      }
+                    },
+                    "sequenceNumber": 4
+                  },
+                  {
+                    "label": "ASSET_5",
+                    "assetDetail": {
+                      "assetAccountIdentifier": "492315",
+                      "assetCashOrMarketValueAmount": 61000,
+                      "assetType": "MutualFund"
+                    },
+                    "assetHolder": {
+                      "name": {
+                        "fullName": "ANP"
+                      }
+                    },
+                    "sequenceNumber": 5
+                  },
+                  {
+                    "label": "ASSET_6",
+                    "assetDetail": {
+                      "assetAccountIdentifier": "492315",
+                      "assetCashOrMarketValueAmount": 60000,
+                      "assetType": "CheckingAccount"
+                    },
+                    "assetHolder": {
+                      "name": {
+                        "fullName": "Finbank Profiles - A"
+                      }
+                    },
+                    "sequenceNumber": 6
+                  },
+                  {
+                    "label": "ASSET_7",
+                    "assetDetail": {
+                      "assetAccountIdentifier": "1379425",
+                      "assetCashOrMarketValueAmount": 42000,
+                      "assetType": "Bond"
+                    },
+                    "assetHolder": {
+                      "name": {
+                        "fullName": "James Bank"
+                      }
+                    },
+                    "sequenceNumber": 7
+                  },
+                  {
+                    "label": "ASSET_8",
+                    "assetDetail": {
+                      "assetAccountIdentifier": "1593215",
+                      "assetCashOrMarketValueAmount": 27000,
+                      "assetType": "CertificateOfDepositTimeDeposit"
+                    },
+                    "assetHolder": {
+                      "name": {
+                        "fullName": "James Bank"
+                      }
+                    },
+                    "sequenceNumber": 8
+                  },
+                  {
+                    "label": "ASSET_9",
+                    "assetDetail": {
+                      "assetAccountIdentifier": "1523421245",
+                      "assetCashOrMarketValueAmount": 5200,
+                      "assetType": "ProceedsFromSaleOfNonRealEstateAsset"
+                    },
+                    "assetHolder": {
+                      "name": {
+                        "fullName": "BankA1"
+                      }
+                    },
+                    "sequenceNumber": 9
+                  },
+                  {
+                    "label": "ASSET_10",
+                    "ownedProperty": {
+                      "ownedPropertyDetail": {
+                        "ownedPropertySubjectIndicator": true,
+                        "ownedPropertyDispositionStatusType": "Retain",
+                        "ownedPropertyMaintenanceExpenseAmount": 375,
+                        "ownedPropertyLienUPBAmount": 101514.03,
+                        "ownedPropertyRentalIncomeNetAmount": 0
+                      },
+                      "property": {
+                        "address": {
+                          "addressLineText": "1234 Main St",
+                          "cityName": "Baltimore",
+                          "postalCode": "206001234",
+                          "stateCode": "MD"
+                        },
+                        "propertyDetail": {
+                          "propertyEstimatedValueAmount": 600000,
+                          "propertyCurrentUsageType": "PrimaryResidence"
+                        }
+                      }
+                    },
+                    "sequenceNumber": 10
+                  },
+                  {
+                    "label": "ASSET_11",
+                    "ownedProperty": {
+                      "ownedPropertyDetail": {
+                        "ownedPropertySubjectIndicator": false,
+                        "ownedPropertyDispositionStatusType": "Retain",
+                        "ownedPropertyMaintenanceExpenseAmount": 575,
+                        "ownedPropertyRentalIncomeGrossAmount": 0,
+                        "ownedPropertyRentalIncomeNetAmount": 0
+                      },
+                      "property": {
+                        "project": {
+                          "projectDetail": {
+                            "projectLegalStructureType": "Condominium"
+                          }
+                        },
+                        "propertyDetail": {
+                          "propertyCurrentUsageType": "SecondHome",
+                          "financedUnitCount": 1,
+                          "propertyEstimatedValueAmount": 150000
+                        }
+                      }
+                    },
+                    "sequenceNumber": 11
+                  }
+                ]
+              },
+              "collaterals": {
+                "collateral": [
+                  {
+                    "subjectProperty": {
+                      "address": {
+                        "addressLineText": "1234 Main Street",
+                        "cityName": "Winston Salem",
+                        "postalCode": "27104",
+                        "stateCode": "NC"
+                      },
+                      "propertyDetail": {
+                        "attachmentType": "Detached",
+                        "constructionMethodType": "SiteBuilt",
+                        "constructionStatusType": "Proposed",
+                        "financedUnitCount": 1,
+                        "propertyEstateType": "FeeSimple",
+                        "propertyEstimatedValueAmount": 225000,
+                        "propertyExistingCleanEnergyLienIndicator": false,
+                        "propertyInProjectIndicator": false,
+                        "propertyMixedUsageIndicator": false,
+                        "propertyUsageType": "PrimaryResidence",
+                        "pudIndicator": false,
+                        "rentalEstimatedNetMonthlyRentAmount": 0
+                      },
+                      "propertyValuations": {
+                        "propertyValuation": [
+                          {
+                            "propertyValuationDetail": {
+                              "appraisalIdentifier": "1100AA1111",
+                              "propertyValuationAmount": 225000
+                            }
+                          }
+                        ]
+                      },
+                      "salesContracts": {
+                        "salesContract": [
+                          {
+                            "salesContractDetail": {
+                              "salesContractAmount": 225000
+                            },
+                            "sequenceNumber": 1
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              "expenses": {
+                "expense": [
+                  {
+                    "label": "EXPENSE_1",
+                    "expenseMonthlyPaymentAmount": 127,
+                    "expenseRemainingTermMonthsCount": 10,
+                    "expenseType": "JobRelatedExpenses",
+                    "extension": {
+                      "other": {
+                        "expenseExclusionIndicator": false
+                      }
+                    },
+                    "sequenceNumber": 1
+                  },
+                  {
+                    "label": "EXPENSE_2",
+                    "expenseMonthlyPaymentAmount": 359,
+                    "expenseRemainingTermMonthsCount": 10,
+                    "expenseType": "SeparateMaintenanceExpense",
+                    "extension": {
+                      "other": {
+                        "expenseExclusionIndicator": false
+                      }
+                    },
+                    "sequenceNumber": 2
+                  },
+                  {
+                    "label": "EXPENSE_3",
+                    "expenseMonthlyPaymentAmount": 500,
+                    "expenseRemainingTermMonthsCount": 10,
+                    "expenseType": "ChildSupport",
+                    "extension": {
+                      "other": {
+                        "expenseExclusionIndicator": true
+                      }
+                    },
+                    "sequenceNumber": 3
+                  },
+                  {
+                    "label": "EXPENSE_4",
+                    "expenseMonthlyPaymentAmount": 475,
+                    "expenseRemainingTermMonthsCount": 10,
+                    "expenseType": "Alimony",
+                    "extension": {
+                      "other": {
+                        "expenseExclusionIndicator": true
+                      }
+                    },
+                    "sequenceNumber": 4
+                  }
+                ]
+              },
+              "liabilities": {
+                "liability": [
+                  {
+                    "label": "LIABILITY_1",
+                    "liabilityDetail": {
+                      "liabilityAccountIdentifier": "913432",
+                      "liabilityMonthlyPaymentAmount": 500,
+                      "liabilityPayoffStatusIndicator": false,
+                      "liabilityType": "Installment",
+                      "liabilityUnpaidBalanceAmount": 15838,
+                      "liabilityPaymentIncludesTaxesInsuranceIndicator": false,
+                      "liabilityRemainingTermMonthsCount": 12,
+                      "liabilityExclusionIndicator": false
+                    },
+                    "liabilityHolder": {
+                      "name": {
+                        "fullName": "Toyota Credit"
+                      }
+                    },
+                    "sequenceNumber": 1
+                  },
+                  {
+                    "label": "LIABILITY_2",
+                    "liabilityDetail": {
+                      "liabilityAccountIdentifier": "8745698",
+                      "liabilityMonthlyPaymentAmount": 257,
+                      "liabilityPayoffStatusIndicator": false,
+                      "liabilityType": "Installment",
+                      "liabilityRemainingTermMonthsCount": 12,
+                      "liabilityUnpaidBalanceAmount": 5000,
+                      "liabilityPaymentIncludesTaxesInsuranceIndicator": false,
+                      "liabilityExclusionIndicator": false
+                    },
+                    "liabilityHolder": {
+                      "name": {
+                        "fullName": "Chase"
+                      }
+                    },
+                    "sequenceNumber": 2
+                  },
+                  {
+                    "label": "LIABILITY_3",
+                    "liabilityDetail": {
+                      "liabilityAccountIdentifier": "258741",
+                      "liabilityMonthlyPaymentAmount": 450,
+                      "liabilityPayoffStatusIndicator": false,
+                      "liabilityType": "Installment",
+                      "liabilityRemainingTermMonthsCount": 12,
+                      "liabilityUnpaidBalanceAmount": 5000,
+                      "liabilityPaymentIncludesTaxesInsuranceIndicator": false,
+                      "liabilityExclusionIndicator": true
+                    },
+                    "liabilityHolder": {
+                      "name": {
+                        "fullName": "Sallie Mae"
+                      }
+                    },
+                    "sequenceNumber": 3
+                  },
+                  {
+                    "label": "LIABILITY_4",
+                    "liabilityDetail": {
+                      "liabilityAccountIdentifier": "21478521",
+                      "liabilityMonthlyPaymentAmount": 25,
+                      "liabilityRemainingTermMonthsCount": 12,
+                      "liabilityPayoffStatusIndicator": true,
+                      "liabilityType": "Installment",
+                      "liabilityUnpaidBalanceAmount": 1100,
+                      "liabilityPaymentIncludesTaxesInsuranceIndicator": false,
+                      "liabilityExclusionIndicator": false
+                    },
+                    "liabilityHolder": {
+                      "name": {
+                        "fullName": "Sallie Mae"
+                      }
+                    },
+                    "sequenceNumber": 4
+                  },
+                  {
+                    "label": "LIABILITY_5",
+                    "liabilityDetail": {
+                      "liabilityAccountIdentifier": "325792",
+                      "liabilityMonthlyPaymentAmount": 25,
+                      "liabilityRemainingTermMonthsCount": 12,
+                      "liabilityPayoffStatusIndicator": false,
+                      "liabilityType": "Revolving",
+                      "liabilityUnpaidBalanceAmount": 950,
+                      "liabilityPaymentIncludesTaxesInsuranceIndicator": false,
+                      "liabilityExclusionIndicator": false
+                    },
+                    "liabilityHolder": {
+                      "name": {
+                        "fullName": "Universal Visa"
+                      }
+                    },
+                    "sequenceNumber": 5
+                  },
+                  {
+                    "label": "LIABILITY_6",
+                    "liabilityDetail": {
+                      "liabilityAccountIdentifier": "7981421",
+                      "liabilityMonthlyPaymentAmount": 1950,
+                      "liabilityRemainingTermMonthsCount": 12,
+                      "liabilityPayoffStatusIndicator": true,
+                      "liabilityType": "MortgageLoan",
+                      "liabilityUnpaidBalanceAmount": 300000,
+                      "liabilityPaymentIncludesTaxesInsuranceIndicator": false,
+                      "liabilityExclusionIndicator": false
+                    },
+                    "liabilityHolder": {
+                      "name": {
+                        "fullName": "ABC Lending"
+                      }
+                    },
+                    "sequenceNumber": 6
+                  },
+                  {
+                    "label": "LIABILITY_7",
+                    "liabilityDetail": {
+                      "liabilityAccountIdentifier": "6011452244482",
+                      "liabilityMonthlyPaymentAmount": 1527,
+                      "liabilityRemainingTermMonthsCount": 12,
+                      "liabilityPayoffStatusIndicator": false,
+                      "liabilityType": "Open30DayChargeAccount",
+                      "liabilityPaymentIncludesTaxesInsuranceIndicator": false,
+                      "liabilityUnpaidBalanceAmount": 1527,
+                      "liabilityExclusionIndicator": false
+                    },
+                    "liabilityHolder": {
+                      "name": {
+                        "fullName": "AMEX"
+                      }
+                    },
+                    "sequenceNumber": 7
+                  },
+                  {
+                    "label": "LIABILITY_8",
+                    "liabilityDetail": {
+                      "liabilityAccountIdentifier": "46163168",
+                      "liabilityMonthlyPaymentAmount": 601,
+                      "liabilityRemainingTermMonthsCount": 12,
+                      "liabilityPayoffStatusIndicator": false,
+                      "liabilityPaymentIncludesTaxesInsuranceIndicator": false,
+                      "liabilityType": "LeasePayment",
+                      "liabilityUnpaidBalanceAmount": 5932,
+                      "liabilityExclusionIndicator": false
+                    },
+                    "liabilityHolder": {
+                      "name": {
+                        "fullName": "GMAC"
+                      }
+                    },
+                    "sequenceNumber": 8
+                  },
+                  {
+                    "label": "LIABILITY_9",
+                    "liabilityDetail": {
+                      "liabilityAccountIdentifier": "991919991",
+                      "liabilityMonthlyPaymentAmount": 111,
+                      "liabilityRemainingTermMonthsCount": 12,
+                      "liabilityPayoffStatusIndicator": false,
+                      "liabilityPaymentIncludesTaxesInsuranceIndicator": false,
+                      "liabilityType": "Taxes",
+                      "liabilityUnpaidBalanceAmount": 1330,
+                      "liabilityExclusionIndicator": false
+                    },
+                    "liabilityHolder": {
+                      "name": {
+                        "fullName": "Uncle Sam"
+                      }
+                    },
+                    "sequenceNumber": 9
+                  }
+                ]
+              },
+              "loans": {
+                "loan": [
+                  {
+                    "label": "LOAN_1",
+                    "loanRoleType": "SubjectLoan",
+                    "loanIdentifiers": {
+                      "loanIdentifier": [
+                        {
+                          "loanIdentifier": "DI-C01_v3.4",
+                          "loanIdentifierType": "LenderLoan"
+                        },
+                        {
+                          "loanIdentifier": "1234567890",
+                          "loanIdentifierType": "UniversalLoan"
+                        }
+                      ]
+                    },
+                    "loanStatuses": {
+                      "loanStatus": [
+                        {
+                          "loanStatusIdentifier": "Underwriting"
+                        }
+                      ]
+                    },
+                    "originationSystems": {
+                      "originationSystem": [
+                        {
+                          "loanOriginationSystemVendorIdentifier": "AccurateLOS",
+                          "loanOriginationSystemVersionIdentifier": "2.7"
+                        }
+                      ]
+                    },
+                    "closingInformation": {
+                      "closingAdjustmentItems": {
+                        "closingAdjustmentItem": [
+                          {
+                            "closingAdjustmentItemDetail": {
+                              "closingAdjustmentItemAmount": 1000,
+                              "closingAdjustmentItemType": "LenderCredit"
+                            }
+                          }
+                        ]
+                      },
+                      "closingInformationDetail": {
+                        "cashFromBorrowerAtClosingAmount": 28800
+                      }
+                    },
+                    "housingExpenses": {
+                      "housingExpense": [
+                        {
+                          "housingExpensePaymentAmount": 506.69,
+                          "housingExpenseType": "FirstMortgagePrincipalAndInterest",
+                          "housingExpenseTimingType": "Proposed",
+                          "sequenceNumber": 1
+                        },
+                        {
+                          "housingExpensePaymentAmount": 83.33,
+                          "housingExpenseType": "OtherMortgageLoanPrincipalAndInterest",
+                          "housingExpenseTimingType": "Proposed",
+                          "sequenceNumber": 2
+                        },
+                        {
+                          "housingExpensePaymentAmount": 153,
+                          "housingExpenseType": "HomeownersInsurance",
+                          "housingExpenseTimingType": "Proposed",
+                          "sequenceNumber": 3
+                        },
+                        {
+                          "housingExpensePaymentAmount": 188,
+                          "housingExpenseType": "RealEstateTax",
+                          "housingExpenseTimingType": "Proposed",
+                          "sequenceNumber": 4
+                        }
+                      ]
+                    },
+                    "documentSpecificDataSets": {
+                      "documentSpecificDataSet": [
+                        {
+                          "urla": {
+                            "urlaDetail": {
+                              "borrowerPaidDiscountPointsTotalAmount": 1000,
+                              "estimatedClosingCostsAmount": 6750,
+                              "miAndFundingFeeFinancedAmount": 0,
+                              "prepaidItemsEstimatedAmount": 2300
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "termsOfLoan": {
+                      "loanPurposeType": "Purchase",
+                      "baseLoanAmount": 100000,
+                      "mortgageType": "Conventional",
+                      "noteRatePercent": 4.5,
+                      "lienPriorityType": "FirstLien"
+                    },
+                    "amortization": {
+                      "amortizationRule": {
+                        "loanAmortizationPeriodCount": "360",
+                        "loanAmortizationPeriodType": "Month",
+                        "amortizationType": "Fixed"
+                      }
+                    },
+                    "loanDetail": {
+                      "constructionLoanIndicator": false,
+                      "balloonIndicator": false,
+                      "interestOnlyIndicator": false,
+                      "buydownTemporarySubsidyFundingIndicator": false,
+                      "prepaymentPenaltyIndicator": false,
+                      "negativeAmortizationIndicator": false,
+                      "applicationReceivedDate": "2019-03-21"
+                    },
+                    "purchaseCredits": {
+                      "purchaseCredit": [
+                        {
+                          "purchaseCreditAmount": 750,
+                          "purchaseCreditType": "Other",
+                          "purchaseCreditTypeOtherDescription": "BorrowerPaidFees",
+                          "purchaseCreditSourceType": "Lender"
+                        },
+                        {
+                          "purchaseCreditAmount": 635,
+                          "purchaseCreditType": "Other",
+                          "purchaseCreditTypeOtherDescription": "BorrowerPaidFees",
+                          "purchaseCreditSourceType": "BorrowerPaidOutsideClosing"
+                        },
+                        {
+                          "purchaseCreditAmount": 2250,
+                          "purchaseCreditType": "Other",
+                          "purchaseCreditTypeOtherDescription": "BorrowerPaidFees",
+                          "purchaseCreditSourceType": "PropertySeller"
+                        }
+                      ]
+                    },
+                    "qualification": {
+                      "projectedReservesAmount": 100000
+                    },
+                    "loanProduct": {
+                      "loanProductDetail": {
+                        "discountPointsTotalAmount": 2100,
+                        "productDescription": "30YrFixed"
+                      }
+                    },
+                    "hmdaLoan": {
+                      "hmdaLoanDetail": {
+                        "hmdaHoepaLoanStatusIndicator": false
+                      }
+                    },
+                    "sequenceNumber": 1
+                  },
+                  {
+                    "label": "RELATED_LOAN_1",
+                    "loanRoleType": "RelatedLoan",
+                    "heloc": {
+                      "helocOccurrences": {
+                        "helocOccurrence": [
+                          {
+                            "helocBalanceAmount": 0
+                          }
+                        ]
+                      },
+                      "helocRule": {
+                        "helocMaximumBalanceAmount": 20000
+                      }
+                    },
+                    "termsOfLoan": {
+                      "lienPriorityType": "SecondLien"
+                    },
+                    "loanDetail": {
+                      "helocIndicator": true,
+                      "balloonIndicator": false,
+                      "loanAffordableIndicator": false
+                    },
+                    "payment": {
+                      "paymentRule": {
+                        "initialPrincipalAndInterestPaymentAmount": 84
+                      }
+                    },
+                    "sequenceNumber": 1
+                  }
+                ]
+              },
+              "parties": {
+                "party": [
+                  {
+                    "individual": {
+                      "contactPoints": {
+                        "contactPoint": [
+                          {
+                            "contactPointEmail": {
+                              "contactPointEmailValue": "ken.c@fanniemae.com"
+                            }
+                          },
+                          {
+                            "contactPointTelephone": {
+                              "contactPointTelephoneValue": "8182222222"
+                            },
+                            "contactPointDetail": {
+                              "contactPointRoleType": "Home"
+                            }
+                          }
+                        ]
+                      },
+                      "name": {
+                        "firstName": "John",
+                        "lastName": "Freddie"
+                      }
+                    },
+                    "addresses": {
+                      "address": [
+                        {
+                          "addressType": "Mailing",
+                          "addressLineText": "10655 Birch St",
+                          "cityName": "Burbank",
+                          "stateCode": "CA",
+                          "postalCode": "915021234",
+                          "countryCode": "US"
+                        }
+                      ]
+                    },
+                    "languages": {
+                      "language": [
+                        {
+                          "languageCode": "English",
+                          "extension": {
+                            "other": {
+                              "languageRefusalIndicator": false
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "roles": {
+                      "role": [
+                        {
+                          "label": "BORROWER_1",
+                          "borrower": {
+                            "governmentMonitoring": {
+                              "governmentMonitoringDetail": {
+                                "extension": {
+                                  "other": {
+                                    "applicationTakenMethodType": "FaceToFace",
+                                    "hmdaGenderType": "Male"
+                                  }
+                                },
+                                "hmdaRaceCollectedBasedOnVisualObservationOrSurnameIndicator": true,
+                                "hmdaGenderRefusalIndicator": true,
+                                "hmdaEthnicityRefusalIndicator": true,
+                                "hmdaRaceRefusalIndicator": true,
+                                "hmdaGenderCollectedBasedOnVisualObservationOrNameIndicator": true,
+                                "hmdaEthnicityCollectedBasedOnVisualObservationOrSurnameIndicator": true
+                              },
+                              "extension": {
+                                "other": {
+                                  "hmdaEthnicities": {
+                                    "hmdaEthnicity": [
+                                      {
+                                        "hmdaEthnicityType": "NotHispanicOrLatino"
+                                      }
+                                    ]
+                                  }
+                                }
+                              },
+                              "hmdaRaces": {
+                                "hmdaRace": [
+                                  {
+                                    "hmdaRaceDetail": {
+                                      "hmdaRaceType": "White"
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "employers": {
+                              "employer": [
+                                {
+                                  "label": "EMPLOYER_1",
+                                  "employment": {
+                                    "employmentBorrowerSelfEmployedIndicator": false,
+                                    "employmentClassificationType": "Primary",
+                                    "employmentPositionDescription": "Manager",
+                                    "employmentTimeInLineOfWorkMonthsCount": 300,
+                                    "employmentStartDate": "1999-12-12",
+                                    "employmentStatusType": "Current",
+                                    "specialBorrowerEmployerRelationshipIndicator": false,
+                                    "extension": {
+                                      "other": {
+                                        "foreignIncomeIndicator": false,
+                                        "seasonalIncomeIndicator": false
+                                      }
+                                    }
+                                  },
+                                  "legalEntity": {
+                                    "contacts": {
+                                      "contact": [
+                                        {
+                                          "contactPoints": {
+                                            "contactPoint": [
+                                              {
+                                                "contactPointTelephone": {
+                                                  "contactPointTelephoneValue": "8183323332"
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    "legalEntityDetail": {
+                                      "fullName": "Enterprise One"
+                                    }
+                                  },
+                                  "sequenceNumber": 1
+                                }
+                              ]
+                            },
+                            "housingExpenses": {
+                              "housingExpense": [
+                                {
+                                  "housingExpensePaymentAmount": 1950,
+                                  "housingExpenseType": "FirstMortgagePrincipalAndInterest",
+                                  "housingExpenseTimingType": "Present",
+                                  "sequenceNumber": 1
+                                },
+                                {
+                                  "housingExpensePaymentAmount": 100,
+                                  "housingExpenseType": "HomeownersInsurance",
+                                  "housingExpenseTimingType": "Present",
+                                  "sequenceNumber": 1
+                                },
+                                {
+                                  "housingExpensePaymentAmount": 535,
+                                  "housingExpenseType": "RealEstateTax",
+                                  "housingExpenseTimingType": "Present",
+                                  "sequenceNumber": 1
+                                }
+                              ]
+                            },
+                            "borrowerDetail": {
+                              "borrowerBirthDate": "1963-12-23",
+                              "dependentCount": 2,
+                              "jointAssetLiabilityReportingType": "Jointly",
+                              "maritalStatusType": "Married"
+                            },
+                            "counseling": {
+                              "counselingEvents": {
+                                "counselingEvent": [
+                                  {
+                                    "label": "COUNSELING_EVENT_1",
+                                    "counselingEventDetail": {
+                                      "counselingConfirmationIndicator": false,
+                                      "counselingFormatType": "FaceToFace",
+                                      "counselingType": "Counseling"
+                                    },
+                                    "sequenceNumber": 1
+                                  }
+                                ]
+                              }
+                            },
+                            "currentIncome": {
+                              "currentIncomeItems": {
+                                "currentIncomeItem": [
+                                  {
+                                    "currentIncomeItemDetail": {
+                                      "currentIncomeMonthlyTotalAmount": 4240,
+                                      "employmentIncomeIndicator": true,
+                                      "incomeType": "Base"
+                                    },
+                                    "sequenceNumber": 1,
+                                    "label": "CURRENT_INCOME_ITEM_1"
+                                  },
+                                  {
+                                    "currentIncomeItemDetail": {
+                                      "currentIncomeMonthlyTotalAmount": 500,
+                                      "employmentIncomeIndicator": true,
+                                      "incomeType": "Bonus"
+                                    },
+                                    "sequenceNumber": 2,
+                                    "label": "CURRENT_INCOME_ITEM_2"
+                                  },
+                                  {
+                                    "currentIncomeItemDetail": {
+                                      "currentIncomeMonthlyTotalAmount": 253,
+                                      "employmentIncomeIndicator": false,
+                                      "incomeType": "DividendsInterest"
+                                    },
+                                    "sequenceNumber": 3,
+                                    "label": "CURRENT_INCOME_ITEM_3"
+                                  },
+                                  {
+                                    "currentIncomeItemDetail": {
+                                      "currentIncomeMonthlyTotalAmount": 1000,
+                                      "employmentIncomeIndicator": false,
+                                      "incomeType": "CapitalGains"
+                                    },
+                                    "sequenceNumber": 4,
+                                    "label": "CURRENT_INCOME_ITEM_4"
+                                  },
+                                  {
+                                    "currentIncomeItemDetail": {
+                                      "currentIncomeMonthlyTotalAmount": 150,
+                                      "employmentIncomeIndicator": false,
+                                      "incomeType": "NotesReceivableInstallment"
+                                    },
+                                    "sequenceNumber": 5,
+                                    "label": "CURRENT_INCOME_ITEM_5"
+                                  }
+                                ]
+                              }
+                            },
+                            "declaration": {
+                              "declarationDetail": {
+                                "citizenshipResidencyType": "USCitizen",
+                                "priorPropertyForeclosureCompletedIndicator": false,
+                                "bankruptcyIndicator": false,
+                                "intentToOccupyType": "Yes",
+                                "homeownerPastThreeYearsType": "Yes",
+                                "outstandingJudgmentsIndicator": false,
+                                "presentlyDelinquentIndicator": false,
+                                "priorPropertyDeedInLieuConveyedIndicator": false,
+                                "priorPropertyShortSaleCompletedIndicator": false,
+                                "priorPropertyUsageType": "PrimaryResidence",
+                                "propertyProposedCleanEnergyLienIndicator": false,
+                                "undisclosedBorrowedFundsIndicator": false,
+                                "undisclosedCreditApplicationIndicator": false,
+                                "undisclosedComakerOfNoteIndicator": false,
+                                "undisclosedMortgageApplicationIndicator": false,
+                                "extension": {
+                                  "other": {
+                                    "specialBorrowerSellerRelationshipIndicator": false
+                                  }
+                                }
+                              }
+                            },
+                            "residences": {
+                              "residence": [
+                                {
+                                  "address": {
+                                    "addressLineText": "175 13th Street",
+                                    "cityName": "Washington",
+                                    "postalCode": "20013",
+                                    "countryCode": "US",
+                                    "stateCode": "DC"
+                                  },
+                                  "residenceDetail": {
+                                    "borrowerResidencyBasisType": "Own",
+                                    "borrowerResidencyDurationYearsCount": 16,
+                                    "borrowerResidencyDurationMonthsCount": 3,
+                                    "borrowerResidencyType": "Current"
+                                  }
+                                },
+                                {
+                                  "address": {
+                                    "addressLineText": "158 21st St",
+                                    "cityName": "Washington",
+                                    "countryCode": "US",
+                                    "postalCode": "20013",
+                                    "stateCode": "DC"
+                                  },
+                                  "residenceDetail": {
+                                    "borrowerResidencyBasisType": "Rent",
+                                    "borrowerResidencyDurationYearsCount": 1,
+                                    "borrowerResidencyDurationMonthsCount": 0,
+                                    "borrowerResidencyType": "Prior"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "roleDetail": {
+                            "partyRoleType": "Borrower"
+                          },
+                          "sequenceNumber": 1
+                        }
+                      ]
+                    },
+                    "taxpayerIdentifiers": {
+                      "taxpayerIdentifier": [
+                        {
+                          "taxpayerIdentifierType": "SocialSecurityNumber",
+                          "taxpayerIdentifierValue": "500507000"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "individual": {
+                      "contactPoints": {
+                        "contactPoint": [
+                          {
+                            "contactPointTelephone": {
+                              "contactPointTelephoneValue": "8182222222"
+                            }
+                          }
+                        ]
+                      },
+                      "name": {
+                        "firstName": "John",
+                        "lastName": "Done"
+                      }
+                    },
+                    "roles": {
+                      "role": [
+                        {
+                          "label": "LOAN_ORIGINATOR_1",
+                          "licenses": {
+                            "license": [
+                              {
+                                "licenseDetail": {
+                                  "licenseIdentifier": "123456789012"
+                                }
+                              }
+                            ]
+                          },
+                          "roleDetail": {
+                            "partyRoleType": "LoanOriginator"
+                          }
+                        }
+                      ]
+                    },
+                    "sequenceNumber": 1
+                  },
+                  {
+                    "roles": {
+                      "role": [
+                        {
+                          "label": "REQUESTING_PARTY_1",
+                          "roleDetail": {
+                            "partyRoleType": "RequestingParty"
+                          },
+                          "requestingParty": {
+                            "extension": {
+                              "mismo": {
+                                "lenderAccountIdentifier": "lenderAccountIdentifier_123",
+                                "lenderAccountPassword": "lenderAccountPassword_123"
+                              },
+                              "other": {
+                                "creditProviderName": "200"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "roles": {
+                      "role": [
+                        {
+                          "partyRoleIdentifiers": {
+                            "partyRoleIdentifier": [
+                              {
+                                "partyRoleIdentifier": "0009"
+                              }
+                            ]
+                          },
+                          "roleDetail": {
+                            "partyRoleType": "LenderBranch"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "legalEntity": {
+                      "legalEntityDetail": {
+                        "fullName": "Second Best Loan Co"
+                      }
+                    },
+                    "roles": {
+                      "role": [
+                        {
+                          "label": "NOTE_PAY_TO_1",
+                          "roleDetail": {
+                            "partyRoleType": "NotePayTo"
+                          },
+                          "sequenceNumber": 1
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "services": {
+                "service": [
+                  {
+                    "label": "SERVICE_15",
+                    "automatedUnderwritingSystem": {
+                      "automatedUnderwritingSystemRequest": {
+                        "extension": {
+                          "other": {
+                            "automatedUnderwritingModeType": "synchronous",
+                            "returnFileTypes": [
+                              "UNDERWRITING_FINDINGS",
+                              "UNDERWRITING_FINDINGS_TEXT",
+                              "UNDERWRITING_FINDINGS_HTML",
+                              "UNDERWRITING_FINDINGS_XML",
+                              "CREDITREPORT_PRINTFILE_SSN",
+                              "CREDITREPORT_FLATFILE_SSN",
+                              "DATA_FILE_NAME",
+                              "CREDITREPORT_MISMOFILE_SSN"
+                            ],
+                            "underwritingEngineName": "DU",
+                            "underwriteRequestFileType": "1003 MISMO",
+                            "underwriteRequestVersionIdentifier": "3.4",
+                            "underwriteRequestFileTypeName": "LOAN_APPLICATION"
+                          }
+                        }
+                      }
+                    },
+                    "sequenceNumber": 15
+                  },
+                  {
+                    "credit": {
+                      "creditRequest": {
+                        "creditRequestDatas": {
+                          "creditRequestData": [
+                            {
+                              "creditRequestDataDetail": {
+                                "creditReportRequestActionType": "Submit",
+                                "creditReportType": "Merge",
+                                "creditRequestType": "Joint",
+                                "extension": {
+                                  "other": {
+                                    "creditReportVendorIdentifier": "2"
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "extension": {
+                      "other": {
+                        "serviceDetail": {
+                          "serviceType": "Credit"
+                        }
+                      }
+                    },
+                    "sequenceNumber": 1,
+                    "label": "SERVICE_1"
+                  },
+                  {
+                    "extension": {
+                      "other": {
+                        "serviceDetail": {
+                          "serviceType": "AutomatedUnderwritingSystem"
+                        }
+                      }
+                    },
+                    "sequenceNumber": 2,
+                    "label": "SERVICE_2"
+                  },
+                  {
+                    "extension": {
+                      "other": {
+                        "documentPreparation": {
+                          "documentPreparationResponses": {
+                            "documentPreparationResponse": [
+                              {
+                                "requestedDocumentType": "DocCheckList",
+                                "requestedPdfIndicator": true
+                              },
+                              {
+                                "requestedDocumentType": "Errors",
+                                "requestedPdfIndicator": true
+                              },
+                              {
+                                "requestedDocumentType": "FullFeedback",
+                                "requestedPdfIndicator": true
+                              },
+                              {
+                                "requestedDocumentType": "HVE",
+                                "requestedPdfIndicator": true
+                              },
+                              {
+                                "requestedDocumentType": "MergedCredit",
+                                "requestedPdfIndicator": true,
+                                "requestedXMLIndicator": true
+                              }
+                            ]
+                          }
+                        },
+                        "serviceDetail": {
+                          "serviceType": "DocumentPreparation"
+                        }
+                      }
+                    },
+                    "sequenceNumber": 3,
+                    "label": "SERVICE_3"
+                  },
+                  {
+                    "extension": {
+                      "other": {
+                        "documentPreparation": {
+                          "documentPreparationRequests": {
+                            "documentPreparationRequest": [
+                              {
+                                "requestedDocumentIdentifier": "freddie-valid-scenario-1",
+                                "requestedDocumentVendorIdentifier": "BLND"
+                              }
+                            ]
+                          }
+                        },
+                        "serviceDetail": {
+                          "serviceType": "Verification"
+                        }
+                      }
+                    },
+                    "sequenceNumber": 4,
+                    "label": "SERVICE_4"
+                  },
+                  {
+                    "extension": {
+                      "other": {
+                        "documentPreparation": {
+                          "documentPreparationRequests": {
+                            "documentPreparationRequest": [
+                              {
+                                "requestedDocumentIdentifier": "freddie-valid-scenario-2",
+                                "requestedDocumentVendorIdentifier": "BLND"
+                              }
+                            ]
+                          }
+                        },
+                        "serviceDetail": {
+                          "serviceType": "Verification"
+                        }
+                      }
+                    },
+                    "sequenceNumber": 5,
+                    "label": "SERVICE_5"
+                  },
+                  {
+                    "extension": {
+                      "other": {
+                        "documentPreparation": {
+                          "documentPreparationRequests": {
+                            "documentPreparationRequest": [
+                              {
+                                "requestedDocumentIdentifier": "LPA001DEC18",
+                                "requestedDocumentVendorIdentifier": "EFX"
+                              }
+                            ]
+                          }
+                        },
+                        "serviceDetail": {
+                          "serviceType": "Verification"
+                        }
+                      }
+                    },
+                    "sequenceNumber": 6,
+                    "label": "SERVICE_6"
+                  },
+                  {
+                    "extension": {
+                      "other": {
+                        "documentPreparation": {
+                          "documentPreparationRequests": {
+                            "documentPreparationRequest": [
+                              {
+                                "requestedDocumentIdentifier": "KB8KV6M",
+                                "requestedDocumentVendorIdentifier": "FF"
+                              }
+                            ]
+                          }
+                        },
+                        "serviceDetail": {
+                          "serviceType": "Verification"
+                        }
+                      }
+                    },
+                    "sequenceNumber": 7,
+                    "label": "SERVICE_7"
+                  },
+                  {
+                    "extension": {
+                      "other": {
+                        "documentPreparation": {
+                          "documentPreparationRequests": {
+                            "documentPreparationRequest": [
+                              {
+                                "requestedDocumentIdentifier": "KB8KM3M",
+                                "requestedDocumentVendorIdentifier": "FF"
+                              }
+                            ]
+                          }
+                        },
+                        "serviceDetail": {
+                          "serviceType": "Verification"
+                        }
+                      }
+                    },
+                    "sequenceNumber": 8,
+                    "label": "SERVICE_8"
+                  },
+                  {
+                    "extension": {
+                      "other": {
+                        "documentPreparation": {
+                          "documentPreparationRequests": {
+                            "documentPreparationRequest": [
+                              {
+                                "requestedDocumentIdentifier": "w21ujugpnax2",
+                                "requestedDocumentVendorIdentifier": "FNCY"
+                              }
+                            ]
+                          }
+                        },
+                        "serviceDetail": {
+                          "serviceType": "Verification"
+                        }
+                      }
+                    },
+                    "sequenceNumber": 9,
+                    "label": "SERVICE_9"
+                  },
+                  {
+                    "extension": {
+                      "other": {
+                        "documentPreparation": {
+                          "documentPreparationRequests": {
+                            "documentPreparationRequest": [
+                              {
+                                "requestedDocumentIdentifier": "mzbgthp9z590",
+                                "requestedDocumentVendorIdentifier": "FNCY"
+                              }
+                            ]
+                          }
+                        },
+                        "serviceDetail": {
+                          "serviceType": "Verification"
+                        }
+                      }
+                    },
+                    "sequenceNumber": 10,
+                    "label": "SERVICE_10"
+                  },
+                  {
+                    "extension": {
+                      "other": {
+                        "documentPreparation": {
+                          "documentPreparationRequests": {
+                            "documentPreparationRequest": [
+                              {
+                                "requestedDocumentIdentifier": "PTSSCE01",
+                                "requestedDocumentVendorIdentifier": "PSRV"
+                              }
+                            ]
+                          }
+                        },
+                        "serviceDetail": {
+                          "serviceType": "Verification"
+                        }
+                      }
+                    },
+                    "sequenceNumber": 11,
+                    "label": "SERVICE_11"
+                  },
+                  {
+                    "extension": {
+                      "other": {
+                        "documentPreparation": {
+                          "documentPreparationRequests": {
+                            "documentPreparationRequest": [
+                              {
+                                "requestedDocumentIdentifier": "PTSSCE02",
+                                "requestedDocumentVendorIdentifier": "PSRV"
+                              }
+                            ]
+                          }
+                        },
+                        "serviceDetail": {
+                          "serviceType": "Verification"
+                        }
+                      }
+                    },
+                    "sequenceNumber": 12,
+                    "label": "SERVICE_12"
+                  },
+                  {
+                    "extension": {
+                      "other": {
+                        "documentPreparation": {
+                          "documentPreparationRequests": {
+                            "documentPreparationRequest": [
+                              {
+                                "requestedDocumentIdentifier": "8a179641c9",
+                                "requestedDocumentVendorIdentifier": "YODL"
+                              }
+                            ]
+                          }
+                        },
+                        "serviceDetail": {
+                          "serviceType": "Verification"
+                        }
+                      }
+                    },
+                    "sequenceNumber": 13,
+                    "label": "SERVICE_13"
+                  },
+                  {
+                    "extension": {
+                      "other": {
+                        "documentPreparation": {
+                          "documentPreparationRequests": {
+                            "documentPreparationRequest": [
+                              {
+                                "requestedDocumentIdentifier": "149174b927",
+                                "requestedDocumentVendorIdentifier": "YODL"
+                              }
+                            ]
+                          }
+                        },
+                        "serviceDetail": {
+                          "serviceType": "Verification"
+                        }
+                      }
+                    },
+                    "sequenceNumber": 14,
+                    "label": "SERVICE_14"
+                  }
+                ]
+              },
+              "relationships": {
+                "relationship": [
+                  {
+                    "sequenceNumber": 1,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE",
+                    "from": "ASSET_1",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 1,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE",
+                    "from": "ASSET_1",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 1,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE",
+                    "from": "ASSET_2",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 1,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE",
+                    "from": "ASSET_3",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 1,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE",
+                    "from": "ASSET_3",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 1,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE",
+                    "from": "ASSET_4",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 1,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE",
+                    "from": "ASSET_5",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 1,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE",
+                    "from": "ASSET_6",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 1,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE",
+                    "from": "ASSET_7",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 1,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE",
+                    "from": "ASSET_8",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 1,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE",
+                    "from": "ASSET_9",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 1,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE",
+                    "from": "ASSET_10",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 1,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE",
+                    "from": "ASSET_10",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 1,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE",
+                    "from": "ASSET_11",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 1,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE",
+                    "from": "ASSET_11",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 1,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_LIABILITY",
+                    "from": "ASSET_10",
+                    "to": "LIABILITY_6"
+                  },
+                  {
+                    "sequenceNumber": 1,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/EXPENSE_IsAssociatedWith_ROLE",
+                    "from": "EXPENSE_1",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 1,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/EXPENSE_IsAssociatedWith_ROLE",
+                    "from": "EXPENSE_2",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 1,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/EXPENSE_IsAssociatedWith_ROLE",
+                    "from": "EXPENSE_3",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 1,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/EXPENSE_IsAssociatedWith_ROLE",
+                    "from": "EXPENSE_4",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 11,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE",
+                    "from": "LIABILITY_1",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 11,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE",
+                    "from": "LIABILITY_2",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 11,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE",
+                    "from": "LIABILITY_3",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 11,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE",
+                    "from": "LIABILITY_4",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 11,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE",
+                    "from": "LIABILITY_5",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 11,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE",
+                    "from": "LIABILITY_5",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 11,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE",
+                    "from": "LIABILITY_6",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 11,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE",
+                    "from": "LIABILITY_6",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 11,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE",
+                    "from": "LIABILITY_7",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 11,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE",
+                    "from": "LIABILITY_8",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 11,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE",
+                    "from": "LIABILITY_9",
+                    "to": "BORROWER_1"
+                  },
+                  {
+                    "sequenceNumber": 11,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/LOAN_IsAssociatedWith_ROLE",
+                    "from": "RELATED_LOAN_1",
+                    "to": "NOTE_PAY_TO_1"
+                  },
+                  {
+                    "sequenceNumber": 2,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/ROLE_IsAssociatedWith_SERVICE",
+                    "from": "BORROWER_1",
+                    "to": "SERVICE_1"
+                  },
+                  {
+                    "sequenceNumber": 4,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/ROLE_IsAssociatedWith_SERVICE",
+                    "from": "BORROWER_1",
+                    "to": "SERVICE_2"
+                  },
+                  {
+                    "sequenceNumber": 6,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/ROLE_IsAssociatedWith_SERVICE",
+                    "from": "BORROWER_1",
+                    "to": "SERVICE_4"
+                  },
+                  {
+                    "sequenceNumber": 8,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/ROLE_IsAssociatedWith_SERVICE",
+                    "from": "BORROWER_1",
+                    "to": "SERVICE_6"
+                  },
+                  {
+                    "sequenceNumber": 8,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/ROLE_IsAssociatedWith_SERVICE",
+                    "from": "BORROWER_1",
+                    "to": "SERVICE_7"
+                  },
+                  {
+                    "sequenceNumber": 8,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/ROLE_IsAssociatedWith_SERVICE",
+                    "from": "BORROWER_1",
+                    "to": "SERVICE_9"
+                  },
+                  {
+                    "sequenceNumber": 8,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/ROLE_IsAssociatedWith_SERVICE",
+                    "from": "BORROWER_1",
+                    "to": "SERVICE_11"
+                  },
+                  {
+                    "sequenceNumber": 8,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/ROLE_IsAssociatedWith_SERVICE",
+                    "from": "BORROWER_1",
+                    "to": "SERVICE_13"
+                  },
+                  {
+                    "sequenceNumber": 9,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/CURRENT_INCOME_ITEM_IsAssociatedWith_EMPLOYER",
+                    "from": "CURRENT_INCOME_ITEM_1",
+                    "to": "EMPLOYER_1"
+                  },
+                  {
+                    "sequenceNumber": 34,
+                    "arcrole": "urn:fdc:mismo.org:2009:residential/CURRENT_INCOME_ITEM_IsAssociatedWith_EMPLOYER",
+                    "from": "CURRENT_INCOME_ITEM_2",
+                    "to": "EMPLOYER_1"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "parties": {
+      "party": [
+        {
+          "roles": {
+            "role": [
+              {
+                "partyRoleIdentifiers": {
+                  "partyRoleIdentifier": [
+                    {
+                      "partyRoleIdentifier": "000162"
+                    }
+                  ]
+                },
+                "roleDetail": {
+                  "partyRoleType": "LoanSeller"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

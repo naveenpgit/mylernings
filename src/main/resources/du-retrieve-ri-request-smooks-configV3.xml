@@ -1,0 +1,116 @@
+<!-- This program contains trade secrets or otherwise confidential information 
+ owned by TAVANT Technologies. It may not be reproduced, published or disclosed 
+ to others without TAVANT Technologies authorization. Access to and use of 
+ this information is strictly limited and controlled by TAVANT Technologies. 
+ Copyright 2016 -->
+<smooks-resource-list xmlns="http://www.milyn.org/xsd/smooks-1.1.xsd" 
+	 xmlns:core="http://www.milyn.org/xsd/smooks/smooks-core-1.3.xsd" 
+	 xmlns:ftl="http://www.milyn.org/xsd/smooks/freemarker-1.1.xsd"> 
+	 <core:filterSettings type="SAX" defaultSerialization="false" /> 
+	 <resource-config selector="com.tavant.fc.mismo.vo.Message">
+		<resource>org.milyn.delivery.DomModelCreator</resource>
+	</resource-config>
+	<ftl:freemarker applyOnElement="dealSets">
+	<ftl:template>
+
+	<!--
+	<#assign RequestDatetime = .now>
+	<#assign RequestDatetimeString = RequestDatetime?string["MM/dd/yyyy HH:MM:SS"]>
+	<#assign MISMOVersionID = "#MISMOVersionID">
+	<#assign LoginAccountIdentifier = "#LoginAccountIdentifier">
+	<#assign LoginAccountPassword = "#LoginAccountPassword">
+	<#assign InternalAccountIdentifier = "">
+	<#assign GloballyUniqueIdentifier = "">
+	<#assign FNMProductName = "#UnderWriterProductName">
+	<#assign FNMFunctionName = "#UnderWriterFunctionName">
+	<#assign FNMVersionNumber = "#UnderWriterProductVersion">
+	<#assign ModeIdentifier = "#ModeIdentifier">
+	
+	<#if message?has_content>
+		<#if message.aboutVersions?has_content && message.aboutVersions.aboutVersion?has_content>
+			<#list message.aboutVersions.aboutVersion as aboutVersion>
+				<#if aboutVersion?has_content>
+					<#if aboutVersion.aboutVersionIdentifier?has_content><#assign MISMOVersionID = aboutVersion.aboutVersionIdentifier></#if> 
+				</#if>
+			</#list>
+		</#if>
+		<#if message.dealSets?has_content && message.dealSets.dealSet?has_content>
+			<#list message.dealSets.dealSet as dealSet>
+				<#if dealSet.deals?has_content && dealSet.deals.deal?has_content> 
+					<#list dealSet.deals.deal as deal>
+						<#if deal.parties?has_content && deal.parties.party?has_content>
+							<#list deal.parties.party as party>
+								<#if party.roles?has_content && party.roles.role?has_content>
+									<#list party.roles.role as role>
+									<#if role?has_content && role.roleDetail?has_content && role.roleDetail.partyRoleType?has_content>
+									<#if role.roleDetail.partyRoleType.value() == 'RequestingParty'>
+										<#if role.requestingParty?has_content && role.requestingParty.extension?has_content && role.requestingParty.extension.mismo?has_content && role.requestingParty.extension.mismo.requestingPartyExtensionMismoDetail?has_content && role.requestingParty.extension.mismo.requestingPartyExtensionMismoDetail.lenderAccountIdentifier?has_content>
+											<#assign LoginAccountIdentifier = role.requestingParty.extension.mismo.requestingPartyExtensionMismoDetail.lenderAccountIdentifier>
+										</#if>
+										<#if role.requestingParty?has_content && role.requestingParty.extension?has_content && role.requestingParty.extension.mismo?has_content && role.requestingParty.extension.mismo.requestingPartyExtensionMismoDetail?has_content && role.requestingParty.extension.mismo.requestingPartyExtensionMismoDetail.lenderAccountPassword?has_content>
+											<#assign LoginAccountPassword = role.requestingParty.extension.mismo.requestingPartyExtensionMismoDetail.lenderAccountPassword>
+										</#if>
+										<#if role.requestingParty?has_content && role.requestingParty.extension?has_content && role.requestingParty.extension.mismo?has_content && role.requestingParty.extension.mismo.requestingPartyExtensionMismoDetail?has_content && role.requestingParty.extension.mismo.requestingPartyExtensionMismoDetail.internalAccountIdentifier?has_content>
+											<#assign InternalAccountIdentifier = role.requestingParty.extension.mismo.requestingPartyExtensionMismoDetail.internalAccountIdentifier>
+										</#if>
+									</#if>
+									</#if>
+									</#list>
+								</#if>
+							</#list>
+						</#if>
+						<#if deal.services?has_content && deal.services.service?has_content>
+							<#list deal.services.service as service>
+								<#if service.automatedUnderwritingSystem?has_content && service.automatedUnderwritingSystem.automatedUnderwritingSystemRequest?has_content && service.automatedUnderwritingSystem.automatedUnderwritingSystemRequest.extension?has_content && service.automatedUnderwritingSystem.automatedUnderwritingSystemRequest.extension.other?has_content>
+									<#if service.automatedUnderwritingSystem.automatedUnderwritingSystemRequest.extension.other.globallyUniqueIdentifier?has_content>
+										<#assign GloballyUniqueIdentifier = service.automatedUnderwritingSystem.automatedUnderwritingSystemRequest.extension.other.globallyUniqueIdentifier>
+									</#if>
+									<#if service.automatedUnderwritingSystem.automatedUnderwritingSystemRequest.extension.other.automatedUnderwritingProductName?has_content>
+										<#assign FNMProductName = service.automatedUnderwritingSystem.automatedUnderwritingSystemRequest.extension.other.automatedUnderwritingProductName>
+									</#if> 
+									<#if service.automatedUnderwritingSystem.automatedUnderwritingSystemRequest.extension.other.automatedUnderwritingFunctionName?has_content>
+										<#assign FNMFunctionName = service.automatedUnderwritingSystem.automatedUnderwritingSystemRequest.extension.other.automatedUnderwritingFunctionName>
+									</#if> 
+									<#if service.automatedUnderwritingSystem.automatedUnderwritingSystemRequest.extension.other.automatedUnderwritingVersionIdentifier?has_content>
+										<#assign FNMVersionNumber = service.automatedUnderwritingSystem.automatedUnderwritingSystemRequest.extension.other.automatedUnderwritingVersionIdentifier>
+									</#if> 
+									<#if service.automatedUnderwritingSystem.automatedUnderwritingSystemRequest.extension.other.automatedUnderwritingModeType?has_content>
+										<#assign ModeIdentifier = service.automatedUnderwritingSystem.automatedUnderwritingSystemRequest.extension.other.automatedUnderwritingModeType>
+									</#if>
+								</#if>
+							</#list>
+						</#if>
+					</#list>
+				</#if>
+			</#list>
+		</#if>
+	</#if>
+	
+	<REQUEST_GROUP 
+		MISMOVersionID="${MISMOVersionID}" 
+		>
+		<REQUEST 
+			RequestDatetime="${RequestDatetimeString}" 
+			LoginAccountIdentifier = "${LoginAccountIdentifier}"  
+			LoginAccountPassword = "${LoginAccountPassword}" 
+			<#if InternalAccountIdentifier?has_content>InternalAccountIdentifier="${InternalAccountIdentifier}"</#if> 
+			>
+			<REQUEST_DATA 
+				<#if GloballyUniqueIdentifier?has_content>_GloballyUniqueIdentifier="${GloballyUniqueIdentifier}"</#if> 
+				> 
+				<FNM_PRODUCT 
+					_Name="${FNMProductName}" 
+					_FunctionName="${FNMFunctionName}"  
+					_VersionNumber="${FNMVersionNumber}"  
+					>
+					<CONNECTION 
+						_ModeIdentifier="${ModeIdentifier}"
+						/> 
+					</FNM_PRODUCT>
+			</REQUEST_DATA>
+		</REQUEST>
+	</REQUEST_GROUP>
+		-->
+		</ftl:template>
+	</ftl:freemarker>
+</smooks-resource-list>

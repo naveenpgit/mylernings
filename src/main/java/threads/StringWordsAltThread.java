@@ -56,7 +56,8 @@ public class StringWordsAltThread {
                             StringWordsAltThread.iterator.notifyAll();
                             StringWordsAltThread.iterator.wait();
                             Thread.sleep(1000);
-                        } catch (Exception e) {
+                        }
+                        catch (Exception e) {
                             e.printStackTrace();
                         }
                     }

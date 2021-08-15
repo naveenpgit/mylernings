@@ -81,9 +81,15 @@ public class JSONUtils {
             ObjectMapper myObjectMapper = new ObjectMapper();
             myObjectMapper.enable(SerializationFeature.INDENT_OUTPUT);
             json = null != map ? myObjectMapper.writeValueAsString(map) : null;
-        } catch (JsonProcessingException e) {
-			throw new NaveenRuntimeException(e);
+        }
+        catch (JsonProcessingException e) {
+            throw new NaveenRuntimeException(e);
         }
         return json;
+    }
+
+    public static void main(String[] args) {
+        final Map<String, Object> objectMap = JsonToMap(fromFile("/home/naveenkumargoudar/Naveen/Personel/naveen_git/mylernings/src/main/resources/CC_getserviceproviders.json"));
+        System.out.println(objectMap);
     }
 }

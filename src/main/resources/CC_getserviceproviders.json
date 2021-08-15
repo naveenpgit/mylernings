@@ -1,0 +1,680 @@
+{
+  "transactionDetailExtn": {
+    "correlationId": "797a1eb4-3126-4bbd-b4c5-27a5d20f4c0f",
+    "fcCorrelationId": "5051a71a-3f6c-4eea-becd-87a7db560a33-72-CCP_GFE_1",
+    "productCode": "CCP_GFE_1"
+  },
+  "header": {
+    "statuscode": 0,
+    "transactionid": "5387fd9d-9178-484c-a3ef-3fbd07d8788b"
+  },
+  "payload": {
+    "getserviceprovidersresponse": {
+      "serviceProvider": [
+        {
+          "rate": {
+            "rateSheetId": 444678,
+            "totalAmount": 100,
+            "tripChargeAmount": 0,
+            "baseRate": 100,
+            "additionalServiceFee": 0,
+            "disclaimer": "Appraisal Management Rate Card Disclaimer Test"
+          },
+          "contactInformation": {
+            "contactName": "ClosingCorpTestVendor",
+            "contactEmail": "suggestions@closing.com"
+          },
+          "id": "ba321239-151a-4b8a-bd43-89b8bcdae2e0",
+          "name": "ClosingCorpTestVendor",
+          "address": "1234 All American Way,1234 All American Way",
+          "city": "La Jolla",
+          "state": "CA",
+          "zip": "92037",
+          "phone": "8581111111",
+          "distance": 12.244401578839,
+          "isPreferred": false,
+          "website": "http://www.closing.com",
+          "logo": "http://images.closing.com/ProdWebImages/2/9/0/7/2/76a9408e-ba93-48d8-b95b-6112559ef037.jpg"
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 625,
+            "tripChargeAmount": 0,
+            "baseRate": 625,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "AppraisalTek",
+            "contactEmail": "cathy@appraisaltek.com"
+          },
+          "id": "387ba8ed-4cbd-4aa4-b594-0625caf42535",
+          "name": "AppraisalTek",
+          "address": "1234 All American Way",
+          "city": "Apache Junction",
+          "state": "AZ",
+          "zip": "85206",
+          "phone": "8777165162",
+          "distance": 317.707873740433,
+          "isPreferred": false
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 525,
+            "tripChargeAmount": 0,
+            "baseRate": 525,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "Nations Valuation Services",
+            "contactEmail": "mquinn@nationstitle.com"
+          },
+          "id": "1ae6ff61-020e-4729-9561-1240499a9d40",
+          "name": "Nations Valuation Services",
+          "address": "1234 All American Way",
+          "city": "Columbus",
+          "state": "OH",
+          "zip": "43231",
+          "phone": "8669671544",
+          "distance": 1958.300494054254,
+          "isPreferred": false
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 450,
+            "tripChargeAmount": 0,
+            "baseRate": 450,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "eValuation Zone",
+            "contactEmail": "swiley@evaluationzone.com"
+          },
+          "id": "1e101137-4e6c-478f-a4e9-14d632f65ac7",
+          "name": "eValuation Zone",
+          "address": "1234 All American Way",
+          "city": "Chicago",
+          "state": "IL",
+          "zip": "60634",
+          "phone": "7736471992",
+          "distance": 1725.455543603847,
+          "isPreferred": false
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 510,
+            "tripChargeAmount": 0,
+            "baseRate": 510,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "Appraisal Management Specialists, LLC",
+            "contactEmail": "dianna@appraisalmsllc.com"
+          },
+          "id": "3f10df43-31bb-464a-9552-17a13bf78ff6",
+          "name": "Appraisal Management Specialists, LLC",
+          "address": "1234 All American Way",
+          "city": "Eagle",
+          "state": "WI",
+          "zip": "53119",
+          "phone": "4148038936",
+          "distance": 1707.424917175327,
+          "isPreferred": false
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 545,
+            "tripChargeAmount": 0,
+            "baseRate": 545,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "Valuation Partners",
+            "contactEmail": "sales@valuationpartners.com"
+          },
+          "id": "79587360-9181-4bb0-b548-17b214b8dc02",
+          "name": "Valuation Partners",
+          "address": "1234 All American Way",
+          "city": "Toledo",
+          "state": "OH",
+          "zip": "43604",
+          "phone": "2813131571",
+          "distance": 1937.449144064507,
+          "isPreferred": false
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 550,
+            "tripChargeAmount": 0,
+            "baseRate": 550,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "Springhouse LLC",
+            "contactEmail": "blevine@springhouseamc.com"
+          },
+          "id": "8d25d8fc-5527-40d6-a1c2-1eaef0176368",
+          "name": "Springhouse LLC",
+          "address": "1234 All American Way",
+          "city": "Clayton",
+          "state": "MO",
+          "zip": "63105",
+          "phone": "5023840727",
+          "distance": 1554.075699201333,
+          "isPreferred": false
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 550,
+            "tripChargeAmount": 0,
+            "baseRate": 550,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "Appraisal Logistic Solutions, LLC",
+            "contactEmail": "fddanna@gotoals.com"
+          },
+          "id": "bfd6ffba-cdd4-41b9-b909-35de4dab7486",
+          "name": "Appraisal Logistic Solutions, LLC",
+          "address": "1234 All American Way",
+          "city": "Annapolis",
+          "state": "MD",
+          "zip": "21401",
+          "phone": "4439497862",
+          "distance": 2297.110816567278,
+          "isPreferred": false
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 555,
+            "tripChargeAmount": 0,
+            "baseRate": 555,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "Synergy Appraisal Services",
+            "contactEmail": "dianne@synergyappraisal.com"
+          },
+          "id": "6291654b-4721-4fc9-ba96-389668397efc",
+          "name": "Synergy Appraisal Services",
+          "address": "1234 All American Way",
+          "city": "Troy",
+          "state": "MI",
+          "zip": "48083",
+          "phone": "8885527772",
+          "distance": 1966.158472691749,
+          "isPreferred": false
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 575,
+            "tripChargeAmount": 0,
+            "baseRate": 575,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "Valuation Link",
+            "contactEmail": "Bschomer@valuationlink.com"
+          },
+          "id": "b5f7dd86-5451-4727-af05-39d1454adfeb",
+          "name": "Valuation Link",
+          "address": "1234 All American Way",
+          "city": "Bloomfield Hills",
+          "state": "MI",
+          "zip": "48301",
+          "phone": "8773905225",
+          "distance": 1958.968608080094,
+          "isPreferred": false
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 580,
+            "tripChargeAmount": 0,
+            "baseRate": 580,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "Kairos Appraisal",
+            "contactEmail": "cweiss@kairosappraisal.com"
+          },
+          "id": "577ff2ae-8e76-447d-9236-3cbbc69e6ce7",
+          "name": "Kairos Appraisal",
+          "address": "1234 All American Way",
+          "city": "Irvine",
+          "state": "CA",
+          "zip": "92602",
+          "phone": "6572614361",
+          "distance": 78.987416675477,
+          "isPreferred": false
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 550,
+            "tripChargeAmount": 0,
+            "baseRate": 550,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "EStreet Appraisal Management Company, LLC",
+            "contactEmail": "dgoodnight@estreetamc.com"
+          },
+          "id": "e78fbcde-d277-4034-9a42-3e9e2f13b5f5",
+          "name": "EStreet Appraisal Management Company, LLC",
+          "address": "1234 All American Way",
+          "city": "WEXFORD",
+          "state": "PA",
+          "zip": "15090",
+          "phone": "7247193173",
+          "distance": 2110.79161369558,
+          "isPreferred": false
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 575,
+            "tripChargeAmount": 0,
+            "baseRate": 575,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "First Choice Appraisal Management",
+            "contactEmail": "trina@fFirstchoiceamc.com"
+          },
+          "id": "8397e55b-3ecc-419c-9e93-4c3e95866ae9",
+          "name": "First Choice Appraisal Management",
+          "address": "1234 All American Way",
+          "city": "Portland",
+          "state": "OR",
+          "zip": "97223",
+          "phone": "5036190245",
+          "distance": 930.24572261601,
+          "isPreferred": false
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 600,
+            "tripChargeAmount": 0,
+            "baseRate": 600,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "First American Mortgage Solutions, LLC",
+            "contactEmail": "infoval@valocity.com"
+          },
+          "id": "eafbf7f7-b34d-4761-a5e5-63fd7f54dbec",
+          "name": "First American Mortgage Solutions, LLC",
+          "address": "1234 All American Way",
+          "city": "Irving,",
+          "state": "TX",
+          "zip": "75063",
+          "phone": "8663678611",
+          "distance": 1167.941381532861,
+          "isPreferred": false
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 525,
+            "tripChargeAmount": 0,
+            "baseRate": 525,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "Appraisal Management Solutions LLC",
+            "contactEmail": "steve@appraisalmgtsolution.com"
+          },
+          "id": "273d41d1-313c-41da-b3cf-6707db1ce53b",
+          "name": "Appraisal Management Solutions LLC",
+          "address": "1234 All American Way",
+          "city": "Owings Mills",
+          "state": "MD",
+          "zip": "21117",
+          "phone": "4104151613",
+          "distance": 2282.33800576397,
+          "isPreferred": false
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 545,
+            "tripChargeAmount": 0,
+            "baseRate": 545,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "Market Valuation Services",
+            "contactEmail": "gvincent@mvsvc.com"
+          },
+          "id": "a30b035a-e6b8-4748-8b0c-6905127f3593",
+          "name": "Market Valuation Services",
+          "address": "1234 All American Way",
+          "city": "Cumming",
+          "state": "GA",
+          "zip": "30040",
+          "phone": "6786008641",
+          "distance": 1896.323199854425,
+          "isPreferred": false
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 575,
+            "tripChargeAmount": 0,
+            "baseRate": 575,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "Financial Dimensions, Inc.",
+            "contactEmail": "people@closing.com"
+          },
+          "id": "c2c75a35-e187-4ad1-9ff3-6e3ba97bee4f",
+          "name": "Financial Dimensions, Inc.",
+          "address": "1234 All American Way",
+          "city": "West Mifflin",
+          "state": "PA",
+          "zip": "15122",
+          "phone": "4126501700",
+          "distance": 2116.43942232527,
+          "isPreferred": false
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 600,
+            "tripChargeAmount": 0,
+            "baseRate": 600,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "Act Appraisal",
+            "contactEmail": "support@closing.com"
+          },
+          "id": "083f4909-1cac-4a4c-b0fb-79f9765b2037",
+          "name": "Act Appraisal",
+          "address": "1234 All American Way",
+          "city": "Dundee",
+          "state": "IL",
+          "zip": "60118",
+          "phone": "8585511500",
+          "distance": 1704.169950014689,
+          "isPreferred": false
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 595,
+            "tripChargeAmount": 0,
+            "baseRate": 595,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "Mortgage Information Services, Inc.",
+            "contactEmail": "cecele.allen@mtginfo.com"
+          },
+          "id": "6c8e6179-eb3d-47a3-9435-7ea75e1053b6",
+          "name": "Mortgage Information Services, Inc.",
+          "address": "1234 All American Way",
+          "city": "Cleveland",
+          "state": "OH",
+          "zip": "44128",
+          "phone": "8008777557",
+          "distance": 2040.25950469262,
+          "isPreferred": false
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 560,
+            "tripChargeAmount": 0,
+            "baseRate": 560,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "Nationwide Appraisal Network",
+            "contactEmail": "support@closing.com"
+          },
+          "id": "5412cfbe-e35c-4b4d-99fe-869872a76aa1",
+          "name": "Nationwide Appraisal Network",
+          "address": "1234 All American Way",
+          "city": "Oldsmar",
+          "state": "FL",
+          "zip": "34677",
+          "phone": "8585511500",
+          "distance": 2072.164768652687,
+          "isPreferred": false
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 535,
+            "tripChargeAmount": 0,
+            "baseRate": 535,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "OrderProUSA",
+            "contactEmail": "tony@orderprousa.com"
+          },
+          "id": "bf398f10-d8da-4803-94e7-89aad939d27f",
+          "name": "OrderProUSA",
+          "address": "1234 All American Way",
+          "city": "Voorhees",
+          "state": "NJ",
+          "zip": "08043",
+          "phone": "8168537337",
+          "distance": 2378.957121320967,
+          "isPreferred": false
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 550,
+            "tripChargeAmount": 0,
+            "baseRate": 550,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "Got Appraisals",
+            "contactEmail": "nickroberson@gotappraisals.com"
+          },
+          "id": "ce5b62ee-1a4a-4d2d-96b6-8a7b743a8742",
+          "name": "Got Appraisals",
+          "address": "1234 All American Way",
+          "city": "San Ramon",
+          "state": "CA",
+          "zip": "94583",
+          "phone": "9254006002",
+          "distance": 443.205662052666,
+          "isPreferred": false
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 575,
+            "tripChargeAmount": 0,
+            "baseRate": 575,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "Apex Appraisal Service, Inc.",
+            "contactEmail": "apex@apexone.com"
+          },
+          "id": "979d2cb3-3d95-4a31-b20e-9d0da43a168e",
+          "name": "Apex Appraisal Service, Inc.",
+          "address": "1234 All American Way",
+          "city": "Phoenix",
+          "state": "AZ",
+          "zip": "85016",
+          "phone": "8888870207",
+          "distance": 299.710495025615,
+          "isPreferred": false
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 475,
+            "tripChargeAmount": 0,
+            "baseRate": 475,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "United States Appraisal",
+            "contactEmail": "aaronf@unitedstatesappraisals.com"
+          },
+          "id": "3697bb72-d44d-4102-b828-bc1357854e35",
+          "name": "United States Appraisal",
+          "address": "1234 All American Way",
+          "city": "Overland Park",
+          "state": "KS",
+          "zip": "66210",
+          "phone": "8665620123",
+          "distance": 1326.743944452373,
+          "isPreferred": false
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 550,
+            "tripChargeAmount": 0,
+            "baseRate": 550,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "Central State Appraisal Services, LLC",
+            "contactEmail": "david@centralstateappraisal.com"
+          },
+          "id": "3ea020ab-511b-484e-8eb4-c402d9a07e2d",
+          "name": "Central State Appraisal Services, LLC",
+          "address": "1234 All American Way",
+          "city": "Lake Como",
+          "state": "NJ",
+          "zip": "07719",
+          "phone": "7322802242",
+          "distance": 2428.364520102352,
+          "isPreferred": false
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 575,
+            "tripChargeAmount": 0,
+            "baseRate": 575,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "TrUnion Appraisal Services",
+            "contactEmail": "sduncan@cuas.net"
+          },
+          "id": "5d66f45d-b762-48e6-8f6c-d3d718822cfb",
+          "name": "TrUnion Appraisal Services",
+          "address": "1234 All American Way",
+          "city": "Dayton",
+          "state": "OH",
+          "zip": "45429",
+          "phone": "8667875111",
+          "distance": 1890.503667239353,
+          "isPreferred": false
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 535,
+            "tripChargeAmount": 0,
+            "baseRate": 535,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "Appraisal Links",
+            "contactEmail": "robpisani@appraisallinks-amc.com"
+          },
+          "id": "dad32789-38ad-49b6-b340-e03edb75001f",
+          "name": "Appraisal Links",
+          "address": "1234 All American Way",
+          "city": "Hazlet",
+          "state": "NJ",
+          "zip": "07730",
+          "phone": "7326962905",
+          "distance": 2420.188018399497,
+          "isPreferred": false
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 500,
+            "tripChargeAmount": 0,
+            "baseRate": 500,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "Collateral Management LLC",
+            "contactEmail": "jessica@collateralmanagement.org"
+          },
+          "id": "48fa46b3-7ac6-4de7-b5fa-e120406be9e8",
+          "name": "Collateral Management LLC",
+          "address": "1234 All American Way",
+          "city": "Fort Lauderdale",
+          "state": "FL",
+          "zip": "33308",
+          "phone": "9544919800",
+          "distance": 2262.764304720557,
+          "isPreferred": false
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 525,
+            "tripChargeAmount": 0,
+            "baseRate": 525,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "Clarity Appraisal Management LLC",
+            "contactEmail": "jb@clarityamc.com"
+          },
+          "id": "34b67c91-d15b-4494-bd90-f2e64d548e0d",
+          "name": "Clarity Appraisal Management LLC",
+          "address": "1234 All American Way",
+          "city": "NASHVILLE",
+          "state": "TN",
+          "zip": "37221",
+          "phone": "6152390550",
+          "distance": 1730.17334116939,
+          "isPreferred": false
+        },
+        {
+          "rate": {
+            "rateSheetId": 38316,
+            "totalAmount": 495,
+            "tripChargeAmount": 0,
+            "baseRate": 495,
+            "additionalServiceFee": 0
+          },
+          "contactInformation": {
+            "contactName": "Broad Street Valuations, Inc",
+            "contactEmail": "raj@broadstreetvaluations.com"
+          },
+          "id": "1a22b0fa-fede-4f3b-9ccb-fbcb9ca3f356",
+          "name": "Broad Street Valuations, Inc",
+          "address": "1234 All American Way",
+          "city": "Holly",
+          "state": "MI",
+          "zip": "48442",
+          "phone": "8888857770",
+          "distance": 1944.762276067317,
+          "isPreferred": false
+        }
+      ]
+    }
+  }
+}

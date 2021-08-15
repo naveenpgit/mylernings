@@ -1,11 +1,13 @@
 package threads.oddeven;
 
+import threads.oddeven.ThreadTest.ThreadMeta;
+
 public class OddEvenThread implements Runnable {
 
-    ThreadTest.LockObject lock;
+    ThreadMeta threadMeta;
 
-    public OddEvenThread(ThreadTest.LockObject lock) {
-        this.lock = lock;
+    public OddEvenThread(ThreadMeta threadMeta) {
+        this.threadMeta = threadMeta;
     }
 
     int i = 1;
@@ -13,14 +15,19 @@ public class OddEvenThread implements Runnable {
     @Override
     public void run() {
         while (true) {
-            synchronized (lock.lock) {
+            if (threadMeta.isEven && !threadMeta.lock.isStarted()) {
+                return;
+            }
+            synchronized (threadMeta.lock) {
                 try {
-                    System.out.println(lock.i);
-                    lock.lock.notifyAll();
-                    lock.lock.wait();
+                    threadMeta.lock.setStarted(true);
+                    System.out.println(threadMeta.i);
+                    threadMeta.lock.notifyAll();
+                    threadMeta.lock.wait();
                     Thread.sleep(1000);
-                    lock.i += 2;
-                } catch (InterruptedException e) {
+                    threadMeta.i += 2;
+                }
+                catch (InterruptedException e) {
                     e.printStackTrace();
                 }
             }
