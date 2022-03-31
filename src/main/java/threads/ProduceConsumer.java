@@ -16,11 +16,11 @@ public class ProduceConsumer {
         Thread producer = new Thread(new Producer(myQueue));
         producer.start();
 
-        Thread consumer = new Thread(new Consumer(myQueue, "C1"));
-        consumer.start();
+        Thread consumer_C1 = new Thread(new Consumer(myQueue, "C1"));
+        consumer_C1.start();
 
-        Thread consumer_ = new Thread(new Consumer(myQueue, "C2"));
-        consumer_.start();
+        Thread consumer_C2 = new Thread(new Consumer(myQueue, "C2"));
+        consumer_C2.start();
     }
 
 }

@@ -8,12 +8,11 @@ import lombok.RequiredArgsConstructor;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
-import java.util.Optional;
-import java.util.concurrent.atomic.AtomicReference;
 
 import static java.lang.System.currentTimeMillis;
 import static java.util.Collections.sort;
 import static java.util.Comparator.comparing;
+import static java.util.Optional.ofNullable;
 
 //Check LRUCacheTest
 @Data
@@ -33,18 +32,15 @@ public class LRUCache {
 			manifest.remove(removed.getKey());
 		}
 		CacheEntry temp = new CacheEntry(key, value, currentTimeMillis());
-		entries.add(temp);
+		entries.addLast(temp);
 		manifest.putIfAbsent(key, temp);
 	}
 
 	public String read(String key) {
-		AtomicReference<String> v = new AtomicReference<>(null);
-		final CacheEntry cacheEntry = manifest.get(key);
-		Optional.ofNullable(cacheEntry).ifPresent(e -> {
-			e.setLastModifiedDate(currentTimeMillis());
-			v.set(e.getValue());
-		});
-		return v.get();
+		return ofNullable(manifest.get(key)).map(cacheEntry -> {
+			cacheEntry.setLastModifiedDate(currentTimeMillis());
+			return cacheEntry.getValue();
+		}).orElse(null);
 	}
 
 	@Data
@@ -55,6 +51,10 @@ public class LRUCache {
 		String value;
 
 		long lastModifiedDate;
+
+	}
+
+	public static void main(String[] args) {
 
 	}
 }

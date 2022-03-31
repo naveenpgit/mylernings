@@ -1,12 +1,11 @@
 package java8;
 
-import org.apache.commons.lang3.StringUtils;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
+
+import static org.apache.commons.lang3.StringUtils.compare;
 
 public class SortAlphaNumberic {
 	public static void main(String[] args) {
@@ -20,12 +19,7 @@ public class SortAlphaNumberic {
 
 		System.out.println("-	-	-	-	-	- Lexical compare -	-	-	-	-	-	-");
 		names = new ArrayList<>(mastrList);
-		Collections.sort(names, new Comparator<String>() {
-			@Override
-			public int compare(String s1, String s2) {
-				return StringUtils.compare(s1, s2);
-			}
-		});
+		Collections.sort(names, (s1, s2) -> compare(s1, s2));
 		System.out.println(names);
 	}
 }

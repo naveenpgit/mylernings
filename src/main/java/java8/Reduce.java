@@ -11,7 +11,7 @@ public class Reduce {
         String[] array = new String[]{"A", "B", "C"};
         List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
 
-        list.forEach(System.out::println);
+        //list.forEach(System.out::println);
 
         list.stream().reduce((a, b) -> a + b).ifPresent(System.out::println);
         System.out.println(list.stream().reduce(100, (a, b) -> a + b));

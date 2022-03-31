@@ -1,8 +1,8 @@
 package threads;
 
-import org.apache.commons.collections.CollectionUtils;
-
 import java.util.LinkedList;
+
+import static org.apache.commons.collections.CollectionUtils.isEmpty;
 
 public class Consumer implements Runnable {
     private LinkedList<Integer> myQueue;
@@ -21,7 +21,7 @@ public class Consumer implements Runnable {
             synchronized (myQueue) {
                 try {
 
-                    while (CollectionUtils.isEmpty(myQueue)) {
+                    while (isEmpty(myQueue)) {
                         myQueue.notifyAll();
                         myQueue.wait();
 

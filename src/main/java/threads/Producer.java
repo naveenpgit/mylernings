@@ -2,6 +2,8 @@ package threads;
 
 import java.util.LinkedList;
 
+import static threads.ProduceConsumer.CAPACITY;
+
 public class Producer implements Runnable {
 
     private LinkedList<Integer> myQueue;
@@ -16,7 +18,7 @@ public class Producer implements Runnable {
         while (true) {
             synchronized (myQueue) {
                 try {
-                    while (myQueue.size() == ProduceConsumer.CAPACITY) {
+                    while (myQueue.size() == CAPACITY) {
                         myQueue.notifyAll(); //awakes all threads but does not release lock, awakned threads wait until lock being released
                         myQueue.wait(); // releases locks so other threads can begin run
                     }
