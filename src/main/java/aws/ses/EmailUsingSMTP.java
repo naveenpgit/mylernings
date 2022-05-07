@@ -15,9 +15,9 @@ public class EmailUsingSMTP {
 
 	public static final String UTF_8 = "UTF-8";
 
-	public static final String USERNAME = "AKIAXMRWDUMHIJJZU2A2";
+	public static final String USERNAME = "";
 
-	public static final String PASSWORD = "BHJC1GSqgGSf/QfGF9cSzg/3U3lsTs+Vcp8uqrxSbV+z";
+	public static final String PASSWORD = "";
 
 	public static final String HOST = "email-smtp.ap-south-1.amazonaws.com";
 
