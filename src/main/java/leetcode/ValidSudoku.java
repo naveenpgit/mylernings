@@ -8,65 +8,34 @@ import java.util.Set;
 //https://leetcode.com/problems/valid-sudoku/
 public class ValidSudoku {
 	public boolean isValidSudoku(char[][] board) {
-		Map<Integer, Boolean> rowMap = new HashMap<>();// already validated to Row tracker;
-		Map<Integer, Boolean> colMap = new HashMap<>();// already validated to Column tracker;
+		Map<String, Set<Character>> table = new HashMap<>();
+		Map<String, Set<Character>> rows = new HashMap<>();
+		Map<String, Set<Character>> cols = new HashMap<>();
 
-		int rowStart = 0;
-		int colStart = 0;
-		while (rowStart < 9) {
-			while (colStart < 9) {
-				boolean isBoxValid = isBoxValid(board, rowStart, colStart);
-
-				boolean isRowValid = rowMap.get(rowStart) == null ? isRowValid(board, rowStart) : rowMap.get(rowStart);
-				boolean isColumnValid = colMap.get(colStart) == null ? isColumnValid(board, colStart) : colMap.get(colStart);
-
-				boolean isValid = isBoxValid && isRowValid && isColumnValid;
-				if (!isValid)
+		for (int row = 0; row < board.length; row++) {
+			for (int col = 0; col < board[0].length; col++) {
+				final char element = board[row][col];
+				if (element == '.') {
+					continue;
+				}
+				String grid = String.valueOf(row / 3) + String.valueOf(col / 3);
+				if (table.getOrDefault(grid, new HashSet<>()).contains(element) ||
+						rows.getOrDefault(String.valueOf(row), new HashSet<>()).contains(element) ||
+						cols.getOrDefault(String.valueOf(col), new HashSet<>()).contains(element)) {
 					return false;
+				}
+				Set<Character> temp = null;
+				temp = table.getOrDefault(grid, new HashSet<>());
+				temp.add(element);
+				table.put(grid, temp);
 
-				if (isRowValid)
-					rowMap.put(rowStart, isRowValid);
+				temp = rows.getOrDefault(String.valueOf(row), new HashSet<>());
+				temp.add(element);
+				rows.put(String.valueOf(row), temp);
 
-				if (isColumnValid)
-					colMap.put(colStart, isColumnValid);
-
-				colStart += 3;
-			}
-			rowStart += 3;
-			colStart = 0;
-		}
-		return true;
-	}
-
-	boolean isRowValid(char[][] board, int row) {
-		for (int rowStart = row; rowStart < row + 3; rowStart++) {
-			Set<Character> temp = new HashSet<>();
-			for (int col = 0; col < 9; col++) {
-				boolean unique = temp.add(board[rowStart][col]);
-				if ('.' != board[rowStart][col] && !unique)
-					return false;
-			}
-		}
-		return true;
-	}
-
-	boolean isColumnValid(char[][] board, int col) {
-		Set<Character> temp = new HashSet<>();
-		for (int row = 0; row < 9; row++) {
-			boolean unique = temp.add(board[row][col]);
-			if ('.' != board[row][col] && !unique)
-				return false;
-		}
-		return true;
-	}
-
-	boolean isBoxValid(char[][] board, int row, int col) {
-		Set<Character> temp = new HashSet<>();
-		for (int rowStart = row; rowStart < row + 3; rowStart++) {
-			for (int colStart = col; colStart < col + 3; colStart++) {
-				boolean unique = temp.add(board[rowStart][colStart]);
-				if ('.' != board[rowStart][colStart] && !unique)
-					return false;
+				temp = cols.getOrDefault(String.valueOf(col), new HashSet<>());
+				temp.add(element);
+				cols.put(String.valueOf(col), temp);
 			}
 		}
 		return true;
@@ -74,18 +43,17 @@ public class ValidSudoku {
 
 	public static void main(String[] args) {
 		ValidSudoku validSudoku = new ValidSudoku();
-
-		System.out.println(validSudoku.isValidSudoku(
-				new char[][] {
-						{ '7', '.', '.', '.', '4', '.', '.', '.', '.' },
-						{ '.', '.', '.', '8', '6', '5', '.', '.', '.' },
-						{ '.', '1', '.', '2', '.', '.', '.', '.', '.' },
-						{ '.', '.', '.', '.', '.', '9', '.', '.', '.' },
-						{ '.', '.', '.', '.', '5', '.', '5', '.', '.' },
-						{ '.', '.', '.', '.', '.', '.', '.', '.', '.' },
-						{ '.', '.', '.', '.', '.', '.', '2', '.', '.' },
-						{ '.', '.', '.', '.', '.', '.', '.', '.', '.' },
-						{ '.', '.', '.', '.', '.', '.', '.', '.', '.' } }));
+		char[][] input = new char[][] {
+				{ '8', '3', '.', '.', '7', '.', '.', '.', '.' },
+				{ '6', '.', '.', '1', '9', '5', '.', '.', '.' },
+				{ '.', '9', '8', '.', '.', '.', '.', '6', '.' },
+				{ '8', '.', '.', '.', '6', '.', '.', '.', '3' },
+				{ '4', '.', '.', '8', '.', '3', '.', '.', '1' },
+				{ '7', '.', '.', '.', '2', '.', '.', '.', '6' },
+				{ '.', '6', '.', '.', '.', '.', '2', '8', '.' },
+				{ '.', '.', '.', '4', '1', '9', '.', '.', '5' },
+				{ '.', '.', '.', '.', '8', '.', '.', '7', '9' } };
+		System.out.println(validSudoku.isValidSudoku(input));
 
 	}
 }
