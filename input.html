@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title text="${report.name}"></title>
+    <style>
+        @page {
+            size: letter portrait;
+            margin: 80px 40px 56px;
+
+            @top-center {
+                content: element(running-top-center)
+            }
+
+            @top-right {
+                content: element(running-top-right);
+            }
+
+            @bottom-center {
+                content: element(running-footer)
+            }
+        }
+
+        @page: first {
+        @top-center {}
+
+        @top-right {}
+
+        @bottom-center {}
+
+        @bottom-right {}
+        }
+
+        .contents,
+        .chapter,
+        .section {
+            page-break-before: always
+        }
+
+        .group {
+            page-break-inside: avoid
+        }
+
+        body {
+            max-width: 960px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+            page-break-after: avoid
+        }
+
+        h1+.section {
+            page-break-before: avoid
+        }
+
+        .toc a::after {
+            content: leader(".") target-counter(attr(href), page);
+        }
+
+        .header {
+            text-align: center;
+            padding-top: 16px;
+            position: running(running-top-center)
+        }
+
+        .header-right {
+            text-align: right;
+            padding-top: 16px;
+            position: running(running-top-right)
+        }
+
+        .footer {
+            text-align: left;
+            padding-bottom: 16px;
+            position: running(running-footer)
+        }
+
+        .footer-page-numbering::after {
+            content: "Page "counter(page) " of "counter(pages)
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            -fs-table-paginate: paginate;
+        }
+
+        * {
+            font-family: NotoSans, sans-serif, cjk;
+            color: #333333;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        th,
+        b,
+        strong,
+        .cover-page-container {
+            font-family: NotoSansBold, NotoSans, sans-serif, cjk;
+            font-weight: normal;
+        }
+
+        p,
+        li,
+        table {
+            font-size: small;
+        }
+
+        .cover-page-logo {
+            padding: 0 0 120px;
+        }
+
+        .cover-page-time {
+            font-size: large;
+        }
+
+        .cover-page-container {
+            font-size: large;
+        }
+
+        .cover-page-text {
+            width: 100%;
+        }
+
+        .toc p {
+            font-size: large;
+        }
+
+        .toc ul {
+            list-style-type: none;
+        }
+
+        .toc a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .footer p {
+            font-size: x-small;
+        }
+
+        .widget {
+            padding-bottom: 24px;
+        }
+
+        .table-list {
+            font-size: x-small;
+        }
+
+        hr {
+            border-style: none none solid;
+            border-color: #dddddd;
+        }
+
+        th,
+        td {
+            padding: 6px;
+            vertical-align: top;
+            border-bottom: 1px solid #cccccc;
+        }
+
+        th {
+            background-color: #efefef;
+        }
+
+        /* Color classes */
+        .statusCritical {
+            color: #91243E;
+        }
+
+        .statusHigh {
+            color: #C2212E;
+        }
+
+        .statusMedium {
+            color: #9F4909;
+        }
+
+        .statusLow {
+            color: #966807;
+        }
+
+        .statusInfo {
+            color: #006CB9;
+        }
+
+        .statusCritical-bkgd {
+            background-color: #91243E;
+            color: white;
+        }
+
+        .statusHigh-bkgd {
+            background-color: #DD4B50;
+            color: white;
+        }
+
+        .statusMedium-bkgd {
+            background-color: #F18C43;
+            color: white;
+        }
+
+        .statusLow-bkgd {
+            background-color: #F8C851;
+            color: white;
+        }
+
+        .statusInfo-bkgd {
+            background-color: #2C87D6;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<div class="chapter" id="0657ebb8-7f6a-4453-a54a-b2a4cd0383be">
+    <div class="group">
+        <div class="widget">
+            <table>
+                <thead>
+                <tr>
+                    <th>Count</th>
+                    <th>Asset ID</th>
+                    <th>Asset ID-2</th>
+                </tr>
+                </thead>
+                <tr>
+                    <td>1</td>
+                    <td>fffcc6e2-cfe2-48a9-a6bb-8c87f45f8d0f</td>
+                    <td>fffcc6e2-cfe2-48a9-a6bb-8c87f45f8d0f</td>
+                </tr>
+                <tr>
+                    <td>166</td>
+                    <td>ffef4294-99e9-4e1c-9ab5-b4a00b2790c5</td>
+                    <td>fffcc6e2-cfe2-48a9-a6bb-8c87f45f8d0f</td>
+                </tr>
+                <tr>
+                    <td>203</td>
+                    <td>ffe8848f-06ad-4eb0-a88d-827f8fa797f7</td>
+                    <td>fffcc6e2-cfe2-48a9-a6bb-8c87f45f8d0f</td>
+                </tr>
+                <tr>
+                    <td>52</td>
+                    <td>ffe3c9f2-c1bb-42b1-bde0-f97ac77abb1f</td>
+                    <td>fffcc6e2-cfe2-48a9-a6bb-8c87f45f8d0f</td>
+                </tr>
+                <tr>
+                    <td>27</td>
+                    <td>ffc76f7b-315f-4563-b556-eeee0f8a4c93</td>
+                    <td>fffcc6e2-cfe2-48a9-a6bb-8c87f45f8d0f</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>
