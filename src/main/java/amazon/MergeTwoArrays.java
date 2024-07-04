@@ -33,7 +33,7 @@ public class MergeTwoArrays {
 	static class Employee {
 
 		private String name;
-		private Integer employeeId;
+		private int employeeId;
 
 		public  Employee(Integer employeeId,String name ){
 			this.employeeId = employeeId;
@@ -43,12 +43,12 @@ public class MergeTwoArrays {
 		@Override
 		public boolean equals(Object e){
 			Employee incoming = (Employee)e;
-			return  incoming.name.equals(this.name) && incoming.employeeId.equals(this.employeeId);
+			return  incoming.name.equals(this.name) && incoming.employeeId == this.employeeId;
 		}
 
 		@Override
 		public int hashCode(){
-			return this.employeeId.hashCode() + this.name.hashCode();
+			return new Integer(this.employeeId).hashCode() + this.name.hashCode();
 		}
 
 		@Override

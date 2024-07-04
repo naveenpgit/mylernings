@@ -44,8 +44,37 @@ public class LRUCache {
 	}
 
 	@Data
-	@AllArgsConstructor
 	private class CacheEntry {
+		public CacheEntry(String key, String value, long lastModifiedDate) {
+			this.key = key;
+			this.value = value;
+			this.lastModifiedDate = lastModifiedDate;
+		}
+
+		public String getKey() {
+			return key;
+		}
+
+		public void setKey(String key) {
+			this.key = key;
+		}
+
+		public String getValue() {
+			return value;
+		}
+
+		public void setValue(String value) {
+			this.value = value;
+		}
+
+		public long getLastModifiedDate() {
+			return lastModifiedDate;
+		}
+
+		public void setLastModifiedDate(long lastModifiedDate) {
+			this.lastModifiedDate = lastModifiedDate;
+		}
+
 		String key;
 
 		String value;

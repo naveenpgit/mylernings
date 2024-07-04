@@ -17,18 +17,58 @@ public class ThreadTest {
     }
 
     @Data
-    @AllArgsConstructor
     static class ThreadMeta {
         Lock lock;
 
         boolean isEven;
 
+        public ThreadMeta(Lock lock, boolean isEven, int i) {
+            this.lock = lock;
+            this.isEven = isEven;
+            this.i = i;
+        }
+
+        public Lock getLock() {
+            return lock;
+        }
+
+        public void setLock(Lock lock) {
+            this.lock = lock;
+        }
+
+        public boolean isEven() {
+            return isEven;
+        }
+
+        public void setEven(boolean even) {
+            isEven = even;
+        }
+
+        public int getI() {
+            return i;
+        }
+
+        public void setI(int i) {
+            this.i = i;
+        }
+
         int i;
     }
 
     @Data
-    @AllArgsConstructor
     static class Lock {
+        public Lock(boolean started) {
+            this.started = started;
+        }
+
+        public boolean isStarted() {
+            return started;
+        }
+
+        public void setStarted(boolean started) {
+            this.started = started;
+        }
+
         boolean started;
     }
 }
